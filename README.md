@@ -11,7 +11,7 @@
 <br/>
 
 <p align="center">
-  <img src="assets/banners/banner_justice.svg" alt="Hukuk Kuramı ve Adalet Felsefesi Banner" width="100%">
+  <img src="assets/banners/banner_adalet_mulkun_temelidir.png" alt="Adalet Mülkün Temelidir - Türk Hukuk ve Adalet Mimarisi Banner" width="100%">
 </p>
 
 **Hukuk Felsefesi • Pozitif Hukuk Kuramı • Anayasal Devlet Düzeni • Karşılaştırmalı Hukuk • Hukuk Sosyolojisi • Yapay Zekâ & Dijital Adalet**
@@ -327,6 +327,12 @@ hukuk-kurami-ve-adalet/
 * [Modern Literatür ve Makaleler](04-kaynakca-ve-okuma-listesi/modern-literatur.md)
 * [Emsal Yüksek Mahkeme Kararları (AİHM, BVerfG, AYM, Danıştay)](04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md)
 * [Latince Hukuk Özdeyişleri ve Terimler Sözlüğü (Brocardica Juridica)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
+
+---
+
+<p align="center">
+  <img src="assets/banners/banner_milli_hukuk_ve_adalet.png" alt="Türk Hukuk ve Adalet Mirası Banner" width="100%">
+</p>
 
 ### [05. Karşılaştırmalı Hukuk ve Sistemler](05-karsilastirmali-hukuk-ve-sistemler/README.md)
 * [Kıta Avrupası (*Civil Law*) ve Ortak Hukuk (*Common Law*) Karşılaştırması](05-karsilastirmali-hukuk-ve-sistemler/kita-avrupasi-ve-ortak-hukuk-karsilastirmasi.md)
