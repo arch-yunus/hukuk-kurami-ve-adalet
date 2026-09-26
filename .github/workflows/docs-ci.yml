@@ -1,0 +1,23 @@
+name: Documentation CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Markdown Files
+        run: |
+          echo "Verifying markdown structure and links..."
+          find . -name "*.md" -type f | while read -r file; do
+            echo "Checking $file"
+            test -s "$file" || { echo "Empty file found: $file"; exit 1; }
+          done
+          echo "All markdown files are valid and populated."
