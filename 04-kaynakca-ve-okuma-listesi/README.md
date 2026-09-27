@@ -1,31 +1,39 @@
-# 04. Kaynakça, Literatür ve İçtihat Kütüphanesi
+# 04 - Kaynakça, Okuma Listesi, Emsal İçtihatlar ve Latince Sözlük
 
-> *"Kitaplar hukukun hafızası, içtihatlar ise onun yaşayan vicdanıdır."*
+> *"Hukuk dili, insanlığın bin yıllık adalet arayışının damıtılmış hafızasıdır."*
 
 ---
 
 ## 📌 Genel Bakış
 
-Bu modül; Antikçağ'dan modern döneme kadar hukuk düşüncesini şekillendirmiş temel klasik metinleri, modern akademik monografileri, ulusal ve uluslararası yüksek yargı organlarının çığır açan emsal kararlarını ve kapsamlı Latince hukuk kavramları sözlüğünü bir araya getirmektedir.
+Bu modül; hukuk felsefesi, anayasa hukuku, idare ve ceza hukuku alanlarında temel klasik kaynakları, çağdaş literatürü, yüksek mahkeme emsal kararlarını ve 75'i aşkın temel Latince hukuk kuralını (*Brocardica*) bir araya getiren başvuru merkezidir.
 
 ---
 
-## 📑 Modül İçeriği ve Dizin
+## 📚 Kapsamlı Bölümler ve İncelemeler
 
-```text
-04-kaynakca-ve-okuma-listesi/
-├── README.md
-├── klasik-metinler.md
-├── modern-literatur.md
-├── ictihat-ve-emsal-kararlar.md
-└── kavramlar-ve-latince-hukuk-terimleri-sozlugu.md
-```
+1. **[Klasik Metinler ve Felsefi Kanon](klasik-metinler.md)**
+   * Platon, Aristoteles, Cicero, Thomas Aquinas.
+   * Thomas Hobbes, John Locke, Jean-Jacques Rousseau, Immanuel Kant.
+   * Montesquieu, Cesare Beccaria, Jeremy Bentham.
+
+2. **[Modern Literatür ve 20.-21. Yüzyıl Hukuk Kuramı](modern-literatur.md)**
+   * Hans Kelsen, H.L.A. Hart, Lon L. Fuller, Ronald Dworkin.
+   * John Rawls, Robert Nozick, Jürgen Habermas, Gustav Radbruch.
+   * Richard Posner, Roberto Unger, Shoshana Zuboff.
+
+3. **[Emsal Yüksek Mahkeme İçtihatları Kütüphanesi](ictihat-ve-emsal-kararlar.md)**
+   * ABD Yüksek Mahkemesi: *Marbury v. Madison*.
+   * Alman Anayasa Mahkemesi: *Lüth Kararı*, *Neubauer İklim Kararı*.
+   * AİHM Emsal Kararları: *Salduz*, *Sunday Times*, *Kaya*.
+   * Anayasa Mahkemesi (AYM), Danıştay İDDK ve Yargıtay CGK Kararları.
+
+4. **[Temel Hukuk Kavramları ve Latince Hukuk Terimleri Sözlüğü](kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)**
+   * 75+ Temel Hukuki Brocard ve Adalet Aksiyomu.
+   * Yargılama, ceza, ispat, borçlar, normlar hiyerarşisi ve uluslararası hukuk kuralları.
 
 ---
 
-## 🧭 Başlıklar ve İçerikler
+## 🎯 Kullanım Kılavuzu
 
-1. **[Klasik Metinler ve Çeviriler](klasik-metinler.md):** Platon, Aristoteles, Cicero, Aquino'lu Thomas, Hobbes, Locke, Spinoza, Montesquieu, Rousseau, Kant, Hegel ve Kelsen'in başyapıtları ve bibliyografik künyeleri.
-2. **[Modern Literatür ve Makaleler](modern-literatur.md):** H.L.A. Hart, Ronald Dworkin, Lon Fuller, John Rawls, Robert Nozick, Jürgen Habermas, Gustav Radbruch ve çağdaş hukuk filozoflarının eserleri.
-3. **[Emsal Yüksek Mahkeme İçtihatları](ictihat-ve-emsal-kararlar.md):** *Marbury v. Madison*, *Lüth Kararı*, AİHM (*Salduz*, *Sunday Times*), Anayasa Mahkemesi ve Danıştay'ın temel haklar ve hukuk devleti içtihatları.
-4. **[Latince Hukuk Özdeyişleri ve Terimler Sözlüğü (*Brocardica*)](kavramlar-ve-latince-hukuk-terimleri-sozlugu.md):** *Audi alteram partem*, *Nemo judex in causa sua*, *Pacta sunt servanda*, *In dubio pro reo*, *Lex Superior* ve 50'den fazla temel formülün analizi.
+Hukuki bir araştırma yaparken veya bir davanın felsefi/anayasal dayanağını kurarken önce felsefi kanona, ardından ilgili emsal karara ve kavramsal Latince temele başvurarak çok boyutlu bir argümantasyon inşa edebilirsiniz.

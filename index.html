@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hukuk Kuramı, Adalet ve Yasal Düzen Kütüphanesi</title>
-  <meta name="description" content="Hukuk Felsefesi, Adalet Teorileri, Anayasal Düzen, Karşılaştırmalı Hukuk ve Dijital Çağ Hukuku Kapsamlı Dokümantasyon Portalı">
+  <title>Iuris Prudentia | Hukuk Kuramı, Adalet ve Yasal Düzen Kütüphanesi</title>
+  <meta name="description" content="Hukuk Felsefesi, Pozitif Hukuk Kuramı, Anayasal Düzen, Karşılaştırmalı Hukuk, Sosyoloji, Dijital Adalet, Türk Hukuk Tarihi, İnsan Hakları ve Biyoetik Dokümantasyon Portalı">
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -39,17 +39,28 @@
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
     .glassmorphism {
-      background: rgba(255, 255, 255, 0.85);
+      background: rgba(255, 255, 255, 0.88);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
     }
     .dark .glassmorphism {
-      background: rgba(15, 23, 42, 0.85);
+      background: rgba(15, 23, 42, 0.88);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
     }
     .gold-gradient {
       background: linear-gradient(135deg, #d4af37 0%, #aa7c11 100%);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+    .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #334155;
     }
   </style>
 </head>
@@ -64,17 +75,22 @@
         </div>
         <div>
           <h1 class="font-serif font-bold text-lg text-slate-900 dark:text-white leading-tight">Iuris Prudentia</h1>
-          <p class="text-xs text-amber-700 dark:text-amber-400 font-medium tracking-wide">Hukuk Kuramı & Adalet Kütüphanesi</p>
+          <p class="text-xs text-amber-700 dark:text-amber-400 font-medium tracking-wide">10 Modül • Hukuk & Adalet Kütüphanesi</p>
         </div>
       </div>
 
       <div class="flex items-center gap-3">
         <!-- Search bar trigger -->
         <div class="relative hidden sm:block w-64 md:w-80">
-          <input type="text" id="headerSearchInput" placeholder="Kavram, düşünür, doktrin ara..."
+          <input type="text" id="headerSearchInput" placeholder="Kavram, doktrin, içtihat ara..."
                  class="w-full pl-9 pr-4 py-1.5 text-sm bg-slate-100 dark:bg-slate-800/80 border border-slate-300 dark:border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500/50">
           <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-400"></i>
         </div>
+
+        <a href="#simulator" class="hidden lg:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 border border-amber-300 dark:border-amber-800/50 hover:bg-amber-200 transition-colors">
+          <i data-lucide="activity" class="w-3.5 h-3.5"></i>
+          <span>Muhakeme Simülatörü</span>
+        </a>
 
         <button id="themeToggle" class="p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 rounded-lg transition-colors" title="Tema Değiştir">
           <i data-lucide="moon" class="w-5 h-5 hidden dark:block"></i>
@@ -91,411 +107,361 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="relative py-14 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-100 to-slate-50 dark:from-slate-900 dark:to-slate-950 border-b border-slate-200 dark:border-slate-800">
+  <section class="relative py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-100 to-slate-50 dark:from-slate-900 dark:to-slate-950 border-b border-slate-200 dark:border-slate-800">
     <div class="max-w-4xl mx-auto text-center">
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300 dark:border-amber-800/50 mb-4">
-        <span>🏛️ Akademik Açık Kaynak Bilgi Mimarisi</span>
+        <span>🏛️ Kapsamlı Açık Kaynak Hukuk ve Adalet Dokümantasyonu</span>
       </div>
       <h2 class="font-serif text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-4 leading-tight">
         Hukuk Kuramı, Adalet ve Yasal Düzen
       </h2>
-      <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-8 font-serif italic">
-        "Adalet mülkün temelidir; hukukun bittiği yerde tiranlık başlar." — John Locke
+      <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed mb-8">
+        Doğal hukuktan normativizme, anayasal devletten Türk hukuk devrimine, AİHM içtihatlarından yapay zekâ ve biyoetiğe kadar 10 kapsamlı modül ve 45+ akademik inceleme.
       </p>
 
-      <!-- Global Search Box -->
-      <div class="max-w-2xl mx-auto relative">
-        <input type="text" id="mainSearchInput" placeholder="Doktrinler, Latin özdeyişleri, Kelsen, Rawls, AYM içtihatları..."
-               class="w-full px-5 py-3.5 pl-12 text-base bg-white dark:bg-slate-900 border-2 border-slate-300 dark:border-slate-700 rounded-2xl shadow-lg focus:outline-none focus:border-amber-500 transition-all">
-        <i data-lucide="search" class="w-6 h-6 absolute left-4 top-4 text-amber-600 dark:text-amber-400"></i>
+      <!-- Banner Display -->
+      <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800 mb-8 max-w-3xl mx-auto">
+        <img src="assets/banners/banner_adalet_mulkun_temelidir.png" alt="Adalet Mülkün Temelidir Banner" class="w-full h-auto object-cover">
+      </div>
+
+      <!-- Quick Stats Bar -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto text-center">
+        <div class="p-3 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-2xl font-bold text-amber-600 dark:text-amber-400 font-serif">10</div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Tematik Modül</div>
+        </div>
+        <div class="p-3 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-2xl font-bold text-amber-600 dark:text-amber-400 font-serif">45+</div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Doktrin & İnceleme</div>
+        </div>
+        <div class="p-3 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-2xl font-bold text-amber-600 dark:text-amber-400 font-serif">75+</div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Latince Brocard</div>
+        </div>
+        <div class="p-3 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div class="text-2xl font-bold text-amber-600 dark:text-amber-400 font-serif">100%</div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Açık Kaynak Bilgi</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Simulator Section -->
+  <section id="simulator" class="py-10 px-4 sm:px-6 lg:px-8 bg-amber-50/50 dark:bg-slate-900/50 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+        <div>
+          <span class="text-xs font-semibold text-amber-700 dark:text-amber-400 uppercase tracking-wider">İnteraktif Hukuk Laboratuvarı</span>
+          <h3 class="font-serif text-2xl font-bold text-slate-900 dark:text-white">Hukuki Muhakeme ve Karar Simülatörü</h3>
+        </div>
+        <div class="flex flex-wrap gap-2" id="simTabs">
+          <button class="sim-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-600 text-white" data-sim="radbruch">Radbruch Formülü</button>
+          <button class="sim-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700" data-sim="proportionality">Ölçülülük Testi</button>
+          <button class="sim-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700" data-sim="latin">Latince Brocard Kartları</button>
+        </div>
+      </div>
+
+      <!-- Simulator Containers -->
+      <div id="simContent" class="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <!-- Radbruch Simulator -->
+        <div id="sim-radbruch" class="sim-panel">
+          <h4 class="font-serif text-lg font-bold text-slate-900 dark:text-white mb-2">Radbruch Formülü Adalet-Geçerlilik Değerlendiricisi</h4>
+          <p class="text-sm text-slate-600 dark:text-slate-300 mb-4">Bir pozitif yasa normunun adaletsizlik derecesine göre hukuki geçerliliğini test edin:</p>
+          <div class="space-y-4 max-w-xl">
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">Yasanın Nitelik Düzeyi:</label>
+              <select id="radbruchSelect" class="w-full p-2.5 text-sm bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg">
+                <option value="mild">1. Yasa adaletsiz veya amaca aykırı ama temel insan haklarını tamamen yok etmiyor.</option>
+                <option value="unbearable">2. Yasa ile adalet arasındaki çelişki katlanılmaz boyutta (Unerträglichkeitsformel).</option>
+                <option value="disavowal">3. Yasa, eşitliği ve insan onurunu kasıtlı olarak inkâr ediyor (Verleugnungsformel).</option>
+              </select>
+            </div>
+            <div id="radbruchResult" class="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/40 text-sm">
+              <strong class="text-amber-800 dark:text-amber-300">Sonuç (Dura Lex Sed Lex):</strong> Hukuki güvenlik ve kamu barışı gereği pozitif kanun yürürlükte kalır ve uygulanır.
+            </div>
+          </div>
+        </div>
+
+        <!-- Proportionality Simulator -->
+        <div id="sim-proportionality" class="sim-panel hidden">
+          <h4 class="font-serif text-lg font-bold text-slate-900 dark:text-white mb-2">Temel Hak Kısıtlamalarında 3 Aşamalı Ölçülülük Testi</h4>
+          <p class="text-sm text-slate-600 dark:text-slate-300 mb-4">Anayasa Mahkemesi ve AİHM standartlarında temel hak sınırlamasını test edin:</p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+            <label class="flex items-start gap-2 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700 cursor-pointer">
+              <input type="checkbox" id="prop1" class="mt-1">
+              <div>
+                <div class="text-xs font-bold text-slate-900 dark:text-white">1. Elverişlilik (Geeignetheit)</div>
+                <div class="text-[11px] text-slate-500">Müdahale amaca ulaşmaya elverişli mi?</div>
+              </div>
+            </label>
+            <label class="flex items-start gap-2 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700 cursor-pointer">
+              <input type="checkbox" id="prop2" class="mt-1">
+              <div>
+                <div class="text-xs font-bold text-slate-900 dark:text-white">2. Gereklilik (Erforderlichkeit)</div>
+                <div class="text-[11px] text-slate-500">Daha hafif bir tedbirle ulaşılamaz mı?</div>
+              </div>
+            </label>
+            <label class="flex items-start gap-2 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700 cursor-pointer">
+              <input type="checkbox" id="prop3" class="mt-1">
+              <div>
+                <div class="text-xs font-bold text-slate-900 dark:text-white">3. Orantılılık (Verhältnismäßigkeit)</div>
+                <div class="text-[11px] text-slate-500">Fayda ile kısıtlama arasında adil denge var mı?</div>
+              </div>
+            </label>
+          </div>
+          <div id="propResult" class="p-3.5 rounded-xl bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800/40 text-xs sm:text-sm text-red-800 dark:text-red-300 font-medium">
+            ⚠️ Kısıtlama henüz 3 şartı da sağlamıyor. Herhangi bir aşamanın eksikliği müdahaleyi anayasaya aykırı kılar!
+          </div>
+        </div>
+
+        <!-- Latin Flashcards -->
+        <div id="sim-latin" class="sim-panel hidden">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-serif text-lg font-bold text-slate-900 dark:text-white">Latince Hukuk Brocard'ları (Günün Özdeyişi)</h4>
+            <button id="nextBrocard" class="px-3 py-1 text-xs font-semibold rounded-lg bg-amber-600 text-white hover:bg-amber-700">Sonraki &rarr;</button>
+          </div>
+          <div class="p-6 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 dark:from-slate-800 dark:to-slate-800/80 border border-amber-200 dark:border-amber-800/40">
+            <div id="brocardLatin" class="font-serif text-xl sm:text-2xl font-bold text-amber-900 dark:text-amber-300 mb-2">Pacta sunt servanda</div>
+            <div id="brocardTr" class="text-sm font-semibold text-slate-800 dark:text-slate-100 mb-2">Ahde vefa: Sözleşmeye bağlılık esastır.</div>
+            <div id="brocardDesc" class="text-xs text-slate-600 dark:text-slate-300">Tarafların serbest iradeleriyle akdettikleri borçlandırıcı işlemlere sadık kalması zorunludur.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content & Catalog -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    
+    <!-- Search and Filter Bar -->
+    <div class="space-y-6 mb-10">
+      <!-- Search Input -->
+      <div class="relative max-w-2xl mx-auto">
+        <input type="text" id="mainSearchInput" placeholder="Kavram, doktrin, düşünür, madde veya emsal karar ara..."
+               class="w-full pl-11 pr-10 py-3.5 text-base bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-amber-500/50 dark:focus:ring-amber-400/50">
+        <i data-lucide="search" class="w-5 h-5 absolute left-4 top-4 text-slate-400"></i>
         <button id="clearSearch" class="hidden absolute right-4 top-4 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
 
-      <!-- Quick Stats -->
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto mt-10">
-        <div class="p-3 bg-white dark:bg-slate-900/80 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <div class="font-serif text-2xl font-bold text-amber-600 dark:text-amber-400">7 Modül</div>
-          <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Kapsamlı Alan</div>
-        </div>
-        <div class="p-3 bg-white dark:bg-slate-900/80 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <div class="font-serif text-2xl font-bold text-amber-600 dark:text-amber-400">30+ Tez</div>
-          <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Derin İnceleme</div>
-        </div>
-        <div class="p-3 bg-white dark:bg-slate-900/80 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <div class="font-serif text-2xl font-bold text-amber-600 dark:text-amber-400">50+ Formül</div>
-          <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Latince Brocard</div>
-        </div>
-        <div class="p-3 bg-white dark:bg-slate-900/80 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <div class="font-serif text-2xl font-bold text-amber-600 dark:text-amber-400">100% Açık</div>
-          <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Evrensel Bilgi</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Module Filter Tabs -->
-  <div class="sticky top-16 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 py-3 px-4 overflow-x-auto">
-    <div class="max-w-7xl mx-auto flex items-center gap-2" id="filterContainer">
-      <button class="filter-btn active px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap bg-amber-600 text-white transition-all shadow-sm" data-category="all">
-        🌐 Tümü
-      </button>
-      <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all" data-category="01-felsefe">
-        🏛️ 01. Felsefe & Kuram
-      </button>
-      <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all" data-category="02-kamu">
-        ⚖️ 02. Kamu & Devlet
-      </button>
-      <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all" data-category="03-doktrinler">
-        📜 03. Temel Doktrinler
-      </button>
-      <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all" data-category="04-kaynakca">
-        📚 04. Kaynakça & Latince
-      </button>
-      <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all" data-category="05-karsilastirmali">
-        🌍 05. Karşılaştırmalı Hukuk
-      </button>
-      <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all" data-category="06-sosyoloji">
-        👥 06. Sosyoloji & Eleştiri
-      </button>
-      <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all" data-category="07-dijital">
-        🤖 07. Dijital Çağ & AI
-      </button>
-    </div>
-  </div>
-
-  <!-- Main Content Grid -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-grow w-full">
-    
-    <!-- Banner Showcase Section -->
-    <div class="mb-12">
-      <div class="flex items-center justify-between mb-4">
-        <h3 class="font-serif text-lg sm:text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
-          <span>Tematik ve Milli Adalet Vitrini</span>
-        </h3>
-        <span class="text-xs text-slate-500 dark:text-slate-400">Görsellere tıklayarak ilgili alana filtreleyebilirsiniz</span>
-      </div>
-
-      <!-- Main National Banners Grid (2 Columns HD) -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-        <!-- National Banner 1: Adalet Mülkün Temelidir -->
-        <div class="cursor-pointer group overflow-hidden rounded-2xl border border-red-500/30 dark:border-red-500/30 shadow-lg hover:shadow-2xl hover:border-red-500 transition-all duration-300 transform hover:-translate-y-1" onclick="document.querySelector('[data-category=\'02-kamu\']').click(); window.scrollTo({top: 600, behavior: 'smooth'});">
-          <img src="assets/banners/banner_adalet_mulkun_temelidir.png" alt="Adalet Mülkün Temelidir" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
-        </div>
-        <!-- National Banner 2: Türk Hukuk ve Adalet Mirası -->
-        <div class="cursor-pointer group overflow-hidden rounded-2xl border border-teal-500/30 dark:border-teal-500/30 shadow-lg hover:shadow-2xl hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-1" onclick="document.querySelector('[data-category=\'05-karsilastirmali\']').click(); window.scrollTo({top: 600, behavior: 'smooth'});">
-          <img src="assets/banners/banner_milli_hukuk_ve_adalet.png" alt="Türk Hukuk ve Adalet Mirası" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
-        </div>
-      </div>
-
-      <!-- Thematic Module SVG Banners (3 Columns) -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Banner 1: Justice -->
-        <div class="cursor-pointer group overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 shadow-md hover:shadow-xl hover:border-amber-500 transition-all duration-300 transform hover:-translate-y-1" onclick="document.querySelector('[data-category=\'01-felsefe\']').click(); window.scrollTo({top: 600, behavior: 'smooth'});">
-          <img src="assets/banners/banner_justice.svg" alt="Hukuk Kuramı ve Adalet Felsefesi" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
-        </div>
-        <!-- Banner 2: Constitutional -->
-        <div class="cursor-pointer group overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 shadow-md hover:shadow-xl hover:border-indigo-500 transition-all duration-300 transform hover:-translate-y-1" onclick="document.querySelector('[data-category=\'02-kamu\']').click(); window.scrollTo({top: 600, behavior: 'smooth'});">
-          <img src="assets/banners/banner_constitutional.svg" alt="Anayasal Devlet ve Kuvvetler Ayrılığı" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
-        </div>
-        <!-- Banner 3: Digital Law -->
-        <div class="cursor-pointer group overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 shadow-md hover:shadow-xl hover:border-cyan-500 transition-all duration-300 transform hover:-translate-y-1" onclick="document.querySelector('[data-category=\'07-dijital\']').click(); window.scrollTo({top: 600, behavior: 'smooth'});">
-          <img src="assets/banners/banner_digital_law.svg" alt="Yapay Zekâ ve Geleceğin Hukuku" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
-        </div>
+      <!-- Categories Tabs -->
+      <div class="flex items-center gap-2 overflow-x-auto pb-2 custom-scrollbar justify-start lg:justify-center">
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-amber-600 text-white shadow-sm whitespace-nowrap transition-all" data-category="all">
+          Tüm Dokümanlar
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="01-felsefe">
+          01. Felsefe & Kuram
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="02-kamu">
+          02. Kamu & Devlet
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="03-doktrinler">
+          03. Doktrin & Usul
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="04-kaynakca">
+          04. Kaynakça & İçtihat
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="05-karsilastirmali">
+          05. Karşılaştırmalı
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="06-sosyoloji">
+          06. Sosyoloji & Eleştiri
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="07-dijital">
+          07. Dijital Çağ & AI
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="08-turk-hukuku">
+          08. Türk Hukuk Tarihi
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="09-insan-haklari">
+          09. İnsan Hakları & AİHM
+        </button>
+        <button class="filter-btn px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 whitespace-nowrap transition-all" data-category="10-cevre-biyoetik">
+          10. Çevre & Biyoetik
+        </button>
       </div>
     </div>
 
-    <!-- Results Header -->
-    <div class="flex items-center justify-between mb-6">
-      <h3 id="sectionTitle" class="font-serif text-xl sm:text-2xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
-        <span>Tüm Dokümanlar ve İncelemeler</span>
+    <!-- Results Meta -->
+    <div class="flex items-center justify-between mb-6 px-1">
+      <h3 class="text-sm font-semibold text-slate-600 dark:text-slate-400">
+        Bulunan İncelemeler: <span id="resultsCount" class="text-amber-600 dark:text-amber-400 font-bold">0</span>
       </h3>
-      <span id="resultsCount" class="text-xs font-medium text-slate-500 dark:text-slate-400 bg-slate-200 dark:bg-slate-800 px-2.5 py-1 rounded-full">
-        Yükleniyor...
-      </span>
+      <span class="text-xs text-slate-400">Markdown formatında doğrudan erişilebilir</span>
     </div>
 
     <!-- Cards Grid -->
     <div id="cardsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Cards rendered dynamically by JS -->
+      <!-- Cards dynamically rendered by JavaScript -->
     </div>
 
     <!-- Empty State -->
     <div id="emptyState" class="hidden text-center py-16">
-      <i data-lucide="file-question" class="w-16 h-16 mx-auto text-slate-400 mb-4"></i>
-      <h4 class="font-serif text-lg font-bold text-slate-800 dark:text-slate-200 mb-1">Aramanızla Eşleşen Sonuç Bulunamadı</h4>
-      <p class="text-sm text-slate-500 dark:text-slate-400">Lütfen farklı bir anahtar kelime veya filtre seçiniz.</p>
+      <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-400">
+        <i data-lucide="file-question" class="w-8 h-8"></i>
+      </div>
+      <h4 class="font-serif text-lg font-bold text-slate-800 dark:text-slate-200 mb-1">Aramanıza uygun sonuç bulunamadı</h4>
+      <p class="text-sm text-slate-500">Lütfen farklı bir anahtar kelime veya kategori seçiniz.</p>
     </div>
+
   </main>
 
-  <!-- Latin Maxims Highlight Spotlight Section -->
-  <section class="bg-amber-50 dark:bg-slate-900/60 border-t border-b border-amber-200 dark:border-slate-800 py-12 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto">
-      <div class="text-center mb-8">
-        <span class="text-xs font-bold text-amber-700 dark:text-amber-400 uppercase tracking-widest">Brocardica Juridica</span>
-        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mt-1">
-          Hukukun Latince Aksiyomları & Özdeyişleri
-        </h3>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="latinSpotlightGrid">
-        <div class="p-5 bg-white dark:bg-slate-800/90 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
-          <div class="font-serif font-bold text-amber-600 dark:text-amber-400 text-base mb-1">Audi alteram partem</div>
-          <p class="text-xs font-medium text-slate-500 dark:text-slate-400 mb-2">Diğer tarafı da dinle (Savunma Hakkı)</p>
-          <p class="text-xs text-slate-600 dark:text-slate-300">Tek taraflı dinlemeyle adil hüküm verilemez; çelişmeli yargılamanın ve silahların eşitliğinin kurucu ilkesidir.</p>
-        </div>
-        <div class="p-5 bg-white dark:bg-slate-800/90 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
-          <div class="font-serif font-bold text-amber-600 dark:text-amber-400 text-base mb-1">Nemo judex in causa sua</div>
-          <p class="text-xs font-medium text-slate-500 dark:text-slate-400 mb-2">Hiç kimse kendi davasının hâkimi olamaz</p>
-          <p class="text-xs text-slate-600 dark:text-slate-300">Yargıç bağımsızlığı ve tarafsızlığının, menfaat çatışması hallerinde reddi hâkim müessesesinin felsefi temelidir.</p>
-        </div>
-        <div class="p-5 bg-white dark:bg-slate-800/90 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
-          <div class="font-serif font-bold text-amber-600 dark:text-amber-400 text-base mb-1">Pacta sunt servanda</div>
-          <p class="text-xs font-medium text-slate-500 dark:text-slate-400 mb-2">Ahde vefa (Sözleşmeye bağlılık)</p>
-          <p class="text-xs text-slate-600 dark:text-slate-300">Hür iradeyle akdedilen sözleşmelerin bağlayıcılığı; hukuki güvenlik ve ticari istikrarın vazgeçilmezidir.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Footer -->
-  <footer class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 py-8 px-4 sm:px-6 lg:px-8 text-center text-xs text-slate-500 dark:text-slate-400">
+  <footer class="mt-auto border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-8 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p>© 2026 Hukuk Kuramı, Adalet ve Yasal Düzen Kütüphanesi. MIT Lisansı ile Açık Kaynak.</p>
-      <div class="flex items-center gap-4">
-        <a href="04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md" class="hover:text-amber-600 dark:hover:text-amber-400 transition-colors">Latince Sözlük</a>
-        <span>•</span>
-        <a href="04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md" class="hover:text-amber-600 dark:hover:text-amber-400 transition-colors">Emsal İçtihatlar</a>
-        <span>•</span>
-        <a href="README.md" class="hover:text-amber-600 dark:hover:text-amber-400 transition-colors">Dizin Haritası</a>
+      <div class="flex items-center gap-2">
+        <span class="font-serif font-bold text-amber-600 dark:text-amber-400">⚖️ Iuris Prudentia</span>
+        <span class="text-xs text-slate-500">| Hukuk Kuramı, Adalet ve Yasal Düzen Kütüphanesi</span>
+      </div>
+      <div class="text-xs text-slate-500 text-center sm:text-right">
+        MIT Lisansı ile korunmaktadır. Açık kaynak akademik dokümantasyon projesi.
       </div>
     </div>
   </footer>
 
-  <!-- Application Logic & Data -->
+  <!-- Database and Script Logic -->
   <script>
     const database = [
       // 01 Felsefe ve Kuram
       {
-        id: "dogal-antik",
+        id: "antik-stoa",
         category: "01-felsefe",
         badge: "01. Felsefe",
-        title: "Antikçağ ve Stoa Doğal Hukuk Geleneği",
-        summary: "Platon, Aristoteles, Herakleitos Logos'u ve Cicero'nun evrensel akıl ve tabiat hukuku anlayışı.",
+        title: "Antik Dönem Doğal Hukuk ve Stoa Felsefesi",
+        summary: "Logos, evrensel akıl, Platon'un idealar kuramı, Aristoteles ve Cicero'nun değişmez doğal adalet anlayışı.",
         path: "01-felsefe-ve-kuram/dogal-hukuk-gelenegi/antik-donem-ve-stoa.md",
-        tags: ["Platon", "Aristoteles", "Cicero", "Stoa", "Logos"]
+        tags: ["Doğal Hukuk", "Cicero", "Platon", "Aristoteles", "Stoa", "Logos"]
       },
       {
-        id: "dogal-skolastik",
+        id: "orta-cag-skolastik",
         category: "01-felsefe",
         badge: "01. Felsefe",
-        title: "Orta Çağ ve Skolastik Hukuk Felsefesi",
-        summary: "Aziz Augustinus ve Aquino'lu Thomas'ın 4 katmanlı hukuk düzeni: Lex Aeterna, Lex Naturalis, Lex Humana.",
+        title: "Orta Çağ Skolastiği ve Thomas Aquinas",
+        summary: "Lex Aeterna, Lex Naturalis, Lex Divina ve Lex Humana; adil olmayan yasanın geçerliliği sorunu.",
         path: "01-felsefe-ve-kuram/dogal-hukuk-gelenegi/orta-cag-ve-skolastik.md",
-        tags: ["Thomas Aquinas", "Augustinus", "Skolastik", "Lex Naturalis"]
+        tags: ["Aquinas", "Augustinus", "Skolastik", "Lex Injusta", "Teoloji"]
       },
       {
-        id: "dogal-rasyonel",
+        id: "rasyonel-dogal-hukuk",
         category: "01-felsefe",
         badge: "01. Felsefe",
         title: "Rasyonel Doğal Hukuk ve Toplum Sözleşmesi",
-        summary: "Grotius, Hobbes, Locke, Rousseau ve Aydınlanma akılcılığı ile devletin sözleşmesel temeli.",
+        summary: "Hugo Grotius'tan başlayan sekülerleşme; Hobbes, Locke ve Rousseau'nun toplum sözleşmesi teorileri.",
         path: "01-felsefe-ve-kuram/dogal-hukuk-gelenegi/rasyonel-dogal-hukuk.md",
-        tags: ["Grotius", "Hobbes", "Locke", "Rousseau", "Sözleşme"]
+        tags: ["Grotius", "Hobbes", "Locke", "Rousseau", "Toplum Sözleşmesi"]
       },
       {
         id: "radbruch-formulu",
         category: "01-felsefe",
         badge: "01. Felsefe",
-        title: "Radbruch Formülü ve Doğal Hukuka Dönüş",
-        summary: "Nazi deneyimi sonrası Gustav Radbruch'un 'Yasal haksızlık ve yasa üstü hukuk' tezi.",
+        title: "Radbruch Formülü ve Doğal Hukukun Dönüşü",
+        summary: "Yasal haksızlık ve yasa üstü hukuk ayrımı; aşırı adaletsiz pozitif yasaların hukuk vasfını kaybetmesi.",
         path: "01-felsefe-ve-kuram/dogal-hukuk-gelenegi/radbruch-formulu-ve-modern-donus.md",
-        tags: ["Radbruch", "Doğal Hukuk", "Nazi Hukuku", "Adaletsizlik"]
-      },
-      {
-        id: "pozitivizm-buyruk",
-        category: "01-felsefe",
-        badge: "01. Felsefe",
-        title: "Erken Pozitivizm ve Buyruk Teorisi",
-        summary: "Jeremy Bentham ve John Austin'in egemenin yaptırımla desteklenmiş buyruğu olarak hukuk modeli.",
-        path: "01-felsefe-ve-kuram/pozitivizm-ve-normativizm/erken-pozitivizm-ve-buyruk-teorisi.md",
-        tags: ["Bentham", "Austin", "Pozitivizm", "Buyruk", "Yaptırım"]
+        tags: ["Radbruch", "Nürnberg", "Yasal Haksızlık", "Hukuki Güvenlik"]
       },
       {
         id: "kelsen-saf-hukuk",
         category: "01-felsefe",
         badge: "01. Felsefe",
         title: "Hans Kelsen ve Saf Hukuk Kuramı",
-        summary: "Temel Norm (Grundnorm), normlar hiyerarşisi ve hukukun sosyoloji ve ahlaktan arındırılması.",
+        summary: "Hukukun ahlak ve sosyolojiden arındırılması, temel norm (Grundnorm) ve hiyerarşik normlar piramidi.",
         path: "01-felsefe-ve-kuram/pozitivizm-ve-normativizm/saf-hukuk-kurami-kelsen.md",
-        tags: ["Kelsen", "Grundnorm", "Normativizm", "Saf Hukuk"]
+        tags: ["Kelsen", "Grundnorm", "Normativizm", "Stufenbaulehre"]
       },
       {
-        id: "hart-kavrami",
+        id: "hart-hukuk-kavrami",
         category: "01-felsefe",
         badge: "01. Felsefe",
-        title: "H.L.A. Hart ve Hukuk Kavramı",
-        summary: "Birincil ve ikincil kurallar, Tanıma Kuralı (Rule of Recognition) ve açık doku (Open Texture).",
+        title: "H.L.A. Hart: Hukuk Kavramı ve Tanıma Kuralı",
+        summary: "Birincil ve ikincil kurallar sistemi, Tanıma Kuralı (Rule of Recognition) ve açık doku (Open Texture).",
         path: "01-felsefe-ve-kuram/pozitivizm-ve-normativizm/hart-hukuk-kavrami.md",
-        tags: ["Hart", "Rule of Recognition", "Açık Doku", "İkincil Kurallar"]
-      },
-      {
-        id: "hukuki-realizm",
-        category: "01-felsefe",
-        badge: "01. Felsefe",
-        title: "Hukuki Realizm ve Eleştirel Hukuk",
-        summary: "Amerikan ve İskandinav realizmi; Oliver Wendell Holmes, Karl Llewellyn ve Alf Ross.",
-        path: "01-felsefe-ve-kuram/pozitivizm-ve-normativizm/hukuki-realizm-ve-elestirel-hukuk.md",
-        tags: ["Realizm", "Holmes", "Ross", "Yargıç Davranışı"]
+        tags: ["Hart", "Rule of Recognition", "Açık Doku", "Pozitivizm"]
       },
       {
         id: "rawls-adalet",
         category: "01-felsefe",
         badge: "01. Felsefe",
         title: "John Rawls: Hakkaniyet Olarak Adalet",
-        summary: "Bilinmezlik Peçesi (Veil of Ignorance), Başlangıç Durumu, Eşit Özgürlük ve Fark İlkesi.",
+        summary: "Bilinmezlik peçesi (Veil of Ignorance), Başlangıç Durumu, Eşit Temel Özgürlükler ve Fark İlkesi.",
         path: "01-felsefe-ve-kuram/adalet-teorileri/rawls-hakkaniyet-olarak-adalet.md",
-        tags: ["Rawls", "Hakkaniyet", "Bilinmezlik Peçesi", "Fark İlkesi"]
+        tags: ["Rawls", "Fark İlkesi", "Bilinmezlik Peçesi", "Dağıtıcı Adalet"]
       },
       {
         id: "nozick-liberteryen",
         category: "01-felsefe",
         badge: "01. Felsefe",
-        title: "Robert Nozick ve Yetkilenme Kuramı",
-        summary: "Minimal devlet (Gece Bekçisi Devlet), mülkiyet hakları ve zorunlu yeniden dağıtımın reddi.",
+        title: "Robert Nozick ve Liberteryen Adalet",
+        summary: "Yetkilenme kuramı (Entitlement Theory), minimal gece bekçisi devlet ve yeniden dağıtıma eleştiriler.",
         path: "01-felsefe-ve-kuram/adalet-teorileri/nozick-ve-liberteryen-adalet.md",
-        tags: ["Nozick", "Liberteryen", "Yetkilenme", "Minimal Devlet"]
-      },
-      {
-        id: "habermas-muzakere",
-        category: "01-felsefe",
-        badge: "01. Felsefe",
-        title: "Jürgen Habermas ve Müzakereci Demokrasi",
-        summary: "İletişimsel eylem kuramı, ideal konuşma durumu ve demokratik meşruiyetin kamusal müzakere temeli.",
-        path: "01-felsefe-ve-kuram/adalet-teorileri/habermas-ve-muzakereci-demokrasi.md",
-        tags: ["Habermas", "Müzakere", "İletişimsel Eylem", "Kamusal Alan"]
-      },
-      {
-        id: "sandel-komuniter",
-        category: "01-felsefe",
-        badge: "01. Felsefe",
-        title: "Michael Sandel ve Komüniter Eleştiri",
-        summary: "Liberal atomistik birey eleştirisi, topluluk bağları, ortak iyi ve ahlaki sorumluluklar.",
-        path: "01-felsefe-ve-kuram/adalet-teorileri/sandeller-ve-komuniter-elestiri.md",
-        tags: ["Sandel", "Komüniter", "Ortak İyi", "Ahlak"]
+        tags: ["Nozick", "Minimal Devlet", "Mülkiyet", "Liberteryenizm"]
       },
 
-      // 02 Kamu ve Devlet Düzeni
+      // 02 Kamu ve Devlet
       {
         id: "egemenlik-evrimi",
         category: "02-kamu",
-        badge: "02. Kamu Düzeni",
-        title: "Egemenlik Kavramının Evrimi",
-        summary: "Bodin ve Hobbes'tan Rousseau halk egemenliğine ve modern anayasal sınırlı egemenliğe geçiş.",
+        badge: "02. Kamu & Devlet",
+        title: "Egemenlik Kavramının Tarihsel Evrimi",
+        summary: "Bodin, Hobbes ve Rousseau'dan küreselleşme ve uluslarüstü sınırlamalara uzanan egemenlik teorisi.",
         path: "02-kamu-ve-devlet-duzeni/anayasal-devlet-ve-egemenlik/egemenlik-kavraminin-evrimi.md",
-        tags: ["Bodin", "Egemenlik", "Halk Egemenliği", "Anayasa"]
+        tags: ["Egemenlik", "Bodin", "Uluslararası Hukuk", "Anayasa"]
       },
       {
-        id: "anayasa-denetim",
+        id: "anayasa-yargisi",
         category: "02-kamu",
-        badge: "02. Kamu Düzeni",
+        badge: "02. Kamu & Devlet",
         title: "Anayasa Üstünlüğü ve Yargısal Denetim",
-        summary: "Marbury v. Madison, Kelsen modeli Anayasa Mahkemesi ve somut/soyut norm denetimi.",
+        summary: "Marbury v. Madison davasından Kelsen modeline, soyut/somut norm denetimi ve anayasal meşruiyet.",
         path: "02-kamu-ve-devlet-duzeni/anayasal-devlet-ve-egemenlik/anayasa-ustunlugu-ve-yargisal-denetim.md",
-        tags: ["AYM", "Yargısal Denetim", "Norm Denetimi", "Marbury v Madison"]
+        tags: ["AYM", "Marbury v Madison", "Norm Denetimi", "Kelsen"]
       },
       {
-        id: "temel-haklar-onur",
+        id: "kuvvetler-ayriligi",
         category: "02-kamu",
-        badge: "02. Kamu Düzeni",
-        title: "Temel Haklar ve İnsan Onuru",
-        summary: "İnsan onurunun dokunulmazlığı, çekirdek haklar alanı ve hakkın özüne dokunma yasağı.",
-        path: "02-kamu-ve-devlet-duzeni/anayasal-devlet-ve-egemenlik/temel-haklar-ve-insan-onuru.md",
-        tags: ["İnsan Onuru", "Temel Haklar", "Çekirdek Alan", "Öz Güvencesi"]
-      },
-      {
-        id: "montesquieu-fren-denge",
-        category: "02-kamu",
-        badge: "02. Kamu Düzeni",
+        badge: "02. Kamu & Devlet",
         title: "Montesquieu ve Fren-Denge Sistemi",
-        summary: "Kuvvetler ayrılığı ilkesi, iktidarın iktidarla sınırlandırılması ve checks and balances.",
+        summary: "Erklerin ayrılığı, Checks and Balances mimarisi, tiranlığın önlenmesi ve anayasal özgürlük güvencesi.",
         path: "02-kamu-ve-devlet-duzeni/kuvvetler-ayriligi/montesquieu-ve-fren-denge-sistemi.md",
-        tags: ["Montesquieu", "Kuvvetler Ayrılığı", "Fren Denge", "Checks and Balances"]
+        tags: ["Montesquieu", "Fren Denge", "Kuvvetler Ayrılığı", "Özgürlük"]
       },
       {
-        id: "yargi-bagimsizligi",
+        id: "idarenin-hukukiligi",
         category: "02-kamu",
-        badge: "02. Kamu Düzeni",
-        title: "Yargı Bağımsızlığı ve Tarafsızlığı",
-        summary: "Hâkimlik teminatı, mahkemelerin bağımsızlığı, coğrafi teminat ve adil yargılanma hakkı.",
-        path: "02-kamu-ve-devlet-duzeni/kuvvetler-ayriligi/yargi-bagimsizligi-ve-tarafsizligi.md",
-        tags: ["Yargı Bağımsızlığı", "Hâkimlik Teminatı", "Tarafsızlık", "HSK"]
-      },
-      {
-        id: "idare-hukukiligi",
-        category: "02-kamu",
-        badge: "02. Kamu Düzeni",
-        title: "Kanuni İdare ve Takdir Yetkisinin Sınırları",
-        summary: "İdarenin kanuniliği ilkesi, bağlı yetki, takdir yetkisi ve kamu yararı sınırları.",
+        badge: "02. Kamu & Devlet",
+        title: "Kanuni İdare, Bağlı Yetki ve Takdir Yetkisi",
+        summary: "İdarenin kanuniliği ilkesi, takdir yetkisinin kamu yararı ve hizmet gerekleri sınırları.",
         path: "02-kamu-ve-devlet-duzeni/idarenin-hukukiligi/kanuni-idare-ve-bagli-yetki-takdir-yetkisi.md",
-        tags: ["İdare", "Takdir Yetkisi", "Bağlı Yetki", "Kamu Yararı"]
+        tags: ["İdare Hukuku", "Takdir Yetkisi", "Kamu Yararı", "Denetim"]
       },
 
-      // 03 Temel Kavramlar ve Doktrinler
+      // 03 Doktrinler ve Usul
       {
         id: "normlar-hiyerarsisi",
         category: "03-doktrinler",
         badge: "03. Doktrin",
-        title: "Normlar Hiyerarşisi ve Çatışma Kuralları",
-        summary: "Stufenbaulehre, Lex Superior, Lex Posterior, Lex Specialis ve Anayasa m. 90/5 önceliği.",
+        title: "Normlar Hiyerarşisi (Stufenbaulehre)",
+        summary: "Anayasa, kanun, CBK, yönetmelik piramidi; lex superior, lex posterior ve lex specialis çatışma kuralları.",
         path: "03-kavramlar-ve-doktrinler/normlar-hiyerarsisi.md",
-        tags: ["Normlar Hiyerarşisi", "Lex Superior", "Lex Posterior", "Lex Specialis"]
+        tags: ["Normlar Hiyerarşisi", "Stufenbaulehre", "Lex Superior", "Antinomi"]
       },
       {
         id: "hukuki-yorum",
         category: "03-doktrinler",
         badge: "03. Doktrin",
-        title: "Hukukta Yorum Yöntemleri ve Mantıksal Çıkarımlar",
-        summary: "Lafzi, sistematik, tarihsel ve teleolojik yorum; a contrario, a fortiori, a maiore ad minus argümanları.",
+        title: "Hukuki Yorum Yöntemleri ve Hermeneutik",
+        summary: "Lafzi, tarihi, sübjektif/objektif gaye, sistematik yorum ve evleviyet mantık çıkarımları.",
         path: "03-kavramlar-ve-doktrinler/hukuki-yorumsal-yontemler.md",
-        tags: ["Hermeneutik", "Yorum", "Teleolojik", "A Fortiori", "A Contrario"]
-      },
-      {
-        id: "hukuk-boslugu",
-        category: "03-doktrinler",
-        badge: "03. Doktrin",
-        title: "Hukuk Boşluğu ve Hâkimin Hukuk Yaratması",
-        summary: "TMK m. 1/2 uyarınca hâkimin yasa koyucu gibi kural koyması, açık ve örtülü kanun boşlukları.",
-        path: "03-kavramlar-ve-doktrinler/hukuk-boslugu-ve-hakimin-hukuk-yaratmasi.md",
-        tags: ["Boşluk", "Hukuk Yaratma", "TMK 1", "Kıyas", "Teleolojik İndirgeme"]
-      },
-      {
-        id: "hak-kavrami",
-        category: "03-doktrinler",
-        badge: "03. Doktrin",
-        title: "Hak Kavramı ve Hohfeldian Haklar Analizi",
-        summary: "Hohfeld'in talep, özgürlük, yetki ve bağışıklık matrisi; mutlak-nisbi haklar ve inşai haklar.",
-        path: "03-kavramlar-ve-doktrinler/hak-kavrami-ve-turleri.md",
-        tags: ["Hohfeld", "Hak", "Ödev", "Yetki", "İnşai Hak"]
-      },
-      {
-        id: "nedensellik-sorumluluk",
-        category: "03-doktrinler",
-        badge: "03. Doktrin",
-        title: "Hukukta Nedensellik ve Sorumluluk Kuramları",
-        summary: "Uygun illiyet bağı, şart teorisi, normun koruma alanı, mücbir sebep ve kusursuz sorumluluk.",
-        path: "03-kavramlar-ve-doktrinler/hukukta-nedensellik-ve-sorumluluk.md",
-        tags: ["İlliyet Bağı", "Nedensellik", "Kusursuz Sorumluluk", "Mücbir Sebep"]
+        tags: ["Yorum", "Hermeneutik", "Teleolojik", "A Fortiori", "Kıyas"]
       },
       {
         id: "olcululuk-belirlilik",
         category: "03-doktrinler",
         badge: "03. Doktrin",
         title: "Ölçülülük ve Hukuki Belirlilik Doktrini",
-        summary: "Elverişlilik, gereklilik ve orantılılık üçlemesi; öngörülebilirlik ve keyfiyetin önlenmesi.",
+        summary: "Elverişlilik, gereklilik ve orantılılık üçlü testi; hukuki güvenlik ve öngörülebilirlik güvenceleri.",
         path: "03-kavramlar-ve-doktrinler/olcululuk-ve-belirlilik.md",
-        tags: ["Ölçülülük", "Belirlilik", "Öngörülebilirlik", "AYM"]
+        tags: ["Ölçülülük", "Belirlilik", "Hukuki Güvenlik", "Orantılılık"]
       },
       {
         id: "ceza-ilkeleri",
@@ -512,8 +478,8 @@
         id: "latince-sozluk",
         category: "04-kaynakca",
         badge: "04. Kaynakça",
-        title: "Latince Hukuk Özdeyişleri ve Terimler Sözlüğü",
-        summary: "Brocardica Juridica: 50'den fazla evrensel Latince hukuk ilkesi, açıklamaları ve pratik uygulamaları.",
+        title: "Latince Hukuk Özdeyişleri ve Terimler Sözlüğü (Brocardica)",
+        summary: "75'ten fazla evrensel Latince hukuk ilkesi, açıklamaları, yargılama ve medeni hukuk doktrinleri.",
         path: "04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md",
         tags: ["Latince", "Brocard", "Pacta Sunt Servanda", "Nemo Judex", "Sözlük"]
       },
@@ -522,9 +488,9 @@
         category: "04-kaynakca",
         badge: "04. Kaynakça",
         title: "Emsal Yüksek Mahkeme Kararları Kütüphanesi",
-        summary: "AİHM, BVerfG (Lüth), ABD Yüksek Mahkemesi, Anayasa Mahkemesi ve Danıştay çığır açan kararları.",
+        summary: "AİHM, BVerfG (Lüth & Neubauer), ABD Yüksek Mahkemesi, AYM, Danıştay ve Yargıtay emsal kararları.",
         path: "04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md",
-        tags: ["AİHM", "AYM", "İçtihat", "Emsal Karar", "Danıştay"]
+        tags: ["AİHM", "AYM", "İçtihat", "Emsal Karar", "Danıştay", "Yargıtay"]
       },
 
       // 05 Karşılaştırmalı Hukuk
@@ -555,15 +521,6 @@
         path: "05-karsilastirmali-hukuk-ve-sistemler/uluslarustu-ve-kuresel-hukuk-duzenleri.md",
         tags: ["AB Hukuku", "Jus Cogens", "Erga Omnes", "Lex Mercatoria", "Tahkim"]
       },
-      {
-        id: "gecis-donemi-adaleti",
-        category: "05-karsilastirmali",
-        badge: "05. Karşılaştırmalı",
-        title: "Geçiş Dönemi Adaleti ve Tarihsel Yüzleşme",
-        summary: "Hakikat komisyonları, cezai hesap verebilirlik, lustration (arınma) ve mağdurların onarımı.",
-        path: "05-karsilastirmali-hukuk-ve-sistemler/gecis-donemi-adaleti-ve-yuzlesme.md",
-        tags: ["Geçiş Dönemi", "Hakikat Komisyonu", "Lustration", "UCM", "Nürnberg"]
-      },
 
       // 06 Sosyoloji ve Eleştiri
       {
@@ -574,15 +531,6 @@
         summary: "Eugen Ehrlich (Lebendes Recht), Max Weber rasyonel bürokrasisi, Durkheim dayanışması ve Roscoe Pound.",
         path: "06-hukuk-sosyolojisi-ve-elestirel-yaklasimlar/hukuk-sosyolojisinin-temelleri.md",
         tags: ["Ehrlich", "Weber", "Durkheim", "Pound", "Yaşayan Hukuk"]
-      },
-      {
-        id: "elestirel-hukuk-cls",
-        category: "06-sosyoloji",
-        badge: "06. Sosyoloji",
-        title: "Eleştirel Hukuk Çalışmaları (CLS) ve Postmodernizm",
-        summary: "Hukukun belirlenemezliği tezi, Duncan Kennedy, hukukun ideolojik niteliği ve Michel Foucault.",
-        path: "06-hukuk-sosyolojisi-ve-elestirel-yaklasimlar/elestirel-hukuk-calismalari-ve-postmodernizm.md",
-        tags: ["CLS", "Kennedy", "Postmodernizm", "Foucault", "Belirlenemezlik"]
       },
       {
         id: "feminist-hukuk",
@@ -631,16 +579,162 @@
         path: "07-dijital-cag-yapay-zeka-ve-hukukun-gelecegi/dijital-haklar-veri-egemenligi-ve-mahremiyet.md",
         tags: ["GDPR", "KVKK", "Unutulma Hakkı", "Mahremiyet", "Neurorights"]
       },
+
+      // 08 Türk Hukuk Tarihi
       {
-        id: "akilli-sozlesmeler",
-        category: "07-dijital",
-        badge: "07. Dijital Çağ",
-        title: "Akıllı Sözleşmeler, Blokzincir ve Merkeziyetsiz Hukuk",
-        summary: "Code is Law paradigması, DAO'ların hukuki niteliği, irade sakatlıkları ve merkeziyetsiz tahkim protokolleri.",
-        path: "07-dijital-cag-yapay-zeka-ve-hukukun-gelecegi/akilli-sozlesmeler-ve-merkeziyetsiz-hukuk.md",
-        tags: ["Smart Contracts", "Blokzincir", "DAO", "Code is Law", "Kleros"]
+        id: "eski-turk-toresi",
+        category: "08-turk-hukuku",
+        badge: "08. Türk Hukuku",
+        title: "Eski Türk Töresi ve İslam Hukuku Sentezi",
+        summary: "Kutadgu Bilig adalet dairesi (Dâire-i Adliye), Fatih ve Kanuni Kanunnameleri, Kadılık kurumu.",
+        path: "08-turk-hukuk-tarihi-ve-anayasal-evrim/01-eski-turk-toresi-ve-islam-hukuku-sentezi.md",
+        tags: ["Kutadgu Bilig", "Töre", "Kanunname", "Kadılık", "Daire-i Adliye"]
+      },
+      {
+        id: "tanzimat-mecelle",
+        category: "08-turk-hukuku",
+        badge: "08. Türk Hukuku",
+        title: "Tanzimat Fermanı, Kanun-i Esâsî ve Mecelle",
+        summary: "Gülhane Hatt-ı Hümayunu, 1876 Anayasası ve Ahmet Cevdet Paşa'nın 99 maddelik Mecelle kaideleri.",
+        path: "08-turk-hukuk-tarihi-ve-anayasal-evrim/02-tanzimat-ve-kanunilestirme-mecelle.md",
+        tags: ["Tanzimat", "Mecelle", "Ahmet Cevdet Paşa", "Kanun-i Esasi", "1876"]
+      },
+      {
+        id: "cumhuriyet-devrimi",
+        category: "08-turk-hukuku",
+        badge: "08. Türk Hukuku",
+        title: "Cumhuriyet Hukuk Devrimi ve Modern Kodifikasyonlar",
+        summary: "1926 Medeni Kanun iktibası, laik hukuk düzeni, kadın-erkek eşitliği ve Mahmut Esat Bozkurt doktrini.",
+        path: "08-turk-hukuk-tarihi-ve-anayasal-evrim/03-cumhuriyet-hukuk-devrimi-ve-laiklesme.md",
+        tags: ["Medeni Kanun", "Laiklik", "Cumhuriyet Devrimi", "İktibas", "Bozkurt"]
+      },
+      {
+        id: "turk-anayasa-yargisi",
+        category: "08-turk-hukuku",
+        badge: "08. Türk Hukuku",
+        title: "Türk Anayasa Yargısı, AYM ve Bireysel Başvuru",
+        summary: "1961 Anayasası ile AYM'nin kuruluşu, 2010 reformu ve hak eksenli bireysel başvuru rejimi.",
+        path: "08-turk-hukuk-tarihi-ve-anayasal-evrim/04-turk-anayasa-yargisi-ve-demokratiklesme-tarihi.md",
+        tags: ["AYM", "Bireysel Başvuru", "Anayasa Mahkemesi", "Hak Eksenli", "1961"]
+      },
+
+      // 09 İnsan Hakları ve Uluslararası Yargı
+      {
+        id: "aihs-aihm-sistemi",
+        category: "09-insan-haklari",
+        badge: "09. İnsan Hakları",
+        title: "AİHS ve Avrupa İnsan Hakları Mahkemesi Sistemi",
+        summary: "İkincillik (Subsidiarite) ilkesi, takdir marjı doktrini, Sözleşmenin dinamik yaşayan belge niteliği ve AY m. 90.",
+        path: "09-insan-haklari-ve-uluslararasi-yargi/01-aihs-ve-avrupa-insan-haklari-mahkemesi-sistemi.md",
+        tags: ["AİHS", "AİHM", "Subsidiarite", "Takdir Marjı", "Living Instrument"]
+      },
+      {
+        id: "adil-yargilanma-hakki",
+        category: "09-insan-haklari",
+        badge: "09. İnsan Hakları",
+        title: "Adil Yargılanma Hakkı ve Usuli Güvenceler (AİHS Md. 6)",
+        summary: "Silahların eşitliği, çelişmeli yargılama, makul süre, susma hakkı ve Salduz avukata erişim kuralı.",
+        path: "09-insan-haklari-ve-uluslararasi-yargi/02-adil-yargilanma-hakki-ve-usuli-guvenceler.md",
+        tags: ["Adil Yargılanma", "AİHS Madde 6", "Silahların Eşitliği", "Salduz", "Usul"]
+      },
+      {
+        id: "pilot-karar-telafi",
+        category: "09-insan-haklari",
+        badge: "09. İnsan Hakları",
+        title: "Hak İhlallerinde Yargısal Telafi, Pilot Karar ve İade-i Muhakeme",
+        summary: "Restitutio in integrum ilkesi, yapısal sorunlarda pilot karar usulü ve Türk hukukunda yeniden yargılama.",
+        path: "09-insan-haklari-ve-uluslararasi-yargi/03-insan-haklari-ihlallerinde-yargisal-telafi-ve-pilot-karar.md",
+        tags: ["Pilot Karar", "İade-i Muhakeme", "Restitutio", "Yeniden Yargılama"]
+      },
+      {
+        id: "uluslararasi-ceza-ucm",
+        category: "09-insan-haklari",
+        badge: "09. İnsan Hakları",
+        title: "Uluslararası Ceza Adaleti, Roma Statüsü ve İnsanlığa Karşı Suçlar",
+        summary: "UCM yargı yetkisi, 4 çekirdek suç (soykırım, insanlığa karşı suçlar, savaş suçları, saldırı) ve evrensel yargı yetkisi.",
+        path: "09-insan-haklari-ve-uluslararasi-yargi/04-uluslararasi-ceza-adaleti-ve-insanliga-karsi-suclar.md",
+        tags: ["Roma Statüsü", "UCM", "ICC", "Soykırım", "Evrensel Yargı"]
+      },
+
+      // 10 Çevre Hukuku ve Biyoetik
+      {
+        id: "iklim-adaleti",
+        category: "10-cevre-biyoetik",
+        badge: "10. Çevre & Biyoetik",
+        title: "İklim Adaleti ve Gelecek Nesillere Karşı Sorumluluk",
+        summary: "Hans Jonas Sorumluluk İlkesi, Urgenda ve Neubauer emsal kararları, kuşaklararası adalet.",
+        path: "10-cevre-hukuku-ve-biyoetik/01-iklim-adaleti-ve-gelecek-nesillere-sorumluluk.md",
+        tags: ["İklim Adaleti", "Neubauer", "Urgenda", "Gelecek Nesiller", "Hans Jonas"]
+      },
+      {
+        id: "eko-merkezci-hukuk",
+        category: "10-cevre-biyoetik",
+        badge: "10. Çevre & Biyoetik",
+        title: "Eko-Merkezci Hukuk ve Doğaya Tüzel Kişilik Tanınması",
+        summary: "Christopher Stone doktrini, Yeni Zelanda Whanganui Nehri ve Ekvador Pachamama Anayasası doğa hakları.",
+        path: "10-cevre-hukuku-ve-biyoetik/02-eko-merkezci-hukuk-ve-dogaya-kisilik-taninmasi.md",
+        tags: ["Pachamama", "Whanganui", "Doğa Hakları", "Eko-Merkezcilik", "Stone"]
+      },
+      {
+        id: "biyoetik-genetik",
+        category: "10-cevre-biyoetik",
+        badge: "10. Çevre & Biyoetik",
+        title: "Biyoetik Hukuku, Genetik Müdahale ve İnsan Onuru",
+        summary: "Oviedo Biyoetik Sözleşmesi, CRISPR gen modifikasyonu sınırları, aydınlatılmış onam ve ötenazi ikilemi.",
+        path: "10-cevre-hukuku-ve-biyoetik/03-biyoetik-genetik-hukuk-ve-insan-onuru.md",
+        tags: ["Biyoetik", "CRISPR", "Oviedo", "İnsan Onuru", "Aydınlatılmış Onam"]
       }
     ];
+
+    const latinBrocardList = [
+      {
+        latin: "Pacta sunt servanda",
+        tr: "Ahde vefa (Sözleşmeye bağlılık esastır).",
+        desc: "Tarafların serbest iradeleriyle akdettikleri borçlandırıcı işlemlere sadık kalması zorunludur."
+      },
+      {
+        latin: "Iustitia est constans et perpetua voluntas ius suum cuique tribuendi",
+        tr: "Adalet, herkese hakkı olanı verme konusundaki sürekli iradedir.",
+        desc: "Domitius Ulpianus'un Digesta'da yer alan evrensel dağıtıcı adalet tanımı."
+      },
+      {
+        latin: "Audi alteram partem",
+        tr: "Diğer tarafı da dinle (Savunma hakkı).",
+        desc: "Çelişmeli yargılamanın en temel şartı; tek taraf dinlenerek adil karar verilemez."
+      },
+      {
+        latin: "Nemo judex in causa sua",
+        tr: "Hiç kimse kendi davasının hâkimi olamaz.",
+        desc: "Yargıcın tarafsızlığı, bağımsızlığı ve reddi hâkim müessesesinin temel dayanağı."
+      },
+      {
+        latin: "In dubio pro reo",
+        tr: "Şüpheden sanık yararlanır.",
+        desc: "Mahkûmiyet için kesin ve şüpheden uzak delil aranır; şüphe sanığın lehine yorumlanır."
+      },
+      {
+        latin: "Nullum crimen, nulla poena sine lege",
+        tr: "Kanunsuz suç ve ceza olmaz.",
+        desc: "Suçta ve cezada kanunilik ilkesi; kıyas yasağı ve geçmişe yürüme yasağının kaynağı."
+      },
+      {
+        latin: "Summum ius, summa iniuria",
+        tr: "Aşırı katı hukuk, en büyük haksızlıktır.",
+        desc: "Hakkaniyetten yoksun, aşırı şekilci ve lafzi norm uygulamasının doğuracağı ağır adaletsizlik (Cicero)."
+      },
+      {
+        latin: "Venire contra factum proprium",
+        tr: "Kendi önceki eylemiyle çelişen tutum sergileme yasağı.",
+        desc: "Dürüstlük kuralının ve hakkın kötüye kullanılması yasağının temel görünüm biçimi."
+      },
+      {
+        latin: "Nemo tenetur se ipsum accusare",
+        tr: "Hiç kimse kendini suçlamaya zorlanamaz.",
+        desc: "Susma hakkı, adil yargılanma ve zorla alınan ikrarların hükümsüzlüğü ilkesi."
+      }
+    ];
+
+    let currentBrocardIdx = 0;
 
     let currentCategory = 'all';
     let searchQuery = '';
@@ -739,6 +833,73 @@
     mainSearchInput.addEventListener('input', e => handleSearch(e.target.value));
     headerSearchInput.addEventListener('input', e => handleSearch(e.target.value));
     clearSearch.addEventListener('click', () => handleSearch(''));
+
+    // Simulator Tab Logic
+    const simTabBtns = document.querySelectorAll('.sim-tab-btn');
+    simTabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        simTabBtns.forEach(b => {
+          b.classList.remove('bg-amber-600', 'text-white');
+          b.classList.add('bg-white', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+        });
+        btn.classList.add('bg-amber-600', 'text-white');
+        btn.classList.remove('bg-white', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+        
+        const simId = btn.getAttribute('data-sim');
+        document.querySelectorAll('.sim-panel').forEach(p => p.classList.add('hidden'));
+        document.getElementById(`sim-${simId}`).classList.remove('hidden');
+      });
+    });
+
+    // Radbruch Simulator logic
+    const radbruchSelect = document.getElementById('radbruchSelect');
+    const radbruchResult = document.getElementById('radbruchResult');
+    radbruchSelect.addEventListener('change', (e) => {
+      const v = e.target.value;
+      if (v === 'mild') {
+        radbruchResult.className = 'p-4 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/40 text-sm';
+        radbruchResult.innerHTML = '<strong class="text-amber-800 dark:text-amber-300">Sonuç (Dura Lex Sed Lex):</strong> Hukuki güvenlik ve kamu barışı gereği pozitif kanun yürürlükte kalır ve uygulanır.';
+      } else if (v === 'unbearable') {
+        radbruchResult.className = 'p-4 rounded-xl bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800/40 text-sm';
+        radbruchResult.innerHTML = '<strong class="text-red-800 dark:text-red-300">Sonuç (Yasal Haksızlık - Gesetzliches Unrecht):</strong> Yasa ile adalet arasındaki çelişki katlanılmaz boyuttadır. Kanun adalet karşısında geri çekilmek zorundadır ve hâkim bunu uygulamaz!';
+      } else {
+        radbruchResult.className = 'p-4 rounded-xl bg-purple-50 dark:bg-purple-950/40 border border-purple-200 dark:border-purple-800/40 text-sm';
+        radbruchResult.innerHTML = '<strong class="text-purple-800 dark:text-purple-300">Sonuç (Hukuk Dışı / Nicht-Recht):</strong> Eşitliği ve insan onurunu kasten inkâr eden norm hiçbir zaman hukuk niteliği kazanmamıştır (Yokluk/Hükümsüzlük).';
+      }
+    });
+
+    // Proportionality Simulator logic
+    const p1 = document.getElementById('prop1');
+    const p2 = document.getElementById('prop2');
+    const p3 = document.getElementById('prop3');
+    const propResult = document.getElementById('propResult');
+
+    function checkProp() {
+      if (p1.checked && p2.checked && p3.checked) {
+        propResult.className = 'p-3.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/40 text-xs sm:text-sm text-emerald-800 dark:text-emerald-300 font-semibold';
+        propResult.innerHTML = '✅ Tebrikler! Müdahale Elverişli, Gerekli ve Orantılıdır. Anayasa Madde 13 ve AİHS standartlarına uygundur.';
+      } else {
+        propResult.className = 'p-3.5 rounded-xl bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800/40 text-xs sm:text-sm text-red-800 dark:text-red-300 font-medium';
+        propResult.innerHTML = '⚠️ Kısıtlama henüz 3 kümülatif şartı da sağlamıyor. Herhangi bir aşamanın eksikliği müdahaleyi Anayasaya aykırı kılar!';
+      }
+    }
+    p1.addEventListener('change', checkProp);
+    p2.addEventListener('change', checkProp);
+    p3.addEventListener('change', checkProp);
+
+    // Latin Flashcards logic
+    const nextBrocard = document.getElementById('nextBrocard');
+    const brocardLatin = document.getElementById('brocardLatin');
+    const brocardTr = document.getElementById('brocardTr');
+    const brocardDesc = document.getElementById('brocardDesc');
+
+    nextBrocard.addEventListener('click', () => {
+      currentBrocardIdx = (currentBrocardIdx + 1) % latinBrocardList.length;
+      const b = latinBrocardList[currentBrocardIdx];
+      brocardLatin.textContent = b.latin;
+      brocardTr.textContent = b.tr;
+      brocardDesc.textContent = b.desc;
+    });
 
     // Dark Mode Toggle
     if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {

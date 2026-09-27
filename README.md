@@ -3,9 +3,9 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/Lisans-MIT-amber.svg)](https://opensource.org/licenses/MIT)
-[![Modules: 7](https://img.shields.io/badge/Mod%C3%BCl-7%20Kapsaml%C4%B1%20Alan-blue.svg)](#-k%C3%BCt%C3%BCphane-ve-dizin-haritas%C4%B1)
-[![Articles: 35+](https://img.shields.io/badge/%C4%B0ncelemeler-35%2B%20Tez%20%26%20Doktrin-emerald.svg)](#-tematik-mod%C3%BCller-ve-do%C4%9Frudan-ba%C4%9Flant%C4%B1lar)
-[![Latin Maxims: 50+](https://img.shields.io/badge/Latince%20Brocard-50%2B%20%C3%96zdeyi%C5%9F-purple.svg)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
+[![Modules: 10](https://img.shields.io/badge/Mod%C3%BCl-10%20Kapsaml%C4%B1%20Alan-blue.svg)](#-k%C3%BCt%C3%BCphane-ve-dizin-haritas%C4%B1)
+[![Articles: 45+](https://img.shields.io/badge/%C4%B0ncelemeler-45%2B%20Tez%20%26%20Doktrin-emerald.svg)](#-tematik-mod%C3%BCller-ve-do%C4%9Frudan-ba%C4%9Flant%C4%B1lar)
+[![Latin Maxims: 75+](https://img.shields.io/badge/Latince%20Brocard-75%2B%20%C3%96zdeyi%C5%9F-purple.svg)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
 [![Status: Complete](https://img.shields.io/badge/Durum-Canl%C4%B1%20ve%20Geli%C5%9Ftiriliyor-success.svg)]()
 
 <br/>
@@ -14,7 +14,7 @@
   <img src="assets/banners/banner_adalet_mulkun_temelidir.png" alt="Adalet Mülkün Temelidir - Türk Hukuk ve Adalet Mimarisi Banner" width="100%">
 </p>
 
-**Hukuk Felsefesi • Pozitif Hukuk Kuramı • Anayasal Devlet Düzeni • Karşılaştırmalı Hukuk • Hukuk Sosyolojisi • Yapay Zekâ & Dijital Adalet**
+**Hukuk Felsefesi • Pozitif Hukuk Kuramı • Anayasal Devlet Düzeni • Karşılaştırmalı Hukuk • Hukuk Sosyolojisi • Yapay Zekâ & Dijital Adalet • Türk Hukuk Tarihi • Uluslararası İnsan Hakları • Çevre Hukuku & Biyoetik**
 
 </div>
 
@@ -32,6 +32,9 @@
 > *(Adalet, herkese hakkı olanı verme konusundaki değişmez ve sürekli iradedir.)*  
 > — **Domitius Ulpianus**, *Digesta (1.1.10)*
 
+> *"Memleket tutmak için çok asker lazımdır; askeri beslemek için mal ve servet lazımdır; serveti elde etmek için halkın zengin olması; halkın zengin olması için ise adil kanunlar lazımdır."*  
+> — **Yusuf Has Hacib**, *Kutadgu Bilig (1069)*
+
 > *"Devletin nihai amacı tahakküm kurmak değil, insanları korkudan arındırarak özgür kılmaktır; adalet ise bu özgürlüğün koruyucu kalkanıdır."*  
 > — **Baruch Spinoza**, *Tractatus Theologico-Politicus (1670)*
 
@@ -40,9 +43,6 @@
 
 > *"Bir tek kişiye yapılan haksızlık, bütün topluma yöneltilmiş bir tehdittir."*  
 > — **Montesquieu**, *Kanunların Ruhu Üzerine (De l'esprit des lois, 1748)*
-
-> *"Adaletsiz bir yasa, yasa olmaktan çok bir şiddet eylemidir."*  
-> — **Aquino'lu Thomas**, *Summa Theologiae (I-II, q. 96, a. 4)*
 
 > *"Hukukun en temel görevi, gücün keyfiyetini kırmak ve zayıfı güçlünün tahakkümünden korumaktır."*  
 > — **Gustav Radbruch**, *Rechtsphilosophie (1932)*
@@ -60,7 +60,7 @@ Kant'a göre bir hukukçunun yanıtlaması gereken iki ayrı soru düzlemi vard�
 1. **Quid Iuris? (Yürürlükteki Hukuk Nedir?):** Belirli bir zamanda ve mekânda pozitif kanunların neyi emrettiği, neyi yasakladığı veya izin verdiği meselesidir (Pozitif Hukukun Alanı).
 2. **Quid Ius? (Hukukun Özü ve Hakkaniyet Nedir?):** Bir normun veya eylemin evrensel ahlaki ve rasyonel standartlar açısından **adil ve meşru** olup olmadığı meselesidir (Hukuk Felsefesinin Alanı).
 
-Bu kütüphane; hukuku yalnızca salt maddelerden ve kanun metinlerinden ibaret görmeyip, onu felsefi temelleri, kurumsal mimarisi, toplumsal işlevleri ve teknolojik dönüşümüyle bir bütün olarak ele almaktadır.
+Bu kütüphane; hukuku yalnızca salt maddelerden ve kanun metinlerinden ibaret görmeyip, onu felsefi temelleri, kurumsal mimarisi, toplumsal işlevleri, tarihi derinliği ve teknolojik dönüşümüyle bir bütün olarak ele almaktadır.
 
 ```mermaid
 flowchart TD
@@ -146,59 +146,22 @@ flowchart TD
 
 ---
 
-## 📖 3. Büyük Düşünürlerden Hukuk ve Adalet Vecizeleri Antolojisi
+<p align="center">
+  <img src="assets/banners/banner_milli_hukuk_ve_adalet.png" alt="Türk Hukuk ve Adalet Mirası Banner" width="100%">
+</p>
 
-### Antikçağ ve Roma Hukukçuları
-* > *"Gerçek yasa; doğayla uyumlu, evrensel, kalıcı, bizi görevlerimizi yerine getirmeye çağıran ve kötülükten alıkoyan doğru akıldır. Bu yasayı değiştirmek günah, yürürlükten kaldırmaya kalkışmak imkânsızdır; ne senato ne de halk bizi bu yasanın bağlayıcılığından muaf tutabilir."*  
-  > — **Marcus Tullius Cicero**, *De Re Publica (Devlet Üzerine, III. Kitap)*
-* > *"Hukukun emirleri şunlardır: Onurlu yaşamak, kimseye zarar vermemek, herkese hakkı olanı vermek."*  
-  > *(Iuris praecepta sunt haec: honeste vivere, alterum non laedere, suum cuique tribuere.)*  
-  > — **Ulpianus**, *Institutiones (Digesta 1.1.10.1)*
-* > *"Hukukun hükümdarı akıl, aklın nihai amacı ise adalettir."*  
-  > — **Platon**, *Nomoi (Yasalar)*
+### F. Türk Hukuk Mirası ve Dâire-i Adliye Sentezi
 
----
+Türk devlet felsefesinde Kutadgu Bilig'den Tanzimat'a ve Cumhuriyet Hukuk Devrimi'ne uzanan çizgide adalet, devletin varlık sebebi kabul edilmiştir:
 
-### Orta Çağ, Skolastik ve Rasyonel Doğal Hukuk
-* > *"Adalet olmadan krallıklar, organize birer haydutluk teşkilatından farksızdır."*  
-  > — **Aziz Augustinus**, *De Civitate Dei*
-* > *"Tanrı olmasaydı bile -ki bunu söylemek büyük bir küfürdür- doğal hukuk aklın gereği olarak yine de geçerliliğini ve bağlayıcılığını korurdu."*  
-  > *(Etiamsi daremus non esse Deum.)*  
-  > — **Hugo Grotius**, *De Jure Belli ac Pacis (Savaş ve Barış Hukuku, 1625)*
-* > *"Kanunların amacı özgürlüğü yok etmek veya kısıtlamak değil; tam tersine onu korumak ve genişletmektir. Çünkü kanunun olmadığı yerde özgürlük de olamaz."*  
-  > — **John Locke**, *Second Treatise of Government (§ 57)*
-
----
-
-### Aydınlanma, Anayasacılık ve Ceza Reformu
-* > *"Bir insanın keyfi olarak hapsedilmesinin engellenmesi, vatandaşların can güvenliğini ve anayasal özgürlüğü teminat altına alan en yüce kaledir."*  
-  > — **William Blackstone**, *Commentaries on the Laws of England (1765)*
-* > *"İnsanların cezalandırılmasındaki meşruiyet sınırı, yalnızca toplumun güvenliğini koruma zorunluluğudur. Bu zorunluluğu aşan her ceza tiranlıktır."*  
-  > — **Cesare Beccaria**, *Suçlar ve Cezalar Hakkında (Dei delitti e delle pene, 1764)*
-* > *"Eğer adalet ortadan kalkarsa, insanların yeryüzünde yaşamasının hiçbir anlamı ve değeri kalmaz."*  
-  > — **Immanuel Kant**, *Die Metaphysik der Sitten (1797)*
-
----
-
-### 19. ve 20. Yüzyıl Hukuk Teorisi ve Pozitivizm
-* > *"Hukukun varlığı bir şeydir; onun ahlaki liyakati veya kusuru ise bambaşka bir şeydir."*  
-  > — **John Austin**, *The Province of Jurisprudence Determined (1832)*
-* > *"Hukuk düzeni, rastgele yan yana duran kurallardan değil, meşruiyetini birbiri ardına sıralanan üst normlardan ve nihayetinde temel normdan (Grundnorm) alan hiyerarşik bir basamaklar piramididir."*  
-  > — **Hans Kelsen**, *Saf Hukuk Kuramı (Reine Rechtslehre, 1934)*
-* > *"Hukuk kuralları kelimelerin doğası gereği açık bir dokuya (open texture) sahiptir. Bu açık doku, hukukun değişen hayat olaylarına nefes alabilmesini sağlar."*  
-  > — **H.L.A. Hart**, *The Concept of Law (1961)*
-* > *"Bireysel anayasal haklar, çoğunluğun menfaati veya faydacı hesapları karşısında bireye verilmiş en güçlü kozdur (Rights as Trumps)."*  
-  > — **Ronald Dworkin**, *Taking Rights Seriously (1977)*
-
----
-
-### Eleştirel Teori, Sosyoloji ve Feminizm
-* > *"Hukukun gelişimi mantıkla değil, bizzat hayatın tecrübesiyle şekillenir."*  
-  > — **Oliver Wendell Holmes Jr.**, *The Common Law (1881)*
-* > *"Devletin çıkardığı kanunlar toplumsal bilince ve yaşayan hukuka dayanmıyorsa, yalnızca kütüphane raflarını dolduran kâğıt yığınlarıdır."*  
-  > — **Eugen Ehrlich**, *Hukuk Sosyolojisinin Temelleri (1913)*
-* > *"Erkek egemen hukuk, kendi taraflı bakış açısını 'evrensel ve objektif gerçeklik' olarak sunmakta ustadır; feminist mücadelenin görevi bu sahte tarafsızlık maskesini düşürmektir."*  
-  > — **Catharine A. MacKinnon**, *Toward a Feminist Theory of the State (1989)*
+```mermaid
+flowchart LR
+    A["Adalet (Adl)"] --> B["Halk / Tebaa (Râiyyet)"]
+    B --> C["Hazine / Mülk"]
+    C --> D["Ordu (Cünd)"]
+    D --> E["Hükümdar / Devlet"]
+    E --> A
+```
 
 ---
 
@@ -206,64 +169,29 @@ flowchart TD
   <img src="assets/banners/banner_digital_law.svg" alt="Dijital Çağ, Yapay Zekâ ve Hukukun Geleceği Banner" width="100%">
 </p>
 
-### Dijital Çağ, Yapay Zekâ ve Geleceğin Hukuku
-* > *"Siber uzayda ve dijital evrende kod yasadır (Code is Law); ancak kodun meşruiyetini denetleyecek olan yine anayasal hukuk ve insan onurudur."*  
-  > — **Lawrence Lessig**, *Code and Other Laws of Cyberspace (1999)*
-* > *"Adalet bir algoritmanın istatistiksel optimizasyonuna indirgenemez; vicdan, hakkaniyet ve insan haysiyeti silikona devredilemez."*  
-  > — **Shoshana Zuboff**, *The Age of Surveillance Capitalism (2019)*
-
 ---
 
-## 📚 4. Kütüphane ve Dizin Haritası
+## 📚 3. Kütüphane ve Dizin Haritası
 
 ```text
 hukuk-kurami-ve-adalet/
-├── index.html                                          # İnteraktif Web Portalı ve Canlı Arama Motoru
+├── index.html                                          # İnteraktif Web Portalı, Canlı Arama ve Simülatör
 ├── 01-felsefe-ve-kuram/                                # MODÜL 01: Hukuk Felsefesi ve Kuramı
-│   ├── README.md                                       # Modül Özeti ve Dizin Haritası
-│   ├── dogal-hukuk-gelenegi/
-│   │   ├── README.md
-│   │   ├── antik-donem-ve-stoa.md                      # Logos, Platon, Aristoteles, Cicero
-│   │   ├── orta-cag-ve-skolastik.md                    # Augustinus, Aquinas ve Dörtlü Norm Düzeni
-│   │   ├── rasyonel-dogal-hukuk.md                     # Grotius, Hobbes, Locke, Rousseau
-│   │   └── radbruch-formulu-ve-modern-donus.md         # Yasal Haksızlık & Yasa Üstü Hukuk
-│   ├── pozitivizm-ve-normativizm/
-│   │   ├── README.md
-│   │   ├── erken-pozitivizm-ve-buyruk-teorisi.md       # Bentham & John Austin Yaptırım Modeli
-│   │   ├── saf-hukuk-kurami-kelsen.md                  # Grundnorm & Hiyerarşik Normativizm
-│   │   ├── hart-hukuk-kavrami.md                       # Rule of Recognition & Open Texture
-│   │   └── hukuki-realizm-ve-elestirel-hukuk.md        # Holmes, Ross, Amerikan Realizmi
-│   └── adalet-teorileri/
-│       ├── README.md
-│       ├── dagitici-ve-duzeltici-adalet.md             # Aristoteles Adalet Tasnifleri
-│       ├── faydacilik-ve-adalet.md                     # Bentham & J.S. Mill Fayda İlkesi
-│       ├── rawls-hakkaniyet-olarak-adalet.md           # Original Position & Fark İlkesi
-│       ├── nozick-ve-liberteryen-adalet.md             # Yetkilenme Kuramı & Minimal Devlet
-│       ├── habermas-ve-muzakereci-demokrasi.md         # İletişimsel Eylem & Kamusal Müzakere
-│       └── sandeller-ve-komuniter-elestiri.md          # Atomistik Birey Eleştirisi & Ortak İyi
+│   ├── README.md
+│   ├── dogal-hukuk-gelenegi/                           # Antik Dönem, Skolastik, Rasyonel, Radbruch
+│   ├── pozitivizm-ve-normativizm/                      # Austin, Kelsen Grundnorm, Hart, Hukuki Realizm
+│   └── adalet-teorileri/                               # Aristoteles, Bentham, Rawls, Nozick, Habermas
 ├── 02-kamu-ve-devlet-duzeni/                           # MODÜL 02: Kamu ve Anayasal Devlet Düzeni
 │   ├── README.md
-│   ├── anayasal-devlet-ve-egemenlik/
-│   │   ├── README.md
-│   │   ├── egemenlik-kavraminin-evrimi.md              # Bodin, Hobbes, Rousseau, Modern Egemenlik
-│   │   ├── anayasa-ustunlugu-ve-yargisal-denetim.md    # Marbury v. Madison & AYM Denetim Modelleri
-│   │   └── temel-haklar-ve-insan-onuru.md              # İnsan Onuru & Hakkın Özü Güvencesi
-│   ├── kuvvetler-ayriligi/
-│   │   ├── README.md
-│   │   ├── montesquieu-ve-fren-denge-sistemi.md        # Checks and Balances & Erkler Ayrılığı
-│   │   ├── hukumet-sistemleri-ve-erkler-iliskisi.md    # Parlamenter, Başkanlık, Yarı-Başkanlık
-│   │   └── yargi-bagimsizligi-ve-tarafsizligi.md       # Hâkimlik Teminatı & Doğal Hâkim İlkesi
-│   └── idarenin-hukukiligi/
-│       ├── README.md
-│       ├── kanuni-idare-ve-bagli-yetki-takdir-yetkisi.md # Kanuni İdare & Takdir Yetkisi Sınırları
-│       ├── hukuki-guvenlik-ve-kazanilmis-haklar.md     # Belirlilik, İstikrar & Haklı Beklentiler
-│       └── idari-islemlerin-iptal-sebepleri.md         # Yetki, Şekil, Sebep, Konu, Maksat
+│   ├── anayasal-devlet-ve-egemenlik/                   # Egemenlik Evrimi, Anayasa Yargısı, İnsan Onuru
+│   ├── kuvvetler-ayriligi/                             # Montesquieu, Hükümet Sistemleri, Yargı Bağımsızlığı
+│   └── idarenin-hukukiligi/                            # Bağlı/Takdir Yetkisi, Güvenlik, İptal Sebepleri
 ├── 03-kavramlar-ve-doktrinler/                         # MODÜL 03: Temel Doktrinler, Usul & Mantık
 │   ├── README.md
 │   ├── normlar-hiyerarsisi.md                          # Stufenbaulehre & Antinomi Kuralları
 │   ├── hukuki-yorumsal-yontemler.md                    # Hermeneutik, Lafzi, Teleolojik, A Fortiori
 │   ├── hukuk-boslugu-ve-hakimin-hukuk-yaratmasi.md     # TMK m. 1/2 & Teleolojik İndirgeme
-│   ├── hak-kavrami-ve-turleri.md                       # Hohfeld Hak Matrisi & İnşai Haklar
+│   ├── hak-kavrami-ve-turleri.md                       # Hohfeld Hak Matrisi & Yenilik Doğuran Haklar
 │   ├── hukukta-nedensellik-ve-sorumluluk.md            # Uygun İlliyet & Kusursuz Sorumluluk
 │   ├── olcululuk-ve-belirlilik.md                      # Elverişlilik, Gereklilik, Orantılılık
 │   ├── tabii-hakim-ilkesi.md                           # Kanuni Hâkim Güvencesi
@@ -274,8 +202,8 @@ hukuk-kurami-ve-adalet/
 │   ├── README.md
 │   ├── klasik-metinler.md                              # Antikçağ & Aydınlanma Temel Metinleri
 │   ├── modern-literatur.md                             # Çağdaş Hukuk Monografileri & Makaleler
-│   ├── ictihat-ve-emsal-kararlar.md                    # AİHM, BVerfG, ABD Supreme Court, AYM
-│   └── kavramlar-ve-latince-hukuk-terimleri-sozlugu.md # Brocardica Juridica (50+ Latince Kural)
+│   ├── ictihat-ve-emsal-kararlar.md                    # AİHM, BVerfG, ABD Supreme Court, AYM, Danıştay, Yargıtay
+│   └── kavramlar-ve-latince-hukuk-terimleri-sozlugu.md # Brocardica Juridica (75+ Latince Kural & Çeviri)
 ├── 05-karsilastirmali-hukuk-ve-sistemler/              # MODÜL 05: Karşılaştırmalı Hukuk Düzenleri
 │   ├── README.md
 │   ├── kita-avrupasi-ve-ortak-hukuk-karsilastirmasi.md # Civil Law vs Common Law & Stare Decisis
@@ -284,21 +212,38 @@ hukuk-kurami-ve-adalet/
 │   └── gecis-donemi-adaleti-ve-yuzlesme.md             # Hakikat Komisyonları & Lustration
 ├── 06-hukuk-sosyolojisi-ve-elestirel-yaklasimlar/      # MODÜL 06: Sosyoloji & Eleştirel Teori
 │   ├── README.md
-│   ├── hukuk-sosyolojisinin-temelleri.md               # Ehrlich Yaşayan Hukuk, Weber, Durkheim
+│   ├── hukuk-sosyolojisinin-temelleri.md               # Ehrlich Yaşayan Hukuk, Weber, Durkheim, Pound
 │   ├── elestirel-hukuk-calismalari-ve-postmodernizm.md # CLS Hareketi, Indeterminacy, Foucault
 │   ├── feminist-hukuk-teorisi-ve-toplumsal-cinsiyet.md # MacKinnon, Bakım Etiği, Kesişimsellik
 │   └── hukuk-ve-iktisat-ekolu.md                       # Coase Teoremi, Posner, Kaldor-Hicks
-└── 07-dijital-cag-yapay-zeka-ve-hukukun-gelecegi/      # MODÜL 07: Yapay Zekâ & Dijital Hukuk
+├── 07-dijital-cag-yapay-zeka-ve-hukukun-gelecegi/      # MODÜL 07: Yapay Zekâ & Dijital Hukuk
+│   ├── README.md
+│   ├── yapay-zeka-ve-hukuki-kisilik-sorunu.md          # E-Personhood, AI Act Risk Piramidi
+│   ├── algoritmik-adalet-ve-yargisal-otomasyon.md      # COMPAS Vakası, CEPEJ Şartı, Tahminleyici Yargı
+│   ├── dijital-haklar-veri-egemenligi-ve-mahremiyet.md # GDPR, KVKK, Unutulma Hakkı, Nörohukuk
+│   └── akilli-sozlesmeler-ve-merkeziyetsiz-hukuk.md    # Code is Law, DAO Hukuku, Blokzincir Tahkimi
+├── 08-turk-hukuk-tarihi-ve-anayasal-evrim/             # MODÜL 08: Türk Hukuk Tarihi ve Cumhuriyet Devrimi
+│   ├── README.md
+│   ├── 01-eski-turk-toresi-ve-islam-hukuku-sentezi.md  # Kutadgu Bilig, Kanunnameler, Kadılık ve Dâire-i Adliye
+│   ├── 02-tanzimat-ve-kanunilestirme-mecelle.md        # Tanzimat (1839), Kanun-i Esasi (1876), Mecelle 99 Kaide
+│   ├── 03-cumhuriyet-hukuk-devrimi-ve-laiklesme.md     # 1926 Medeni Kanun İktibası, Laik Hukuk, Eşitlik
+│   └── 04-turk-anayasa-yargisi-ve-demokratiklesme-tarihi.md # 1961-1982 Anayasaları, AYM ve Bireysel Başvuru
+├── 09-insan-haklari-ve-uluslararasi-yargi/             # MODÜL 09: Uluslararası İnsan Hakları ve Yargı
+│   ├── README.md
+│   ├── 01-aihs-ve-avrupa-insan-haklari-mahkemesi-sistemi.md # AİHS, Subsidiarite, Takdir Marjı, Yaşayan Belge
+│   ├── 02-adil-yargilanma-hakki-ve-usuli-guvenceler.md # AİHS Madde 6, Silahların Eşitliği, Salduz İlkesi
+│   ├── 03-insan-haklari-ihlallerinde-yargisal-telafi-ve-pilot-karar.md # Pilot Karar, İade-i Muhakeme, Tazminat
+│   └── 04-uluslararasi-ceza-adaleti-ve-insanliga-karsi-suclar.md # Roma Statüsü, UCM/ICC, Evrensel Yargı Yetkisi
+└── 10-cevre-hukuku-ve-biyoetik/                        # MODÜL 10: Ekolojik Hukuk Devleti ve Biyoetik
     ├── README.md
-    ├── yapay-zeka-ve-hukuki-kisilik-sorunu.md          # E-Personhood, AI Act Risk Piramidi
-    ├── algoritmik-adalet-ve-yargisal-otomasyon.md      # COMPAS Vakası, CEPEJ Şartı, Tahminleyici Yargı
-    ├── dijital-haklar-veri-egemenligi-ve-mahremiyet.md # GDPR, KVKK, Unutulma Hakkı, Nörohukuk
-    └── akilli-sozlesmeler-ve-merkeziyetsiz-hukuk.md    # Code is Law, DAO Hukuku, Blokzincir Tahkimi
+    ├── 01-iklim-adaleti-ve-gelecek-nesillere-sorumluluk.md # Hans Jonas, Urgenda & Neubauer Emsal Kararları
+    ├── 02-eko-merkezci-hukuk-ve-dogaya-kisilik-taninmasi.md # Christopher Stone, Pachamama, Nehir Kişiliği
+    └── 03-biyoetik-genetik-hukuk-ve-insan-onuru.md     # CRISPR, Oviedo Biyoetik Sözleşmesi, Ötenazi & Onam
 ```
 
 ---
 
-## 🧭 5. Tematik Modüllere Hızlı Erişim
+## 🧭 4. Tematik Modüllere Doğrudan Bağlantılar
 
 ### [01. Felsefe ve Kuram](01-felsefe-ve-kuram/README.md)
 * **Doğal Hukuk:** [Antikçağ & Stoa](01-felsefe-ve-kuram/dogal-hukuk-gelenegi/antik-donem-ve-stoa.md) | [Skolastik Hukuk](01-felsefe-ve-kuram/dogal-hukuk-gelenegi/orta-cag-ve-skolastik.md) | [Rasyonel Doğal Hukuk](01-felsefe-ve-kuram/dogal-hukuk-gelenegi/rasyonel-dogal-hukuk.md) | [Radbruch Formülü](01-felsefe-ve-kuram/dogal-hukuk-gelenegi/radbruch-formulu-ve-modern-donus.md)
@@ -325,14 +270,8 @@ hukuk-kurami-ve-adalet/
 ### [04. Kaynakça, Literatür ve Sözlük](04-kaynakca-ve-okuma-listesi/README.md)
 * [Klasik Metinler ve Çeviriler](04-kaynakca-ve-okuma-listesi/klasik-metinler.md)
 * [Modern Literatür ve Makaleler](04-kaynakca-ve-okuma-listesi/modern-literatur.md)
-* [Emsal Yüksek Mahkeme Kararları (AİHM, BVerfG, AYM, Danıştay)](04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md)
-* [Latince Hukuk Özdeyişleri ve Terimler Sözlüğü (Brocardica Juridica)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
-
----
-
-<p align="center">
-  <img src="assets/banners/banner_milli_hukuk_ve_adalet.png" alt="Türk Hukuk ve Adalet Mirası Banner" width="100%">
-</p>
+* [Emsal Yüksek Mahkeme Kararları (AİHM, BVerfG, AYM, Danıştay, Yargıtay)](04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md)
+* [Latince Hukuk Özdeyişleri ve Terimler Sözlüğü (Brocardica Juridica - 75+ Brocard)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
 
 ### [05. Karşılaştırmalı Hukuk ve Sistemler](05-karsilastirmali-hukuk-ve-sistemler/README.md)
 * [Kıta Avrupası (*Civil Law*) ve Ortak Hukuk (*Common Law*) Karşılaştırması](05-karsilastirmali-hukuk-ve-sistemler/kita-avrupasi-ve-ortak-hukuk-karsilastirmasi.md)
@@ -352,49 +291,39 @@ hukuk-kurami-ve-adalet/
 * [Dijital Haklar, Veri Egemenliği ve Mahremiyet (GDPR, KVKK, Unutulma Hakkı)](07-dijital-cag-yapay-zeka-ve-hukukun-gelecegi/dijital-haklar-veri-egemenligi-ve-mahremiyet.md)
 * [Akıllı Sözleşmeler, Blokzincir ve Merkeziyetsiz Hukuk (Code is Law & DAO)](07-dijital-cag-yapay-zeka-ve-hukukun-gelecegi/akilli-sozlesmeler-ve-merkeziyetsiz-hukuk.md)
 
+### [08. Türk Hukuk Tarihi, Tanzimat ve Cumhuriyet Devrimi](08-turk-hukuk-tarihi-ve-anayasal-evrim/README.md)
+* [Eski Türk Töresi ve İslam Hukuku Sentezi (Kutadgu Bilig, Kanunnameler, Dâire-i Adliye)](08-turk-hukuk-tarihi-ve-anayasal-evrim/01-eski-turk-toresi-ve-islam-hukuku-sentezi.md)
+* [Tanzimat Fermanı (1839), Kanun-i Esâsî (1876) ve Mecelle-i Ahkâm-ı Adliye](08-turk-hukuk-tarihi-ve-anayasal-evrim/02-tanzimat-ve-kanunilestirme-mecelle.md)
+* [Cumhuriyet Hukuk Devrimi, Medeni Kanun İktibası ve Laik Hukuk Nizamı](08-turk-hukuk-tarihi-ve-anayasal-evrim/03-cumhuriyet-hukuk-devrimi-ve-laiklesme.md)
+* [Türk Anayasa Yargısı, AYM ve Bireysel Başvuru Rejimi](08-turk-hukuk-tarihi-ve-anayasal-evrim/04-turk-anayasa-yargisi-ve-demokratiklesme-tarihi.md)
+
+### [09. Uluslararası İnsan Hakları ve Yargısal Koruma](09-insan-haklari-ve-uluslararasi-yargi/README.md)
+* [AİHS ve Avrupa İnsan Hakları Mahkemesi Sistemi (Subsidiarite & Takdir Marjı)](09-insan-haklari-ve-uluslararasi-yargi/01-aihs-ve-avrupa-insan-haklari-mahkemesi-sistemi.md)
+* [Adil Yargılanma Hakkı ve Usuli Güvenceler (AİHS Madde 6 & Salduz Kuralı)](09-insan-haklari-ve-uluslararasi-yargi/02-adil-yargilanma-hakki-ve-usuli-guvenceler.md)
+* [İnsan Hakları İhlallerinde Yargısal Telafi, Pilot Karar ve İade-i Muhakeme](09-insan-haklari-ve-uluslararasi-yargi/03-insan-haklari-ihlallerinde-yargisal-telafi-ve-pilot-karar.md)
+* [Uluslararası Ceza Adaleti, Roma Statüsü ve İnsanlığa Karşı Suçlar (UCM/ICC)](09-insan-haklari-ve-uluslararasi-yargi/04-uluslararasi-ceza-adaleti-ve-insanliga-karsi-suclar.md)
+
+### [10. Çevre Hukuku, Gelecek Nesiller ve Biyoetik](10-cevre-hukuku-ve-biyoetik/README.md)
+* [İklim Adaleti, Gelecek Nesiller ve Anayasal Yükümlülükler (Hans Jonas & Neubauer)](10-cevre-hukuku-ve-biyoetik/01-iklim-adaleti-ve-gelecek-nesillere-sorumluluk.md)
+* [Eko-Merkezci Hukuk Kuramı ve Doğaya Tüzel Kişilik Tanınması (Whanganui & Pachamama)](10-cevre-hukuku-ve-biyoetik/02-eko-merkezci-hukuk-ve-dogaya-kisilik-taninmasi.md)
+* [Biyoetik Hukuku, Genetik Müdahaleler ve İnsan Onuru (CRISPR & Oviedo)](10-cevre-hukuku-ve-biyoetik/03-biyoetik-genetik-hukuk-ve-insan-onuru.md)
+
 ---
 
-## ⚖️ 6. Metodoloji ve Akademik Standartlar
+## ⚖️ 5. Metodoloji ve Akademik Standartlar
 
-1. **Kavramsal ve Doktriner Derinlik:** Hukuki kavramlar hem tarihsel-felsefi kökenleri hem de pozitif hukuk uygulamasındaki sonuçları itibarıyla açıklanır.
-2. **Karşılaştırmalı Perspektif:** Kıta Avrupası Hukuku (*Civil Law*) ve Ortak Hukuk (*Common Law*) geleneklerinin adalet, yargılama ve hukuk devleti kavrayışları mukayese edilir.
-3. **Doktrin - İçtihat Bütünlüğü:** Soyut felsefi ilkeler, Anayasa Mahkemesi ve AİHM gibi yüksek yargı organlarının somut norm denetimi ve bireysel başvuru kararlarıyla desteklenir.
-4. **Geleceğin Hukuku ve Dijital Adalet:** Yapay zekâ, veri mahremiyeti ve blokzincir gibi yeni nesil meydan okumalar evrensel insan onuru standardıyla ele alınır.
-5. **Açık ve Evrensel Bilgi:** Hukukun üstünlüğü, kuvvetler ayrılığı, insan onuru ve keyfiyetin önlenmesi gayesine hizmet eden açık kaynak akademik bilgi mimarisi sunulur.
-
----
-
-## 📜 7. Temel Okuma Listesi ve Bibliyografya
-
-* **Platon** — *Devlet (Politeia)* & *Yasalar (Nomoi)*
-* **Aristoteles** — *Nikomakhos'a Etik (Ethica Nicomachea)* & *Politika (Politica)*
-* **Marcus Tullius Cicero** — *Devlet Üzerine (De Re Publica)* & *Yasalar Üzerine (De Legibus)*
-* **Thomas Aquinas** — *Summa Theologiae (Tractatus de Legibus & Tractatus de Justitia)*
-* **Thomas Hobbes** — *Leviathan, or The Matter, Forme and Power of a Commonwealth (1651)*
-* **John Locke** — *Second Treatise of Government: An Essay Concerning the True Original, Extent, and End of Civil Government (1689)*
-* **Baruch Spinoza** — *Tractatus Theologico-Politicus (1670)* & *Tractatus Politicus (1677)*
-* **Charles de Montesquieu** — *De l'esprit des lois (Kanunların Ruhu Üzerine, 1748)*
-* **Jean-Jacques Rousseau** — *Du contrat social; ou, Principes du droit politique (1762)*
-* **Immanuel Kant** — *Die Metaphysik der Sitten: Rechtslehre (1797)*
-* **Georg Wilhelm Friedrich Hegel** — *Grundlinien der Philosophie des Rechts (Hukuk Felsefesinin Prensipleri, 1821)*
-* **John Austin** — *The Province of Jurisprudence Determined (1832)*
-* **Hans Kelsen** — *Reine Rechtslehre (Saf Hukuk Kuramı, 1934/1960)*
-* **Gustav Radbruch** — *Rechtsphilosophie (1932)* & *Gesetzliches Unrecht und übergesetzliches Recht (1946)*
-* **H.L.A. Hart** — *The Concept of Law (1961)* & *Essays on Bentham (1982)*
-* **Lon L. Fuller** — *The Morality of Law (Hukukun Ahlakı, 1964)*
-* **Ronald Dworkin** — *Taking Rights Seriously (1977)* & *Law's Empire (1986)*
-* **John Rawls** — *A Theory of Justice (1971)* & *Political Liberalism (1993)*
-* **Robert Nozick** — *Anarchy, State, and Utopia (1974)*
-* **Jürgen Habermas** — *Faktizität und Geltung: Beiträge zur Diskurstheorie des Rechts und des demokratischen Rechtsstaates (1992)*
-* **Catharine A. MacKinnon** — *Toward a Feminist Theory of the State (1989)*
-* **Richard A. Posner** — *Economic Analysis of Law (1973/2014)*
+1. **Kavramsal ve Doktriner Derinlik:** Hukuki kavramlar hem tarihsel-felsefi kökenleri hem de pozitif hukuk uygulamasındaki pratik sonuçları itibarıyla açıklanır.
+2. **Karşılaştırmalı Perspektif:** Kıta Avrupası Hukuku (*Civil Law*), Ortak Hukuk (*Common Law*) ve Doğu/İslam geleneklerinin adalet ve hukuk devleti kavrayışları mukayese edilir.
+3. **Doktrin - İçtihat Bütünlüğü:** Soyut felsefi ilkeler, AYM, AİHM, Danıştay ve Yargıtay emsal kararlarıyla desteklenir.
+4. **Geleceğin Hukuku ve Dijital Adalet:** Yapay zekâ, veri mahremiyeti, blokzincir ve biyoetik insan onuru ve anayasal standartlar ışığında ele alınır.
+5. **Açık ve Evrensel Bilgi:** Hukukun üstünlüğü, kanun önünde eşitlik, keyfiyetin önlenmesi ve insan haysiyeti gayesine hizmet eden açık kaynak dokümantasyon sunulur.
 
 ---
 
 <div align="center">
 
-*Hukukun üstünlüğü, kanun önünde eşitlik, keyfiyetten arındırılmış rasyonel nizam ve insan onurunun korunması adına açık kaynak dokümantasyon kütüphanesi.*
+*Hukukun üstünlüğü, adil yargılanma hakkı, kanun önünde mutlak eşitlik ve insan onurunun korunması adına açık kaynak akademik başvuru kütüphanesi.*
 
-**[🌐 İnteraktif Bilgi Portalını Aç (index.html)](index.html)**
+**[🌐 İnteraktif Bilgi Portalını Başlat (index.html)](index.html)**
 
 </div>

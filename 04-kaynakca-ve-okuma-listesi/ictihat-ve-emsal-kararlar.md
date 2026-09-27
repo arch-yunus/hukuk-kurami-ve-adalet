@@ -1,6 +1,6 @@
 # Emsal Yüksek Mahkeme İçtihatları Kütüphanesi
 
-> *"Hukukun somut hayattaki nefesi yargı kararlarıdır."*
+> *"Hukukun somut hayattaki nefesi yargı kararlarıdır; adalet ise o kararların ruhudur."*
 
 ---
 
@@ -8,11 +8,11 @@
 
 ### 1. *Marbury v. Madison* (1803) — ABD Federal Yüksek Mahkemesi
 * **Konu:** Yargısal Denetim (*Judicial Review*) ve Anayasa Üstünlüğü.
-* **Hüküm:** Anayasaya aykırı kanunların mahkemeler tarafından uygulanamayacağı ve Anayasanın üstünlüğü ilkesi ilk kez açıkça içtihat haline getirilmiştir.
+* **Hüküm:** Başyargıç John Marshall; Anayasa ile sıradan kanun çeliştiğinde mahkemelerin Anayasa'ya uymak ve kanunu hükümsüz saymakla yükümlü olduğunu ilan ederek anayasa yargısının temelini atmıştır.
 
 ### 2. *Lüth Kararı* (1958) — Alman Federal Anayasa Mahkemesi (*BVerfGE 7, 198*)
 * **Konu:** Temel Hakların Üçüncü Kişilere Etkisi (*Drittwirkung*) ve Nesnel Değer Düzeni.
-* **Hüküm:** Temel hakların sadece bireyin devlete karşı kalkanı değil, tüm özel hukuk ilişkilerine ve hukuk düzenine ışık tutan nesnel bir değerler sistemi olduğu kabul edilmiştir.
+* **Hüküm:** Temel haklar yalnızca bireyin devlete karşı kalkanı değil, tüm özel hukuk ilişkilerine ve hukuk düzenine ışık tutan nesnel bir değerler sistemidir (*Ausstrahlungswirkung*).
 
 ### 3. *Kaya v. Türkiye* (1998) & *Salduz v. Türkiye* (2008) — AİHM
 * **Konu:** Yaşam Hakkı (Etkin Soruşturma Yükümlülüğü) ve Adil Yargılanma Hakkı (Müdafi Yardımından Yararlanma).
@@ -21,6 +21,10 @@
 ### 4. *Sunday Times v. Birleşik Krallık* (1979) — AİHM
 * **Konu:** Hukuki Belirlilik ve "Kanunla Öngörülmüş Olma" Ölçütü.
 * **Hüküm:** Bir kuralın "kanun" sayılabilmesi için yalnızca yazılı olması yetmez; muhatapları açısından **erişilebilir (*accessible*)** ve **öngörülebilir (*foreseeable*)** olması zorunludur.
+
+### 5. *Neubauer ve Diğerleri v. Almanya* (2021) — Alman Anayasa Mahkemesi
+* **Konu:** İklim Değişikliği, Kuşaklararası Haklar ve Gelecek Nesillerin Özgürlüğü.
+* **Hüküm:** Karbon emisyon azaltımının 2030 sonrasına ertelenmesi; gençlerin ve doğmamış nesillerin temel haklarını gelecekte aşırı ve orantısız kısıtlayacağı gerekçesiyle iptal edilmiştir.
 
 ---
 
@@ -36,18 +40,24 @@
 ### 3. İnternet Erişim Engellemeleri Pilot Kararı (*Gaşpar Kararı*, 2021)
 * **Özet:** 5651 sayılı Kanun kapsamında verilen internet erişim engeli kararlarının ifade ve basın özgürlüğünü yapısal olarak ihlal ettiği tespit edilmiş ve TBMM'ye kanuni düzenleme yapılması için bildirimde bulunulmuştur.
 
+### 4. Sendika Hakkı ve Barışçıl Toplantı Kararı (*DİSK / KESK 1 Mayıs Kararı*, 2023)
+* **Özet:** Mekânın sembolik değeri ve kolektif hafıza gerekçesiyle Taksim Meydanı'nda 1 Mayıs kutlama yasağının toplantı ve gösteri yürüyüşü hakkını ihlal ettiğine hükmedilmiştir.
+
 ---
 
-## 🏢 3. Danıştay Emsal Kararları (İdarenin Hukukiliği)
+## 🏢 3. Danıştay ve Yargıtay Emsal Kararları
 
-### 1. Kazanılmış Hak ve Süre Aşımı Kararı (Danıştay İDDK, E.2012/624)
+### 1. Kazanılmış Hak ve Süre Aşımı (Danıştay İDDK, E.2012/624)
 * **Özet:** İdarenin kendi yaptığı açık hataya dayalı idari işlemi ancak makul dava açma süresi içinde geri alabileceği; uzun yıllar sonra yapılan geri almanın hukuki güvenlik ve kazanılmış hakları ihlal edeceği hükme bağlanmıştır.
 
-### 2. Takdir Yetkisi ve Objektif Kriterler Kararı (Danıştay 5. Daire, E.2016/112)
-* **Özet:** İdareye tanınan takdir yetkisinin kamu yararı ve hizmet gerekleri dışında, subjektif değerlendirmelerle kullanılamayacağı; mülakat ve atama işlemlerinin somut gerekçelere dayandırılması gerektiği vurgulanmıştır.
+### 2. Takdir Yetkisi ve Objektif Kriterler (Danıştay 5. Daire, E.2016/112)
+* **Özet:** İdareye tanınan takdir yetkisinin kamu yararı ve hizmet gerekleri dışında, sübjektif değerlendirmelerle kullanılamayacağı; mülakat ve atama işlemlerinin somut, denetlenebilir gerekçelere dayandırılması gerektiği vurgulanmıştır.
+
+### 3. Zehirli Ağacın Meyvesi İlkesi (Yargıtay Ceza Genel Kurulu, E.2013/841, K.2014/513)
+* **Özet:** Hukuka aykırı yöntemlerle (hâkim kararı olmaksızın arama, usulsüz dinleme) elde edilen delillerin ceza muhakemesinde hükme esas alınamayacağı ve bu deliller vasıtasıyla ulaşılan dolaylı delillerin de geçersiz sayılacağı teyit edilmiştir.
 
 ---
 
 ## 📌 Sonuç
 
-Bu içtihatlar; felsefi teorilerin soyut birer düşünce olmaktan çıkıp, somut olaylarda bireyin özgürlüğünü ve hakkını savunan yaşayan birer kalkan olduğunu somutlaştırmaktadır.
+Bu içtihatlar; felsefi teorilerin soyut birer düşünce olmaktan çıkıp, somut olaylarda bireyin özgürlüğünü, adaletini ve insan onurunu koruyan yaşayan birer anayasal kalkan olduğunu somutlaştırmaktadır.
