@@ -3,8 +3,8 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/Lisans-MIT-amber.svg)](https://opensource.org/licenses/MIT)
-[![Modules: 10](https://img.shields.io/badge/Mod%C3%BCl-10%20Kapsaml%C4%B1%20Alan-blue.svg)](#-k%C3%BCt%C3%BCphane-ve-dizin-haritas%C4%B1)
-[![Articles: 45+](https://img.shields.io/badge/%C4%B0ncelemeler-45%2B%20Tez%20%26%20Doktrin-emerald.svg)](#-tematik-mod%C3%BCller-ve-do%C4%9Frudan-ba%C4%9Flant%C4%B1lar)
+[![Modules: 10](https://img.shields.io/badge/Mod%C3%BCl-10%20Kapsaml%C4%B1%20Alan-blue.svg)](#-3-k%C3%BCt%C3%BCphane-ve-dizin-haritas%C4%B1)
+[![Articles: 45+](https://img.shields.io/badge/%C4%B0ncelemeler-45%2B%20Tez%20%26%20Doktrin-emerald.svg)](#-4-tematik-mod%C3%BCllere-do%C4%9Frudan-ba%C4%9Flant%C4%B1lar)
 [![Latin Maxims: 75+](https://img.shields.io/badge/Latince%20Brocard-75%2B%20%C3%96zdeyi%C5%9F-purple.svg)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
 [![Aphorisms: 100+](https://img.shields.io/badge/Adalet%20Aforizmalar%C4%B1-100%2B%20%C3%96zdeyi%C5%9F-rose.svg)](04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md)
 [![Status: Complete](https://img.shields.io/badge/Durum-Canl%C4%B1%20ve%20Geli%C5%9Ftiriliyor-success.svg)]()
@@ -16,6 +16,10 @@
 </p>
 
 **Hukuk Felsefesi • Pozitif Hukuk Kuramı • Anayasal Devlet Düzeni • Karşılaştırmalı Hukuk • Hukuk Sosyolojisi • Yapay Zekâ & Dijital Adalet • Türk Hukuk Tarihi • Uluslararası İnsan Hakları • Çevre Hukuku & Biyoetik**
+
+<br/>
+
+[🧭 1. Epistemoloji](#-1-giri%C5%9F-ve-epistemolojik-%C3%A7er%C3%A7eve-quid-ius) • [🔍 2. Doktrinler](#-2-kapsaml%C4%B1-doktrin-ve-teori-%C4%B0ncelemeleri) • [🕊️ Adalet Ruhu](#g-adaletin-ruhu-ve-%C4%B0nsanl%C4%B1k-vicdan%C4%B1-tematik-al%C4%B1nt%C4%B1lar-ve-felsefi-bildiri) • [📚 3. Harita](#-3-k%C3%BCt%C3%BCphane-ve-dizin-haritas%C4%B1) • [📂 4. Modüller](#-4-tematik-mod%C3%BCllere-do%C4%9Frudan-ba%C4%9Flant%C4%B1lar) • [🧪 5. Web Portalı](#-5-%C4%B0nteraktif-web-portal%C4%B1-ve-muhakeme-sim%C3%BClat%C3%B6r%C3%BC) • [⚖️ 6. Metodoloji](#%EF%B8%8F-6-metodoloji-ve-akademik-standartlar) • [📖 7. Atıf](#-7-akademik-at%C4%B1f-ve-kaynak-g%C3%B6sterme)
 
 </div>
 
@@ -65,19 +69,22 @@ $$\text{"Noch suchen die Juristen eine Definition zu ihrem Begriffe von Recht."}
 *(Hukukçular hâlâ kendi hukuk kavramlarının tanımını aramaktadırlar.)*
 
 Kant'a göre bir hukukçunun yanıtlaması gereken iki ayrı soru düzlemi vardır:
-1. **Quid Iuris? (Yürürlükteki Hukuk Nedir?):** Belirli bir zamanda ve mekânda pozitif kanunların neyi emrettiği, neyi yasakladığı veya izin verdiği meselesidir (Pozitif Hukukun Alanı).
-2. **Quid Ius? (Hukukun Özü ve Hakkaniyet Nedir?):** Bir normun veya eylemin evrensel ahlaki ve rasyonel standartlar açısından **adil ve meşru** olup olmadığı meselesidir (Hukuk Felsefesinin Alanı).
-
-Bu kütüphane; hukuku yalnızca salt maddelerden ve kanun metinlerinden ibaret görmeyip, onu felsefi temelleri, kurumsal mimarisi, toplumsal işlevleri, tarihi derinliği ve teknolojik dönüşümüyle bir bütün olarak ele almaktadır.
+1. **Quid Iuris? (Yürürlükteki Hukuk Nedir?):** Belirli bir zamanda ve mekânda pozitif kanunların neyi emrettiği, neyi yasakladığı veya izin verdiği meselesidir (*Pozitif Hukukun Alanı*).
+2. **Quid Ius? (Hukukun Özü ve Hakkaniyet Nedir?):** Bir normun veya eylemin evrensel ahlaki ve rasyonel standartlar açısından **adil ve meşru** olup olmadığı meselesidir (*Hukuk Felsefesinin Alanı*).
 
 ```mermaid
 flowchart TD
     subgraph Hukukun Üç Boyutlu Doğası (Dreidimensionale Rechtstheorie)
-        A["1. Normatif Boyut (Geçerlilik / Sollen)"] <--> B["2. Olgusal / Sosyolojik Boyut (Etkililik / Sein)"]
-        B <--> C["3. Aksiyolojik / Felsefi Boyut (Adalet / Değer)"]
+        A["1. Normatif Boyut (Geçerlilik / Sollen)<br>Kelsen, Austin, Hart"] <--> B["2. Olgusal / Sosyolojik Boyut (Etkililik / Sein)<br>Weber, Ehrlich, Holmes"]
+        B <--> C["3. Aksiyolojik / Felsefi Boyut (Adalet / Değer)<br>Aristoteles, Radbruch, Rawls"]
         C <--> A
     end
 ```
+
+### Hukukun Aksiyolojik Temelleri:
+* **Dağıtıcı Adalet Formülü (Aristoteles):** $\frac{\text{Kişi } A}{\text{Kişi } B} = \frac{\text{Pay } A}{\text{Pay } B}$ *(Geometrik Orantı / Hak Edişe Göre Bölüşüm)*
+* **Düzeltici Adalet Formülü (Aristoteles):** $(A - x) + x = (B + x) - x$ *(Aritmetik Eşitlik / Haksız Fiilin Telafisi)*
+* **Kantçı Kategorik Buyruk:** *"Öyle hareket et ki, eyleminin ilkesi evrensel bir doğa yasası olabilsin; insanlığı asla salt bir araç değil, her zaman bir amaç olarak gör."*
 
 ---
 
@@ -85,15 +92,13 @@ flowchart TD
 
 ### A. Doğal Hukuk vs Hukuki Pozitivizm Antagonizması
 
-Hukuk felsefesi tarihinin en derin tartışması; "Hukuk ile Ahlak arasında zorunlu bir bağ var mıdır?" sorusu etrafında şekillenmiştir:
-
 ```mermaid
 flowchart LR
-    A["Hukuk ile Ahlak İlişkisi"] --> B["Doğal Hukuk (Lex Injusta Non Est Lex)<br>Hukuk ile ahlak arasında zorunlu bağ vardır.<br>Adil olmayan yasa hukuki geçerlilik taşımaz."]
-    A --> C["Hukuki Pozitivizm (Separability Thesis)<br>Hukuk ile ahlak birbirinden ayrıdır.<br>Bir normun geçerliliği ahlaki içeriğine değil,<br>usulüne uygun ihdasına bağlıdır."]
+    A["Hukuk ile Ahlak İlişkisi"] --> B["Doğal Hukuk (Lex Injusta Non Est Lex)<br>• Hukuk ile ahlak arasında zorunlu bağ vardır.<br>• Adil olmayan yasa hukuki geçerlilik taşımaz.<br>• Temsilciler: Augustinus, Aquinas, Fuller, Finnis"]
+    A --> C["Hukuki Pozitivizm (Separability Thesis)<br>• Hukuk ile ahlak birbirinden ayrıdır.<br>• Bir normun geçerliliği ahlaki içeriğine değil,<br>usulüne uygun ihdasına bağlıdır.<br>• Temsilciler: Austin, Kelsen, Hart, Raz"]
 ```
 
-#### Karşılaştırmalı Matris:
+#### Karşılaştırmalı Doktrin Matrisi:
 | Parametre | Doğal Hukuk Geleneği (*Natural Law*) | Hukuki Pozitivizm (*Legal Positivism*) |
 | :--- | :--- | :--- |
 | **Geçerlilik Kriteri** | Evrensel adalet, insan doğası ve rasyonel ahlak normlarına uygunluk. | Yetkili organ tarafından usulüne uygun konulmuş olma (*Promulgation*). |
@@ -135,8 +140,8 @@ John Rawls, 1971 tarihli başyapıtı *A Theory of Justice* ile faydacılığın
 
 H.L.A. Hart'ın pozitivizmine karşı çıkan Ronald Dworkin, hukukun yalnızca açık "kurallardan" (*rules*) oluşmadığını, kuralların arkasında yatan **"ilkeler" (*principles*)** ve anayasal değerlerin de hukukun kurucu parçası olduğunu kanıtlamıştır:
 
-* **Kural vs İlke:** Kurallar "ya hep ya hiç" (*all-or-nothing*) tarzında uygulanır (Örn: Hız sınırı 90 km/s). İlkeler ise birer "ağırlık ve değer" (*dimension of weight*) taşır ve çatıştıklarında dengelenir (*Balancing* - Örn: *"Hiç kimse kendi kusurundan menfaat sağlayamaz"*).
-* **Riggs v. Palmer Vakası (1889):** Mirasa konmak için dedesini öldüren torunun mirası alıp alamayacağı davasında New York Mahkemesi, kanunda açık hüküm bulunmamasına rağmen *"kimse kendi haksız fiilinden menfaat sağlayamaz"* evrensel hukuk ilkesine dayanarak mirastan mahrum bırakmıştır.
+* **Kural vs İlke:** Kurallar "ya hep ya hiç" (*all-or-nothing*) tarzında uygulanır. İlkeler ise birer "ağırlık ve değer boyutu" (*dimension of weight*) taşır ve çatıştıklarında dengelenir (*Balancing / Abwägung*).
+* **Riggs v. Palmer Vakası (1889):** Mirasa konmak için dedesini öldüren torunun mirası alıp alamayacağı davasında New York Mahkemesi, kanunda açık hüküm bulunmamasına rağmen *"Hiç kimse kendi haksız fiilinden menfaat sağlayamaz"* (*Nemo ex suo delicto meliorem suam condicionem facit*) evrensel hukuk ilkesine dayanarak mirastan mahrum bırakmıştır.
 
 ---
 
@@ -233,6 +238,13 @@ flowchart TD
 ```text
 hukuk-kurami-ve-adalet/
 ├── index.html                                          # İnteraktif Web Portalı, Canlı Arama ve Simülatör
+├── assets/banners/                                     # Tematik Yüksek Çözünürlüklü Hukuk Bannerları
+│   ├── banner_adalet_mulkun_temelidir.png
+│   ├── banner_milli_hukuk_ve_adalet.png
+│   ├── banner_adalet_ruhu.jpg
+│   ├── banner_insan_haklari.jpg
+│   ├── banner_dijital_adalet.jpg
+│   └── banner_constitutional.svg
 ├── 01-felsefe-ve-kuram/                                # MODÜL 01: Hukuk Felsefesi ve Kuramı
 │   ├── README.md
 │   ├── dogal-hukuk-gelenegi/                           # Antik Dönem, Skolastik, Rasyonel, Radbruch
@@ -369,7 +381,19 @@ hukuk-kurami-ve-adalet/
 
 ---
 
-## ⚖️ 5. Metodoloji ve Akademik Standartlar
+## 🧪 5. İnteraktif Web Portalı ve Muhakeme Simülatörü
+
+Projenin kök dizininde yer alan **[`index.html`](index.html)** web uygulaması, akademik içerikleri etkileşimli deneyimlere dönüştüren bir dijital hukuk laboratuvarıdır:
+
+1. **⚖️ Radbruch Formülü Test İstasyonu:** Bir yasanın katlanılmaz adaletsizlik veya eşitliği kasten inkâr derecesini anlık olarak test eden interaktif algoritma.
+2. **🛡️ 3 Aşamalı Ölçülülük Simülatörü:** AYM ve AİHM kriterlerinde *Elverişlilik*, *Gereklilik* ve *Orantılılık* adımlarını kontrol eden interaktif denetim aracı.
+3. **📜 Latince Brocard Kartları (Flashcards):** 75'i aşkın evrensel hukuk ilkesini Türkçe meali ve içtihadi bağlamıyla sunan interaktif kart destesi.
+4. **🕊️ Adalet Aforizmaları & Filozoflar Galerisi:** 2500 yıllık adalet seslerini kategoriye göre listeleyen, rastgele getiren ve panoya kopyalayan felsefi galeri.
+5. **🔍 Canlı İndeks ve Hibrit Arama Motoru:** 45+ akademik doktrin belgesini başlık, özet ve etiketlere göre milisaniyelik gecikmeyle filtreleyen arama çubuğu.
+
+---
+
+## ⚖️ 6. Metodoloji ve Akademik Standartlar
 
 1. **Kavramsal ve Doktriner Derinlik:** Hukuki kavramlar hem tarihsel-felsefi kökenleri hem de pozitif hukuk uygulamasındaki pratik sonuçları itibarıyla açıklanır.
 2. **Karşılaştırmalı Perspektif:** Kıta Avrupası Hukuku (*Civil Law*), Ortak Hukuk (*Common Law*) ve Doğu/İslam geleneklerinin adalet ve hukuk devleti kavrayışları mukayese edilir.
@@ -379,10 +403,34 @@ hukuk-kurami-ve-adalet/
 
 ---
 
+## 📖 7. Akademik Atıf ve Kaynak Gösterme
+
+Bu kütüphanedeki makale, inceleme ve doktriner şemaları akademik çalışmalarınızda, tezlerinizde veya ders notlarınızda kullanırken aşağıdaki formatları tercih edebilirsiniz:
+
+### APA 7 Formatı:
+```text
+Iuris Prudentia. (2026). Hukuk Kuramı, Adalet Felsefesi ve Yasal Düzen Kütüphanesi (Sürüm 2.0). 
+GitHub. https://github.com/arch-yunus/hukuk-kurami-ve-adalet
+```
+
+### BibTeX Formatı:
+```bibtex
+@misc{iurisprudentia2026,
+  author = {Yunus Emre and Contributors},
+  title = {Iuris Prudentia: Hukuk Kuramı, Adalet Felsefesi ve Yasal Düzen Kütüphanesi},
+  year = {2026},
+  publisher = {GitHub},
+  howpublished = {\url{https://github.com/arch-yunus/hukuk-kurami-ve-adalet}},
+  note = {Açık Kaynak Hukuk ve Adalet Dokümantasyonu}
+}
+```
+
+---
+
 <div align="center">
 
 *Hukukun üstünlüğü, adil yargılanma hakkı, kanun önünde mutlak eşitlik ve insan onurunun korunması adına açık kaynak akademik başvuru kütüphanesi.*
 
-**[🌐 İnteraktif Bilgi Portalını Başlat (index.html)](index.html)**
+**[🌐 İnteraktif Bilgi Portalını Başlat (index.html)](index.html)** • **[🕊️ Adalet Aforizmaları Antolojisi](04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md)** • **[📜 Latince Sözlük](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)**
 
 </div>
