@@ -1,7 +1,21 @@
 # 09 - Uluslararası İnsan Hakları Hukuku ve Yargısal Koruma
 
+<p align="center">
+  <img src="../assets/banners/banner_insan_haklari.jpg" alt="Uluslararası İnsan Hakları ve Evrensel Yargı Banner" width="100%">
+</p>
+
 > *"Bütün insanlar hür, haysiyet ve haklar bakımından eşit doğarlar."*  
 > — **İnsan Hakları Evrensel Beyannamesi (1948)**, *Madde 1*
+
+> *"Injustice anywhere is a threat to justice everywhere."*  
+> *(Herhangi bir yerdeki adaletsizlik, her yerdeki adalete yönelmiş bir tehdittir.)*  
+> — **Martin Luther King Jr.**, *Letter from Birmingham Jail (1963)*
+
+> *"Evrensel insan hakları nerede başlar? Haritalarda görünmeyecek kadar küçük mekânlarda: Evin içinde, sokakta, okulda veya fabrikada... Eğer bu haklar oralarda bir anlam taşımıyorsa, hiçbir yerde geçerli olamazlar."*  
+> — **Eleanor Roosevelt**, *Birleşmiş Milletler (1958)*
+
+> *"En temel insan hakkı; hak talep edebilme hakkına (the right to have rights) sahip olmaktır."*  
+> — **Hannah Arendt**, *The Origins of Totalitarianism (1951)*
 
 ---
 

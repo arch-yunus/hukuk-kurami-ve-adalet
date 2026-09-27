@@ -3,6 +3,12 @@
 > *"Öyle hareket et ki, eylemlerinin etkileri yeryüzünde hakiki bir insan hayatının devamlılığı ile bağdaşabilsin."*  
 > — **Hans Jonas**, *Sorumluluk İlkesi (Das Prinzip Verantwortung, 1979)*
 
+> *"Ağaçların dava ehliyeti olmalı mıdır? Hukuk tarihi, eskiden hak sahibi sayılmayan varlıkların (köleler, kadınlar, tüzel kişiler) zamanla hak süjesi haline gelme tarihidir."*  
+> — **Christopher D. Stone**, *Should Trees Have Standing? (1972)*
+
+> *"Bugünün nesli, kendi özgürlüklerini koruma adına gelecek kuşakların yaşam ve özgürlük alanını tüketemez. Anayasa gelecek nesilleri de korur."*  
+> — **Alman Federal Anayasa Mahkemesi (BVerfG)**, *Neubauer İklim Kararı (2021)*
+
 ---
 
 ## 📌 Genel Bakış: Antroposen Çağında Hukuk Felsefesi

@@ -2,6 +2,17 @@
 
 > *"Hukukun gücü adalete olan inançtan, adaletin gücü ise doktriner sağlamlıktan doğar."*
 
+> *"Ius est ars boni et aequi."*  
+> *(Hukuk; iyi ve hakkaniyetli olanın sanatıdır.)*  
+> — **Celsus**, *Digesta (1.1.1)*
+
+> *"Summum ius, summa iniuria."*  
+> *(Hukukun ve harflerin en katı şekilde uygulanması, çoğu zaman adaletsizliğin en büyüğünü doğurur.)*  
+> — **Cicero**, *De Officiis (I.10.33)*
+
+> *"Hukuk yalnızca kurallardan ibaret değildir; kuralların ruhunu ve amacını belirleyen ahlaki ve anayasal ilkeler bütünüdür."*  
+> — **Ronald Dworkin**, *Taking Rights Seriously (1977)*
+
 ---
 
 ## 📌 Genel Bakış

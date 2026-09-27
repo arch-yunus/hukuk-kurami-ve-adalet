@@ -2,6 +2,15 @@
 
 > *"Devletin gerçek meşruiyeti ve gücü, kendi koyduğu kanunlara bizzat ve en başta kendisinin riayet etmesinde yatar."*
 
+> *"Gücün kötüye kullanılmasını önlemek için, gücün güçle frenlenmesi (le pouvoir arrête le pouvoir) zorunludur."*  
+> — **Baron de Montesquieu**, *De l'esprit des lois (1748)*
+
+> *"Devletin nihai amacı tahakküm kurmak değil, insanları korkudan arındırarak özgür kılmaktır; adalet ise bu özgürlüğün koruyucu kalkanıdır."*  
+> — **Baruch Spinoza**, *Tractatus Theologico-Politicus (1670)*
+
+> *"Adaletin olmadığı yerde devlet nedir? Büyük bir haydut çetesinden başka bir şey değildir!"*  
+> — **Aziz Augustinus**, *De Civitate Dei (Tanrı Devleti, IV. Kitap)*
+
 ---
 
 ## 📌 Genel Bakış

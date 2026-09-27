@@ -1,6 +1,13 @@
 # 06. Hukuk Sosyolojisi ve Eleştirel Yaklaşımlar
 
-> *"Hukuk durağan bir normlar koleksiyonu değil; toplumsal güçlerin, çıkarların ve ideolojilerin sürekli çatışma ve uzlaşma alanıdır."*
+> *"Hukukun gelişiminin ağırlık noktası; yasama, içtihat veya doktrinde değil, bizzat toplumun kendisindedir."*  
+> — **Eugen Ehrlich**, *Hukuk Sosyolojisinin Temelleri (1913)*
+
+> *"Hukukun 'tarafsız' ve 'objektif' dili, çoğu zaman egemen gücün ve erkek egemen hiyerarşinin kurumsallaşmış sesidir."*  
+> — **Catharine A. MacKinnon**, *Toward a Feminist Theory of the State (1989)*
+
+> *"Hukuk durağan bir normlar koleksiyonu değil; iktidar ilişkilerinin, söylemlerin ve toplumsal tahakküm biçimlerinin mücadele alanıdır."*  
+> — **Michel Foucault**, *Hapishanenin Doğuşu (1975)*
 
 ---
 

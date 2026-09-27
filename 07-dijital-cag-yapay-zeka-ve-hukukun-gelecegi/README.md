@@ -1,6 +1,17 @@
 # 07. Dijital Çağ, Yapay Zekâ ve Hukukun Geleceği
 
-> *"Hukuk geleceği sadece karşılamamalı, onu insan onuru ve adalet ekseninde şekillendirmelidir."*
+<p align="center">
+  <img src="../assets/banners/banner_dijital_adalet.jpg" alt="Dijital Çağ, Yapay Zekâ ve Hukukun Geleceği Banner" width="100%">
+</p>
+
+> *"Code is Law (Kod Kanundur). Siber uzamda mimariyi ve algoritmaları yazanlar, dijital çağın gerçek kanun koyucularıdır."*  
+> — **Lawrence Lessig**, *Code and Other Laws of Cyberspace (1999)*
+
+> *"Gözetim kapitalizmi, insan tecrübesini davranışsal veriye dönüştürerek irademizi ve haysiyetimizi metalaştırır. Hukuk bu istilaya karşı son kalkandır."*  
+> — **Shoshana Zuboff**, *The Age of Surveillance Capitalism (2019)*
+
+> *"Hiçbir yapay zekâ algoritması, insan yargıcın vicdani kanaatinin ve adalet duygusunun yerine ikame edilemez."*  
+> — **Avrupa Konseyi (CEPEJ)**, *Yargı Sistemlerinde Yapay Zekâ Kullanımına İlişkin Etik Şart (2018)*
 
 ---
 

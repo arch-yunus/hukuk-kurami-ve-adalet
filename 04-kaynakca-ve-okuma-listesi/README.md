@@ -28,9 +28,12 @@ Bu modül; hukuk felsefesi, anayasa hukuku, idare ve ceza hukuku alanlarında te
    * AİHM Emsal Kararları: *Salduz*, *Sunday Times*, *Kaya*.
    * Anayasa Mahkemesi (AYM), Danıştay İDDK ve Yargıtay CGK Kararları.
 
-4. **[Temel Hukuk Kavramları ve Latince Hukuk Terimleri Sözlüğü](kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)**
+4. **[Latince Hukuk Terimleri ve Brocard Sözlüğü](kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)**
    * 75+ Temel Hukuki Brocard ve Adalet Aksiyomu.
    * Yargılama, ceza, ispat, borçlar, normlar hiyerarşisi ve uluslararası hukuk kuralları.
+
+5. **[Adalet ve Hukuk Aforizmaları Antolojisi (2500 Yıllık Adalet Sesi)](adalet-ve-hukuk-aforizmalari-antolojisi.md)**
+   * Antik Yunan, Roma, Doğu ve Türk devlet geleneği, Aydınlanma, direniş ve edebiyattan 100+ felsefi alıntı ve tematik matris.
 
 ---
 

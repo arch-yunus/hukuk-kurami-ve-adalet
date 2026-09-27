@@ -1,6 +1,13 @@
 # 05. Karşılaştırmalı Hukuk ve Sistemler
 
-> *"Karşılaştırmalı hukuk, hukukun coğrafi sınırlarını aşarak insan aklının adalet çözümlerini keşfetme sanatıdır."*
+> *"Karşılaştırmalı hukuk, hukukun coğrafi sınırlarını aşarak insan aklının adalet çözümlerini keşfetme sanatıdır."*  
+> — **Konrad Zweigert & Hein Kötz**, *An Introduction to Comparative Law*
+
+> *"Affetmeden gelecek olamaz; fakat hafıza olmadan da adalet inşa edilemez."*  
+> — **Desmond Tutu**, *Güney Afrika Hakikat ve Uzlaşma Komisyonu (1995)*
+
+> *"Hukukun hayatı mantık değil, tecrübe olmuştur."*  
+> — **Oliver Wendell Holmes Jr.**, *The Common Law (1881)*
 
 ---
 

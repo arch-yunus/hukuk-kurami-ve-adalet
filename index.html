@@ -158,6 +158,9 @@
           <button class="sim-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-600 text-white" data-sim="radbruch">Radbruch Formülü</button>
           <button class="sim-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700" data-sim="proportionality">Ölçülülük Testi</button>
           <button class="sim-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700" data-sim="latin">Latince Brocard Kartları</button>
+          <button class="sim-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700 flex items-center gap-1" data-sim="quotes">
+            <span>🕊️</span> <span>Adalet Aforizmaları</span>
+          </button>
         </div>
       </div>
 
@@ -226,6 +229,74 @@
             <div id="brocardDesc" class="text-xs text-slate-600 dark:text-slate-300">Tarafların serbest iradeleriyle akdettikleri borçlandırıcı işlemlere sadık kalması zorunludur.</div>
           </div>
         </div>
+
+        <!-- Justice Aphorisms & Philosophical Voices -->
+        <div id="sim-quotes" class="sim-panel hidden">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+            <div>
+              <h4 class="font-serif text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                <span>🕊️ 2500 Yıllık Adalet Sesi: Filozoflar ve Vicdan Sahnesi</span>
+              </h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400">İnsanlık vicdanının tiranlığa, güce ve yasal haksızlığa karşı yükselttiği evrensel sesler.</p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button id="randomQuoteBtn" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 border border-amber-300 dark:border-amber-800/50 hover:bg-amber-200 transition-colors flex items-center gap-1">
+                <i data-lucide="shuffle" class="w-3.5 h-3.5"></i>
+                <span>Rastgele</span>
+              </button>
+              <button id="nextQuoteBtn" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-600 text-white hover:bg-amber-700 transition-colors flex items-center gap-1">
+                <span>Sonraki</span>
+                <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Category filter buttons for quotes -->
+          <div class="flex flex-wrap gap-1.5 mb-4" id="quoteCategoryFilters">
+            <button class="quote-filter-btn active-q-filter px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-amber-600 text-white" data-qcat="all">Tümü (25+)</button>
+            <button class="quote-filter-btn px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-qcat="turk-dogu">Doğu & Türk Mirası</button>
+            <button class="quote-filter-btn px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-qcat="aydinlanma">Aydınlanma & Hukuk Devleti</button>
+            <button class="quote-filter-btn px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-qcat="direnis">Direniş & İnsan Hakları</button>
+            <button class="quote-filter-btn px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-qcat="antik">Antikçağ & Stoa</button>
+            <button class="quote-filter-btn px-2.5 py-1 text-[11px] font-semibold rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300" data-qcat="edebiyat">Edebiyat & Vicdan</button>
+          </div>
+
+          <!-- Quote Card -->
+          <div class="relative p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-amber-50/80 via-white to-orange-50/60 dark:from-slate-800 dark:via-slate-850 dark:to-slate-900 border border-amber-200/80 dark:border-amber-800/40 shadow-sm">
+            <div class="absolute top-4 right-4 flex items-center gap-2">
+              <button id="copyQuoteBtn" class="p-1.5 rounded-lg bg-white/80 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:text-amber-600 dark:hover:text-amber-400 border border-slate-200 dark:border-slate-600 transition-colors" title="Alıntıyı Kopyala">
+                <i data-lucide="copy" class="w-4 h-4"></i>
+              </button>
+              <span id="quoteBadge" class="text-[11px] font-semibold px-2.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950/80 text-amber-800 dark:text-amber-300 border border-amber-300/60 dark:border-amber-800/60">
+                Doğu & Türk Mirası
+              </span>
+            </div>
+
+            <div class="font-serif text-3xl text-amber-500/30 mb-1 select-none">“</div>
+            <blockquote id="quoteText" class="font-serif text-lg sm:text-xl text-slate-900 dark:text-amber-100 font-medium leading-relaxed mb-4 italic">
+              "Adalet mülkün temelidir. İstiklal, istikbal, hürriyet; her şey adaletle kaimdir."
+            </blockquote>
+
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-4 border-t border-amber-200/50 dark:border-slate-700/60">
+              <div>
+                <div id="quoteAuthor" class="font-serif font-bold text-base text-slate-900 dark:text-white">Gazi Mustafa Kemal Atatürk</div>
+                <div id="quoteSource" class="text-xs text-amber-700 dark:text-amber-400">Ankara Hukuk Mektebi Açılış Nutku (1925)</div>
+              </div>
+              <div id="quoteContext" class="text-[11px] text-slate-500 dark:text-slate-400 max-w-sm text-right sm:text-right hidden sm:block">
+                Devletin ve bağımsızlığın yegâne meşruiyet sütunu adil yargıdır.
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+            <span id="quoteCounter">Alıntı 1 / 25</span>
+            <a href="04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md" class="font-semibold text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-1">
+              <span>100+ Aforizma Antolojisini İncele</span>
+              <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -492,6 +563,15 @@
         path: "04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md",
         tags: ["AİHM", "AYM", "İçtihat", "Emsal Karar", "Danıştay", "Yargıtay"]
       },
+      {
+        id: "adalet-aforizmalari",
+        category: "04-kaynakca",
+        badge: "04. Felsefi Ses",
+        title: "Adalet ve Hukuk Aforizmaları Antolojisi (2500 Yıllık Adalet Sesi)",
+        summary: "Antikçağ'dan Cumhuriyet'e, Doğu'dan Aydınlanma'ya 100'ü aşkın felsefi aforizma, tarihi bildiri ve adalet manifestosu.",
+        path: "04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md",
+        tags: ["Aforizmalar", "Atatürk", "Kutadgu Bilig", "Radbruch", "Locke", "Kant", "Adalet Manifestosu"]
+      },
 
       // 05 Karşılaştırmalı Hukuk
       {
@@ -734,7 +814,196 @@
       }
     ];
 
+    const justiceQuotesList = [
+      {
+        category: "turk-dogu",
+        badge: "Doğu & Türk Mirası",
+        text: "Adalet mülkün temelidir. İstiklal, istikbal, hürriyet; her şey adaletle kaimdir.",
+        author: "Gazi Mustafa Kemal Atatürk",
+        source: "Ankara Hukuk Mektebi Açılış Nutku (1925)",
+        context: "Devletin ve cumhuriyetin varlık sebebi adil, bağımsız ve tarafsız bir hukuk nizamıdır."
+      },
+      {
+        category: "turk-dogu",
+        badge: "Doğu & Türk Mirası",
+        text: "Memleket tutmak için çok asker lazımdır; askeri beslemek için mal ve servet lazımdır; serveti elde etmek için halkın zengin olması; halkın zengin olması için ise adil kanunlar lazımdır.",
+        author: "Yusuf Has Hacib",
+        source: "Kutadgu Bilig (1069)",
+        context: "Dâire-i Adliye (Adalet Çemberi): Adalet zincirinin bir halkası koparsa devlet ve mülk çöker."
+      },
+      {
+        category: "turk-dogu",
+        badge: "Doğu & Türk Mirası",
+        text: "Hukuksuz ahlak güçsüzdür; ahlaksız hukuk ise canavardır.",
+        author: "Aliya İzzetbegoviç",
+        source: "Doğu ve Batı Arasında İslam",
+        context: "Hukuk ile ahlaki vicdan birbirinden koparıldığında hukuk tiranlığın aracına dönüşür."
+      },
+      {
+        category: "turk-dogu",
+        badge: "Doğu & Türk Mirası",
+        text: "Devlet (mülk), inançsızlıkla (küfürle) devam edebilir; fakat adaletsizlikle (zulümle) asla ayakta kalamaz.",
+        author: "Nizamülmülk & İbn Haldun",
+        source: "Siyâsetnâme (1092) & Mukaddime (1377)",
+        context: "Zulüm medeniyetin ve kamu düzeninin harabiyetidir; iktidarın meşruiyeti yalnızca adalettir."
+      },
+      {
+        category: "turk-dogu",
+        badge: "Doğu & Türk Mirası",
+        text: "Ey yönetici! İnsanlara karşı yırtıcı bir canavar gibi olma; çünkü onlar iki sınıftır: Ya dinde kardeşin ya da yaratılışta senin gibi bir insandır ve eştir.",
+        author: "Hz. Ali",
+        source: "Malik el-Eşter'e Mısır Valiliği Fermanı",
+        context: "Evrensel insan onuru ve yöneticinin kibrine karşı sınırsız adalet ve şefkat ilkesi."
+      },
+      {
+        category: "aydinlanma",
+        badge: "Aydınlanma & Hukuk Devleti",
+        text: "Adalet mülkün temelidir; hukukun bittiği yerde tiranlık başlar.",
+        author: "John Locke",
+        source: "Hükümet Üzerine İkinci İnceleme (1689)",
+        context: "Yöneticinin kendi keyfi iradesini kanunun yerine koyduğu her yerde meşruiyet son bulur."
+      },
+      {
+        category: "aydinlanma",
+        badge: "Aydınlanma & Hukuk Devleti",
+        text: "Bir tek kişiye yapılan haksızlık, bütün topluma yöneltilmiş bir tehdittir.",
+        author: "Baron de Montesquieu",
+        source: "Kanunların Ruhu Üzerine (1748)",
+        context: "Adaletsizlik cezasız kaldığında toplumdaki her bireyin temel güvenlik hissi yok olur."
+      },
+      {
+        category: "aydinlanma",
+        badge: "Aydınlanma & Hukuk Devleti",
+        text: "Adalet çökerse, insanların yeryüzünde yaşamasının hiçbir anlamı ve değeri kalmaz.",
+        author: "Immanuel Kant",
+        source: "Ahlak Metafiziği: Hukuk Öğretisi (1797)",
+        context: "İnsan onuru ve adalet, her türlü pragmatik ve faydacı hesabın üstünde mutlak bir değerdir."
+      },
+      {
+        category: "aydinlanma",
+        badge: "Aydınlanma & Hukuk Devleti",
+        text: "Devletin nihai amacı tahakküm kurmak değil; her insanı korkudan arındırarak bedenini ve zihnini özgürce kullanmasını sağlamaktır. Devletin gerçek amacı hürriyettir.",
+        author: "Baruch Spinoza",
+        source: "Tractatus Theologico-Politicus (1670)",
+        context: "Bireyin korkudan kurtulması ve düşünce hürriyeti anayasal düzenin tek varlık gayesidir."
+      },
+      {
+        category: "aydinlanma",
+        badge: "Aydınlanma & Hukuk Devleti",
+        text: "İnsanları suçtan alıkoyan şey cezaların ağırlığı veya vahşeti değil; cezanın kaçınılmaz ve kesin oluşudur.",
+        author: "Cesare Beccaria",
+        source: "Suçlar ve Cezalar Hakkında (1764)",
+        context: "İşkence ve keyfi orantısız cezalara karşı insancıl ceza hukuku ve kanunilik güvencesi."
+      },
+      {
+        category: "direnis",
+        badge: "Direniş & İnsan Hakları",
+        text: "Injustice anywhere is a threat to justice everywhere. (Herhangi bir yerdeki adaletsizlik, her yerdeki adalete yönelmiş bir tehdittir.)",
+        author: "Martin Luther King Jr.",
+        source: "Letter from Birmingham Jail (1963)",
+        context: "İnsanlık tek bir kader ağına bağlıdır; bir mazlumun ezilmesine seyirci kalmak adalete ihanettir."
+      },
+      {
+        category: "direnis",
+        badge: "Direniş & İnsan Hakları",
+        text: "Pozitif yasa ile adalet arasındaki çelişki katlanılmaz bir boyuta ulaştığında, yasa 'yasal haksızlık' haline gelir ve adalet karşısında geri çekilmek zorundadır.",
+        author: "Gustav Radbruch",
+        source: "Yasal Haksızlık ve Yasa Üstü Hukuk (1946)",
+        context: "Tiranlık yasalarına karşı yargıcın ve vatandaşın vicdani başkaldırı ve direnme hakkı."
+      },
+      {
+        category: "direnis",
+        badge: "Direniş & İnsan Hakları",
+        text: "Bürokratik bir aygıtın kör dişlisi haline gelen sıradan bir insan; sadece 'yasalara uyduğunu' söyleyerek tarihin en büyük canavarlıklarını işleyebilir.",
+        author: "Hannah Arendt",
+        source: "Eichmann Kudüs'te: Kötülüğün Sıradanlığı (1963)",
+        context: "Kritik düşünme ve ahlaki muhakemeden yoksun pozitivist yasa itaatine yönelik sarsıcı uyarı."
+      },
+      {
+        category: "direnis",
+        badge: "Direniş & İnsan Hakları",
+        text: "Bir hükümet insanları haksız yere hapse atıyorsa, adil bir insanın olması gereken gerçek yer de cezaevidir.",
+        author: "Henry David Thoreau",
+        source: "Sivil İtaatsizlik (1849)",
+        context: "Zalim yasalara karşı vicdanın ve sivil itaatsizliğin ahlaki zorunluluğu."
+      },
+      {
+        category: "antik",
+        badge: "Antikçağ & Stoa",
+        text: "Iustitia est constans et perpetua voluntas ius suum cuique tribuendi. (Adalet, herkese hakkı olanı verme konusundaki değişmez ve sürekli iradedir.)",
+        author: "Domitius Ulpianus",
+        source: "Roma Hukuku, Digesta (1.1.10)",
+        context: "Dağıtıcı ve hakkaniyetli adaletin Roma hukukundaki en köklü ve klasik formülü."
+      },
+      {
+        category: "antik",
+        badge: "Antikçağ & Stoa",
+        text: "Hakkaniyet (epieikeia), yasanın katılığı ve genelliği karşısında ortaya çıkan eksikliği düzelten somut vicdandır.",
+        author: "Aristoteles",
+        source: "Nikomakhos'a Etik (Ethica Nicomachea)",
+        context: "Soyut kanun lafzına körü körüne hapsolmayan, olayın hakkaniyetine göre hüküm kurma sanatı."
+      },
+      {
+        category: "antik",
+        badge: "Antikçağ & Stoa",
+        text: "Summum ius, summa iniuria. (Hukukun ve harflerin en katı şekilde uygulanması, çoğu zaman adaletsizliğin en büyüğünü doğurur.)",
+        author: "Marcus Tullius Cicero",
+        source: "De Officiis (Ödevler Üzerine)",
+        context: "Kanunun ruhunu ve hakkaniyeti gözetmeksizin salt şekilcilik yapmanın yarattığı yıkım."
+      },
+      {
+        category: "antik",
+        badge: "Antikçağ & Stoa",
+        text: "Bir ölümlünün buyruğunu, tanrıların yazılmamış ve asla silinmez ebedi adalet yasalarından daha üstün sayacak kadar güçlü görmedim kendimi.",
+        author: "Sofokles (Antigone)",
+        source: "Antigone Tragedyası (M.Ö. 441)",
+        context: "Tiranın pozitif buyruğuna karşı insanın içindeki evrensel vicdan ve doğal hukuk çığlığı."
+      },
+      {
+        category: "edebiyat",
+        badge: "Edebiyat & Vicdan",
+        text: "Kanunun harfine körü körüne tapan bir insan, bir gün adaletin en büyük katili haline gelebilir. Çünkü merhametsiz adalet zulümdür.",
+        author: "Victor Hugo",
+        source: "Sefiller (Les Misérables, 1862)",
+        context: "Müfettiş Javert karakteri üzerinden şekilci pozitivizmin ve vicdansızlığın trajedisi."
+      },
+      {
+        category: "edebiyat",
+        badge: "Edebiyat & Vicdan",
+        text: "Eğer insanlığın ebedi mutluluk sarayı tek bir masum çocuğun gözyaşı üzerine kurulacaksa, ben o sarayın giriş biletini iade ediyorum.",
+        author: "Fyodor Dostoyevski",
+        source: "Karamazov Kardeşler (1880)",
+        context: "Tek bir masumun feda edilemeyeceği; mutlak adalet ve hakkaniyet ilkesi."
+      },
+      {
+        category: "edebiyat",
+        badge: "Edebiyat & Vicdan",
+        text: "Gerçeği yerin altına gömseniz bile, o orada büyüyecek ve bir gün patlayarak her şeyi havaya uçuracaktır. Ben itham ediyorum! (J'accuse!)",
+        author: "Émile Zola",
+        source: "Dreyfus Davası Açık Mektubu (1898)",
+        context: "Yargısal komplo ve adaletsizlik karşısında entelektüelin hakikat ve adalet haykırışı."
+      },
+      {
+        category: "direnis",
+        badge: "Çağdaş Hukuk Felsefesi",
+        text: "Justice is the first virtue of social institutions. (Adalet, tıpkı düşünce sistemlerinin doğruluğu araması gibi, toplumsal kurumların birinci ve vazgeçilmez erdemidir.)",
+        author: "John Rawls",
+        source: "A Theory of Justice (1971)",
+        context: "Verimli veya güçlü olsa bile adaletsiz olan tüm kurum ve yasaların ıslahı veya ilgası şarttır."
+      },
+      {
+        category: "direnis",
+        badge: "Çağdaş Hukuk Felsefesi",
+        text: "Bireysel haklar, çoğunluğun iradesine karşı koyan siyasi kozlardır (trump cards). Çoğunluk istese dahi bir bireyin temel anayasal hakkını elinden alamaz.",
+        author: "Ronald Dworkin",
+        source: "Taking Rights Seriously (1977)",
+        context: "Demokrasinin çoğunluk tiranlığına dönüşmesini engelleyen haklar kalkanı."
+      }
+    ];
+
     let currentBrocardIdx = 0;
+    let currentQuoteIdx = 0;
+    let currentQuoteCategory = 'all';
 
     let currentCategory = 'all';
     let searchQuery = '';
@@ -901,6 +1170,77 @@
       brocardDesc.textContent = b.desc;
     });
 
+    // Justice Quotes Viewer Logic
+    const quoteText = document.getElementById('quoteText');
+    const quoteAuthor = document.getElementById('quoteAuthor');
+    const quoteSource = document.getElementById('quoteSource');
+    const quoteContext = document.getElementById('quoteContext');
+    const quoteBadge = document.getElementById('quoteBadge');
+    const quoteCounter = document.getElementById('quoteCounter');
+    const nextQuoteBtn = document.getElementById('nextQuoteBtn');
+    const randomQuoteBtn = document.getElementById('randomQuoteBtn');
+    const copyQuoteBtn = document.getElementById('copyQuoteBtn');
+    const quoteCatFilters = document.querySelectorAll('.quote-filter-btn');
+
+    function getFilteredQuotes() {
+      if (currentQuoteCategory === 'all') return justiceQuotesList;
+      return justiceQuotesList.filter(q => q.category === currentQuoteCategory);
+    }
+
+    function renderQuote() {
+      const list = getFilteredQuotes();
+      if (list.length === 0) return;
+      if (currentQuoteIdx >= list.length) currentQuoteIdx = 0;
+      const q = list[currentQuoteIdx];
+      quoteText.textContent = `"${q.text}"`;
+      quoteAuthor.textContent = q.author;
+      quoteSource.textContent = q.source;
+      quoteContext.textContent = q.context;
+      quoteBadge.textContent = q.badge;
+      quoteCounter.textContent = `Alıntı ${currentQuoteIdx + 1} / ${list.length}`;
+      lucide.createIcons();
+    }
+
+    nextQuoteBtn.addEventListener('click', () => {
+      const list = getFilteredQuotes();
+      currentQuoteIdx = (currentQuoteIdx + 1) % list.length;
+      renderQuote();
+    });
+
+    randomQuoteBtn.addEventListener('click', () => {
+      const list = getFilteredQuotes();
+      currentQuoteIdx = Math.floor(Math.random() * list.length);
+      renderQuote();
+    });
+
+    quoteCatFilters.forEach(btn => {
+      btn.addEventListener('click', () => {
+        quoteCatFilters.forEach(b => {
+          b.classList.remove('bg-amber-600', 'text-white');
+          b.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+        });
+        btn.classList.add('bg-amber-600', 'text-white');
+        btn.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+        currentQuoteCategory = btn.getAttribute('data-qcat');
+        currentQuoteIdx = 0;
+        renderQuote();
+      });
+    });
+
+    copyQuoteBtn.addEventListener('click', () => {
+      const list = getFilteredQuotes();
+      const q = list[currentQuoteIdx];
+      const copyContent = `"${q.text}"\n— ${q.author} (${q.source})\n\nIuris Prudentia: Hukuk ve Adalet Kütüphanesi`;
+      navigator.clipboard.writeText(copyContent).then(() => {
+        const origHtml = copyQuoteBtn.innerHTML;
+        copyQuoteBtn.innerHTML = '<span class="text-[11px] font-bold text-emerald-600 px-1">Kopyalandı! ✓</span>';
+        setTimeout(() => {
+          copyQuoteBtn.innerHTML = origHtml;
+          lucide.createIcons();
+        }, 1800);
+      });
+    });
+
     // Dark Mode Toggle
     if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       document.documentElement.classList.add('dark');
@@ -921,6 +1261,7 @@
 
     // Init
     renderCards();
+    renderQuote();
     lucide.createIcons();
   </script>
 </body>

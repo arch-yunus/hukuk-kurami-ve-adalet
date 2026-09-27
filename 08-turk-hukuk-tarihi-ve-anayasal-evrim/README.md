@@ -1,7 +1,13 @@
 # 08 - Türk Hukuk Tarihi, Tanzimat ve Anayasal Evrim
 
-> *"Adalet mülkün temelidir, mülk ise adalet ile kaimdir."*  
+> *"Adalet mülkün temelidir. İstiklal, istikbal, hürriyet; her şey adaletle kaimdir."*  
+> — **Gazi Mustafa Kemal Atatürk**, *Ankara Hukuk Mektebi Açılış Nutku (1925)*
+
+> *"Memleket tutmak için çok asker lazımdır; askeri beslemek için mal ve servet lazımdır; serveti elde etmek için halkın zengin olması; halkın zengin olması için ise adil kanunlar lazımdır."*  
 > — **Yusuf Has Hacib**, *Kutadgu Bilig (1069)*
+
+> *"Kanunlar milletlerin esareti için değil, hürriyet ve saadeti için yazılır."*  
+> — **Mahmut Esat Bozkurt**, *Türk Medeni Kanunu Esbab-ı Mucibesi (1926)*
 
 ---
 

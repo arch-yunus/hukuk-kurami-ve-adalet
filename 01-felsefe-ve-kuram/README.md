@@ -2,6 +2,16 @@
 
 > *"Hukukun felsefesi olmadan adalet kör, adalet felsefesi olmadan pozitif hukuk zorbalıktır."*
 
+> *"Iuris praecepta sunt haec: honeste vivere, alterum non laedere, suum cuique tribuere."*  
+> *(Hukukun buyrukları şunlardır: Onurlu yaşamak, kimseye zarar vermemek, herkese hakkı olanı vermek.)*  
+> — **Domitius Ulpianus**, *Digesta (1.1.10.1)*
+
+> *"Adalet, toplumsal kurumların birinci ve vazgeçilmez erdemidir; tıpkı hakikatin düşünce sistemlerinin erdemi olduğu gibi."*  
+> — **John Rawls**, *A Theory of Justice (1971)*
+
+> *"Pozitif yasa ile adalet arasındaki çelişki katlanılmaz bir boyuta ulaştığında, yasa adalet karşısında geri çekilmek zorundadır."*  
+> — **Gustav Radbruch**, *Rechtsphilosophie (1946)*
+
 ---
 
 ## 📌 Genel Bakış

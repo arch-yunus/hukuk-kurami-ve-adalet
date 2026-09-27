@@ -6,6 +6,7 @@
 [![Modules: 10](https://img.shields.io/badge/Mod%C3%BCl-10%20Kapsaml%C4%B1%20Alan-blue.svg)](#-k%C3%BCt%C3%BCphane-ve-dizin-haritas%C4%B1)
 [![Articles: 45+](https://img.shields.io/badge/%C4%B0ncelemeler-45%2B%20Tez%20%26%20Doktrin-emerald.svg)](#-tematik-mod%C3%BCller-ve-do%C4%9Frudan-ba%C4%9Flant%C4%B1lar)
 [![Latin Maxims: 75+](https://img.shields.io/badge/Latince%20Brocard-75%2B%20%C3%96zdeyi%C5%9F-purple.svg)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
+[![Aphorisms: 100+](https://img.shields.io/badge/Adalet%20Aforizmalar%C4%B1-100%2B%20%C3%96zdeyi%C5%9F-rose.svg)](04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md)
 [![Status: Complete](https://img.shields.io/badge/Durum-Canl%C4%B1%20ve%20Geli%C5%9Ftiriliyor-success.svg)]()
 
 <br/>
@@ -22,30 +23,37 @@
 
 ## 🏛️ Hukuk ve Adalet Üzerine Başlangıç Epigrafları
 
+> *"Adalet mülkün temelidir. İstiklal, istikbal, hürriyet; her şey adaletle kaimdir."*  
+> — **Gazi Mustafa Kemal Atatürk**, *Ankara Hukuk Mektebi Açılış Nutku (1925)*
+
 > *"Adalet mülkün temelidir; hukukun bittiği yerde tiranlık başlar."*  
 > — **John Locke**, *Hükümet Üzerine İkinci İnceleme (Second Treatise of Government, 1689)*
-
-> *"Hukuk, aklın tutkulardan ve ihtiraslardan arınmış sesidir."*  
-> — **Aristoteles**, *Politika (M.Ö. 4. Yüzyıl)*
 
 > *"Iustitia est constans et perpetua voluntas ius suum cuique tribuendi."*  
 > *(Adalet, herkese hakkı olanı verme konusundaki değişmez ve sürekli iradedir.)*  
 > — **Domitius Ulpianus**, *Digesta (1.1.10)*
 
+> *"Hukuksuz ahlak güçsüzdür; ahlaksız hukuk ise canavardır."*  
+> — **Aliya İzzetbegoviç**, *Doğu ve Batı Arasında İslam*
+
+> *"Injustice anywhere is a threat to justice everywhere."*  
+> *(Herhangi bir yerdeki adaletsizlik, her yerdeki adalete yönelmiş bir tehdittir.)*  
+> — **Martin Luther King Jr.**, *Letter from Birmingham Jail (1963)*
+
 > *"Memleket tutmak için çok asker lazımdır; askeri beslemek için mal ve servet lazımdır; serveti elde etmek için halkın zengin olması; halkın zengin olması için ise adil kanunlar lazımdır."*  
 > — **Yusuf Has Hacib**, *Kutadgu Bilig (1069)*
 
-> *"Devletin nihai amacı tahakküm kurmak değil, insanları korkudan arındırarak özgür kılmaktır; adalet ise bu özgürlüğün koruyucu kalkanıdır."*  
-> — **Baruch Spinoza**, *Tractatus Theologico-Politicus (1670)*
-
-> *"Yasa koyucu, adaleti bir yana bıraktığında; devlet, büyük bir haydut çetesinden başka nedir?"*  
-> — **Aziz Augustinus**, *De Civitate Dei (Tanrı Devleti, IV. Kitap)*
+> *"Devlet (mülk), küfürle durur ama zulümle durmaz."*  
+> — **Nizamülmülk**, *Siyâsetnâme (1092)* & **İbn Haldun**, *Mukaddime (1377)*
 
 > *"Bir tek kişiye yapılan haksızlık, bütün topluma yöneltilmiş bir tehdittir."*  
 > — **Montesquieu**, *Kanunların Ruhu Üzerine (De l'esprit des lois, 1748)*
 
-> *"Hukukun en temel görevi, gücün keyfiyetini kırmak ve zayıfı güçlünün tahakkümünden korumaktır."*  
-> — **Gustav Radbruch**, *Rechtsphilosophie (1932)*
+> *"Yasa koyucu adaleti bir yana bıraktığında; devlet, büyük bir haydut çetesinden başka nedir?"*  
+> — **Aziz Augustinus**, *De Civitate Dei (Tanrı Devleti, IV. Kitap)*
+
+> *"Pozitif yasa ile adalet arasındaki çelişki katlanılmaz bir boyuta ulaştığında, yasa adalet karşısında geri çekilmek zorundadır."*  
+> — **Gustav Radbruch**, *Gesetzliches Unrecht und übergesetzliches Recht (1946)*
 
 ---
 
@@ -165,8 +173,57 @@ flowchart LR
 
 ---
 
+### G. Adaletin Ruhu ve İnsanlık Vicdanı: Tematik Alıntılar ve Felsefi Bildiri
+
 <p align="center">
-  <img src="assets/banners/banner_digital_law.svg" alt="Dijital Çağ, Yapay Zekâ ve Hukukun Geleceği Banner" width="100%">
+  <img src="assets/banners/banner_adalet_ruhu.jpg" alt="Adaletin Ruhu ve Felsefesi Banner" width="100%">
+</p>
+
+Hukuk kuralları cansız metinlerden ibaret değildir; onlara can veren, insanlık tarihinin ortak adalet ve vicdan hafızasıdır.
+
+```mermaid
+flowchart TD
+    subgraph Adaletin Dört Temel Taşı
+        A["1. Hak ve Hakkaniyet (Ius & Aequitas)"] --- B["2. Mazlumun Korunması ve İktidarın Sınırı"]
+        B --- C["3. Yasal Haksızlığa Karşı Vicdan"]
+        C --- D["4. Dokunulmaz İnsan Onuru (Dignitas)"]
+        D --- A
+    end
+```
+
+#### 📜 Tematik Özdeyişler ve Felsefi Yankılar:
+
+* ⚖️ **Hakkaniyet ve Yasanın Katılığı:**  
+  > *"Hakkaniyet (*epieikeia*), yasanın genelliği ve katılığından doğan adaletsizliği düzelten adalettir. Yasa soyuttur; hakkaniyet ise somut olayın vicdanıdır."*  
+  > — **Aristoteles**, *Nikomakhos'a Etik (Ethica Nicomachea)*
+
+* 🛡️ **Tiranlık ve Devletin Meşruiyeti:**  
+  > *"Adaletin olmadığı yerde devlet nedir? Büyük bir haydut çetesinden (*magna latrocinia*) başka bir şey değildir!"*  
+  > — **Aziz Augustinus**, *De Civitate Dei (Tanrı Devleti, IV. Kitap)*
+
+* 🕊️ **Mazlumun Ahı ve Devletin Bekası:**  
+  > *"Zulüm, medeniyetin ve imarın harabiyetidir (*el-Zulmü mü'zinün bi-harâbi'l-ümrân*). İnsanların hakkına, mülküne ve şerefine el uzatıldığı an devletin temelleri sarsılır."*  
+  > — **İbn Haldun**, *Mukaddime (1377)*
+
+* ⚔️ **Yasal Haksızlık ve Hukukçunun Sorumluluğu:**  
+  > *"Yasa koyucu adaleti kasıtlı olarak inkâr ettiğinde, ortaya çıkan metin 'adaletsiz yasa' değil, 'yasal haksızlık'tır (*gesetzliches Unrecht*). Böyle bir metin hukuk niteliğini kaybeder ve ona itaat edilmez."*  
+  > — **Gustav Radbruch**, *Yasal Haksızlık ve Yasa Üstü Hukuk (1946)*
+
+* 🌟 **Adaletin Bölünmezliği:**  
+  > *"Herhangi bir yerdeki adaletsizlik, her yerdeki adalete yönelmiş bir tehdittir (*Injustice anywhere is a threat to justice everywhere*)."*  
+  > — **Martin Luther King Jr.**, *Birmingham Cezaevinden Mektup (1963)*
+
+* 👑 **Hukukun Amacı Olarak Özgürlük:**  
+  > *"Devletin nihai amacı tahakküm kurmak veya insanları korkutmak değildir; tam aksine, her bir insanı korkudan arındırarak bedenini ve zihnini özgürce kullanmasını sağlamaktır."*  
+  > — **Baruch Spinoza**, *Tractatus Theologico-Politicus (1670)*
+
+> 📖 *Antik Yunan'dan Roma'ya, Kutadgu Bilig'den Aydınlanma'ya, Atatürk'ten modern insan hakları bildirilerine kadar 100'ü aşkın alıntı ve felsefi inceleme için:*  
+> **👉 [Adalet ve Hukuk Felsefesi Aforizmalar Antolojisi (2500 Yıllık Adalet Sesi)](04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md)**
+
+---
+
+<p align="center">
+  <img src="assets/banners/banner_dijital_adalet.jpg" alt="Dijital Çağ, Yapay Zekâ ve Hukukun Geleceği Banner" width="100%">
 </p>
 
 ---
@@ -198,12 +255,13 @@ hukuk-kurami-ve-adalet/
 │   ├── masumiyet-karinesi-ve-lehe-kanun.md             # Presumption of Innocence & Lex Mitior
 │   ├── ceza-hukukunun-evrensel-ilkeleri.md             # Nullum Crimen, In Dubio Pro Reo, Ne Bis In Idem
 │   └── hakkin-kotuye-kullanilmasi-ve-durustluk-kurali.md # TMK m. 2 & Venire Contra Factum Proprium
-├── 04-kaynakca-ve-okuma-listesi/                       # MODÜL 04: Literatür, İçtihat & Sözlük
+├── 04-kaynakca-ve-okuma-listesi/                       # MODÜL 04: Literatür, İçtihat, Brocard & Aforizmalar
 │   ├── README.md
 │   ├── klasik-metinler.md                              # Antikçağ & Aydınlanma Temel Metinleri
 │   ├── modern-literatur.md                             # Çağdaş Hukuk Monografileri & Makaleler
 │   ├── ictihat-ve-emsal-kararlar.md                    # AİHM, BVerfG, ABD Supreme Court, AYM, Danıştay, Yargıtay
-│   └── kavramlar-ve-latince-hukuk-terimleri-sozlugu.md # Brocardica Juridica (75+ Latince Kural & Çeviri)
+│   ├── kavramlar-ve-latince-hukuk-terimleri-sozlugu.md # Brocardica Juridica (75+ Latince Kural & Çeviri)
+│   └── adalet-ve-hukuk-aforizmalari-antolojisi.md      # 2500 Yıllık Adalet Sesi: 100+ Felsefi Aforizma & Alıntı
 ├── 05-karsilastirmali-hukuk-ve-sistemler/              # MODÜL 05: Karşılaştırmalı Hukuk Düzenleri
 │   ├── README.md
 │   ├── kita-avrupasi-ve-ortak-hukuk-karsilastirmasi.md # Civil Law vs Common Law & Stare Decisis
@@ -272,6 +330,7 @@ hukuk-kurami-ve-adalet/
 * [Modern Literatür ve Makaleler](04-kaynakca-ve-okuma-listesi/modern-literatur.md)
 * [Emsal Yüksek Mahkeme Kararları (AİHM, BVerfG, AYM, Danıştay, Yargıtay)](04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md)
 * [Latince Hukuk Özdeyişleri ve Terimler Sözlüğü (Brocardica Juridica - 75+ Brocard)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
+* [Adalet ve Hukuk Aforizmaları Antolojisi (2500 Yıllık Adalet Sesi - 100+ Aforizma)](04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md)
 
 ### [05. Karşılaştırmalı Hukuk ve Sistemler](05-karsilastirmali-hukuk-ve-sistemler/README.md)
 * [Kıta Avrupası (*Civil Law*) ve Ortak Hukuk (*Common Law*) Karşılaştırması](05-karsilastirmali-hukuk-ve-sistemler/kita-avrupasi-ve-ortak-hukuk-karsilastirmasi.md)
