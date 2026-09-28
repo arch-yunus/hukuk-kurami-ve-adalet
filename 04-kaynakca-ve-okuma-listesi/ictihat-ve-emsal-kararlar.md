@@ -8,7 +8,7 @@
 
 ### 1. *Marbury v. Madison* (1803) — ABD Federal Yüksek Mahkemesi
 * **Konu:** Yargısal Denetim (*Judicial Review*) ve Anayasa Üstünlüğü.
-* **Hüküm:** Başyargıç John Marshall; Anayasa ile sıradan kanun çeliştiğinde mahkemelerin Anayasa'ya uymak ve kanunu hükümsüz saymakla yükümlü olduğunu ilan ederek anayasa yargısının temelini atmıştır.
+* **Hüküm:** Başyargıç John Marshall; Anayasa ile sıradan kanun çeliştiğinde mahkemelerin Anayasa'ya uymak ve kanunu hükümsüz saymakla yükümlü olduğunu ilan ederek dünyada anayasa yargısının temelini atmıştır.
 
 ### 2. *Lüth Kararı* (1958) — Alman Federal Anayasa Mahkemesi (*BVerfGE 7, 198*)
 * **Konu:** Temel Hakların Üçüncü Kişilere Etkisi (*Drittwirkung*) ve Nesnel Değer Düzeni.
@@ -22,9 +22,17 @@
 * **Konu:** Hukuki Belirlilik ve "Kanunla Öngörülmüş Olma" Ölçütü.
 * **Hüküm:** Bir kuralın "kanun" sayılabilmesi için yalnızca yazılı olması yetmez; muhatapları açısından **erişilebilir (*accessible*)** ve **öngörülebilir (*foreseeable*)** olması zorunludur.
 
-### 5. *Neubauer ve Diğerleri v. Almanya* (2021) — Alman Anayasa Mahkemesi
+### 5. *Neubauer ve Diğerleri v. Almanya* (2021) — Alman Federal Anayasa Mahkemesi
 * **Konu:** İklim Değişikliği, Kuşaklararası Haklar ve Gelecek Nesillerin Özgürlüğü.
 * **Hüküm:** Karbon emisyon azaltımının 2030 sonrasına ertelenmesi; gençlerin ve doğmamış nesillerin temel haklarını gelecekte aşırı ve orantısız kısıtlayacağı gerekçesiyle iptal edilmiştir.
+
+### 6. *Urgenda Foundation v. Hollanda Devleti* (2019) — Hollanda Yüksek Mahkemesi (Hoge Raad)
+* **Konu:** Devletin Pozitif Yükümlülüğü ve Yaşam Hakkı (AİHS m. 2 & 8).
+* **Hüküm:** İklim değişikliğiyle mücadelede sera gazı salınımını azaltma görevinin devletin yaşam ve özel hayatı koruma pozitif anayasal ödevinden kaynaklandığına hükmedilmiştir.
+
+### 7. *Nürnberg Uluslararası Askeri Ceza Mahkemesi Kararı* (1946)
+* **Konu:** Üstün Emri İfa Savunması (*Superior Orders*) ve İnsanlığa Karşı Suçlar.
+* **Hüküm:** *"Suçlar soyut varlıklar tarafından değil, insanlar tarafından işlenir; ancak bireyler cezalandırıldığında uluslararası hukuk kuralları uygulanabilir."* Pozitif emirlere itaat, insanlık vicdanına karşı işlenen suçlarda cezasızlık sağlamaz.
 
 ---
 
@@ -42,6 +50,9 @@
 
 ### 4. Sendika Hakkı ve Barışçıl Toplantı Kararı (*DİSK / KESK 1 Mayıs Kararı*, 2023)
 * **Özet:** Mekânın sembolik değeri ve kolektif hafıza gerekçesiyle Taksim Meydanı'nda 1 Mayıs kutlama yasağının toplantı ve gösteri yürüyüşü hakkını ihlal ettiğine hükmedilmiştir.
+
+### 5. Bireysel Başvuru Kararlarının Bağlayıcılığı ve Kesinliği (*Şahin Alpay & Enis Berberoğlu Kararları*)
+* **Özet:** AYM'nin hak ihlali tespiti ve yeniden yargılama kararının derece mahkemelerince tartışılmaksızın ve re'sen yerine getirilmesinin anayasal bir zorunluluk (Anayasa m. 153/son) olduğu tescil edilmiştir.
 
 ---
 

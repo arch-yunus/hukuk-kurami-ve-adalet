@@ -28,6 +28,8 @@ Roma Hukuku, Celsus, Ulpianus, Papinianus ve Gaius gibi klasik hukukçuların i�
 | **Abusus non tollit usum** | Bir şeyin kötüye kullanılması, onun doğru kullanımını engellemez. | Kurumların suistimal edilmesi sebebiyle tamamen yok edilemeyeceği ilkesi. |
 | **De minimis non curat praetor** | Hâkim önemsiz ve değersiz ufak şeylerle uğraşmaz. | Hukukun lüzumsuz ve mikroskobik ihtilaflara müdahale etmemesi ilkesi. |
 | **Quod omnes tangit ab omnibus approbari debet** | Herkesi ilgilendiren husus, herkes tarafından onaylanmalıdır. | Demokratik meşruiyet ve anayasal temsilin tarihsel kök kaidesi. |
+| **Ex facto ius oritur** | Hukuk somut olaydan doğar. | Normların hayattaki somut olgular ve fiiller üzerinden şekillenmesi. |
+| **Iustitia nemini neganda est** | Adalet hiç kimseden esirgenemez. | Mahkemeye erişim ve hak arama hürriyetinin evrenselliği. |
 
 ---
 
@@ -45,10 +47,12 @@ Roma Hukuku, Celsus, Ulpianus, Papinianus ve Gaius gibi klasik hukukçuların i�
 | **Res judicata pro veritate accipitur** | Kesin hüküm maddi gerçek olarak kabul edilir. | Hukuki istikrar ve kesin hükmün bağlayıcılığı. |
 | **Testis unus, testis nullus** | Tek tanık, hiç tanık hükmündedir. | Roma-Cermen hukukunda tek başına yetersiz kalan delil prensibi. |
 | **Falsus in uno, falsus in omnibus** | Bir konuda yalan söyleyen, her konuda yalan söyler. | Şahidin beyanlarının güvenilirliğinin değerlendirilmesi. |
+| **Actus non facit reum nisi mens sit rea** | Kasıt / kusurlu irade yoksa fiil kişiyi suçlu kılmaz. | Kusursuz ceza olmaz ve manevi unsur zorunluluğu ilkesi. |
+| **Nulla poena sine culpa** | Kusursuz ceza olmaz. | Objektif cezalandırma yasağı ve şahsi kusur sorumluluğu. |
 
 ---
 
-## 📜 4. Medeni ve Borçlar Hukuku İlkeleri
+## 📜 4. Medeni, Borçlar ve Eşya Hukuku İlkeleri
 
 | Latince Özdeyiş | Türkçe Karşılığı | Hukuki Açıklama ve Doktrin |
 | :--- | :--- | :--- |
@@ -58,32 +62,23 @@ Roma Hukuku, Celsus, Ulpianus, Papinianus ve Gaius gibi klasik hukukçuların i�
 | **Cuius est commodum, eius est periculum** | Menfaat kimin ise, risk ve hasar da onundur. | Tehlike sorumluluğu ve sebepsiz zenginleşmenin denge kuralı. |
 | **Prior tempore, potior iure** | Zaman bakımından önce gelen, hak bakımından üstündür. | Rehin, tapu tescili ve hacizde öncelik hakkı. |
 | **Volenti non fit iniuria** | Rızası olana haksızlık yapılmış sayılmaz. | Geçerli mağdur rızasının hukuka aykırılığı kaldırması. |
-| **Casum sentit dominus** | Beklenmeyen halin zararını malik çeker. | Kusursuz hasar ve telef halinde zararın eşya sahibine ait olması. |
-| **Nemo auditur propriam turpitudinem allegans** | Hiç kimse kendi ahlaksızlığına veya kusuruna dayanarak hak talep edemez. | Hukuka veya ahlaka aykırı fiillerle menfaat temin etme yasağı. |
+| **Bona fides praesumitur** | İyiniyet asıldır (karinedir). | Kötüniyetin ispatlanmadıkça kişinin dürüst ve iyiniyetli sayılması. |
+| **Conditio sine qua non** | Olmazsa olmaz şart (Mutlak nedensellik). | Zarar ile eylem arasındaki doğal illiyet bağı testi. |
+| **Nemo auditur propriam turpitudinem allegans** | Kendi ahlaksızlığına / haksızlığına dayanarak hak talep eden dinlenmez. | Ahlaka aykırı ifaların iadesinin istenememesi (TBK m. 81). |
 
 ---
 
-## 🧭 5. Normlar Hiyerarşisi ve Yorum İlkeleri
+## 🌐 5. Uluslararası Hukuk, İnsancıl Hukuk ve Yorum Kuralları
 
-| Latince Kural | Türkçe Anlamı ve Çatışma Çözüm Kuralı |
-| :--- | :--- |
-| **Lex Superior Derogat Legi Inferiori** | Üst norm, alt normu hükümsüz kılar / öncelikle uygulanır (Anayasa > Kanun > Yönetmelik). |
-| **Lex Posterior Derogat Legi Priori** | Sonraki norm, önceki normu yürürlükten kaldırır (Aynı düzeydeki genel kurallarda). |
-| **Lex Specialis Derogat Legi Generali** | Özel norm, genel normdan önce uygulanır. |
-| **In claris non fit interpretatio** | Açık ve net metinlerde yoruma yer yoktur (Lafzın berraklığı). |
-| **Expressio unius est exclusio alterius** | Bir şeyin açıkça zikredilmesi, diğerlerinin dışlandığı anlamına gelir (Aksi ile kanıt / *Zıt Anlam*). |
-| **Argumentum a maiore ad minus** | Çoğun içinde az da vardır (Evleviyet / Çoğa izin veren aza da izin verir). |
-| **Argumentum a minore ad maius** | Azı yasaklayan, çoğu da öncelikle yasaklar (Azı suç olanın fazlası evleviyetle suçtur). |
-
----
-
-## 🌐 6. Uluslararası Hukuk İlkeleri
-
-| Latince Kavram | Hukuki Niteliği ve Anlamı |
-| :--- | :--- |
-| **Jus Cogens** | Uluslararası hukukun hiçbir istisnası olmayan emredici kuralları (İşkence, soykırım ve kölelik yasağı). |
-| **Erga Omnes** | Herkese ve tüm uluslararası topluma karşı ileri sürülebilen yükümlülükler. |
-| **Restitutio in integrum** | İhlal gerçekleşmemiş olsaydı var olacak eski duruma getirme ilkesi. |
-| **Non-refoulement** | İşkence veya ölüm tehlikesi olan yere sığınmacıyı geri göndermeme yükümlülüğü. |
-| **Opinio juris sive necessitatis** | Bir teamülün hukuken zorunlu olduğuna dair genel ve yaygın devlet inancı. |
-| **Ultra vires** | Yetki aşımı / Bir organın kanunla çizilen yetki sınırlarının dışına taşması. |
+| Latince Özdeyiş | Türkçe Karşılığı | Hukuki Açıklama ve Doktrin |
+| :--- | :--- | :--- |
+| **Ius cogens** | Emredici ve üstün uluslararası hukuk normları. | Soykırım, kölelik, işkence yasağı gibi hiçbir devletin aksini kararlaştıramayacağı normlar. |
+| **Erga omnes** | Herkese karşı ileri sürülebilen yükümlülükler. | Tüm uluslararası topluma karşı sorumlu olunan evrensel hak ve kurallar. |
+| **Ius ad bellum** | Savaşa başvurma hakkı ve meşruiyeti. | BM Şartı kapsamında meşru müdafaa ve BM Güvenlik Konseyi yetkisi. |
+| **Ius in bello** | Savaşın yürütülmesinde uyulacak kurallar. | 1949 Cenevre Sözleşmeleri ve silahlı çatışmalar hukuku. |
+| **Opinio juris sive necessitatis** | Hukuki zorunluluk inancı. | Uluslararası teamül hukukunun oluşması için aranan genel psikolojik inanç unsuru. |
+| **Lex posterior derogat legi priori** | Sonraki kanun önceki kanunu ilga eder. | Normlar çatışmasında zamansal öncelik kuralı. |
+| **Lex specialis derogat legi generali** | Özel kanun genel kanunu ilga eder/öncelikle uygulanır. | Aynı düzeydeki normların çatışmasında özel hükmün önceliği. |
+| **Lex superior derogat legi inferiori** | Üst kanun alt kanunu ilga eder/hükümsüz kılar. | Normlar hiyerarşisi (Anayasa > Kanun > Yönetmelik). |
+| **Argumentum a contrario** | Mefhum-u muhalifinden çıkarım. | Kuralın kapsamı dışındaki hallere zıt kuralın uygulanması. |
+| **Argumentum a fortiori** | Evleviyetle çıkarım (*A maiore ad minus / A minore ad maius*). | Çoğun hükmünden azın, azın yasağından çoğun yasağının zorunlu çıkarımı. |

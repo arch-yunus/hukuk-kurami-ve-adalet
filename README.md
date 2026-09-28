@@ -3,11 +3,11 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/Lisans-MIT-amber.svg)](https://opensource.org/licenses/MIT)
-[![Modules: 10](https://img.shields.io/badge/Mod%C3%BCl-10%20Kapsaml%C4%B1%20Alan-blue.svg)](#-3-k%C3%BCt%C3%BCphane-ve-dizin-haritas%C4%B1)
-[![Articles: 45+](https://img.shields.io/badge/%C4%B0ncelemeler-45%2B%20Tez%20%26%20Doktrin-emerald.svg)](#-4-tematik-mod%C3%BCllere-do%C4%9Frudan-ba%C4%9Flant%C4%B1lar)
-[![Latin Maxims: 75+](https://img.shields.io/badge/Latince%20Brocard-75%2B%20%C3%96zdeyi%C5%9F-purple.svg)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
-[![Aphorisms: 100+](https://img.shields.io/badge/Adalet%20Aforizmalar%C4%B1-100%2B%20%C3%96zdeyi%C5%9F-rose.svg)](04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md)
-[![Status: Complete](https://img.shields.io/badge/Durum-Canl%C4%B1%20ve%20Geli%C5%9Ftiriliyor-success.svg)]()
+[![Modules: 12](https://img.shields.io/badge/Modül-12%20Kapsamlı%20Alan-blue.svg)](#-3-kütüphane-ve-dizin-haritası)
+[![Articles: 55+](https://img.shields.io/badge/İncelemeler-55%2B%20Tez%20%26%20Doktrin-emerald.svg)](#-4-tematik-modüllere-doğrudan-bağlantılar)
+[![Latin Maxims: 100+](https://img.shields.io/badge/Latince%20Brocard-100%2B%20Özdeyiş-purple.svg)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
+[![Aphorisms: 100+](https://img.shields.io/badge/Adalet%20Aforizmaları-100%2B%20Özdeyiş-rose.svg)](04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md)
+[![Status: Complete](https://img.shields.io/badge/Durum-Canlı%20ve%20Geliştiriliyor-success.svg)]()
 
 <br/>
 
@@ -15,11 +15,11 @@
   <img src="assets/banners/banner_adalet_mulkun_temelidir.png" alt="Adalet Mülkün Temelidir - Türk Hukuk ve Adalet Mimarisi Banner" width="100%">
 </p>
 
-**Hukuk Felsefesi • Pozitif Hukuk Kuramı • Anayasal Devlet Düzeni • Karşılaştırmalı Hukuk • Hukuk Sosyolojisi • Yapay Zekâ & Dijital Adalet • Türk Hukuk Tarihi • Uluslararası İnsan Hakları • Çevre Hukuku & Biyoetik**
+**Hukuk Felsefesi • Pozitif Hukuk Kuramı • Anayasal Devlet Düzeni • Karşılaştırmalı Hukuk • Hukuk Sosyolojisi • Yapay Zekâ & Dijital Adalet • Türk Hukuk Tarihi • Uluslararası İnsan Hakları • Çevre Hukuku & Biyoetik • İnsancıl Hukuk & Barış Felsefesi • Hukuk Metodolojisi & Argümantasyon**
 
 <br/>
 
-[🧭 1. Epistemoloji](#-1-giri%C5%9F-ve-epistemolojik-%C3%A7er%C3%A7eve-quid-ius) • [🔍 2. Doktrinler](#-2-kapsaml%C4%B1-doktrin-ve-teori-%C4%B0ncelemeleri) • [🕊️ Adalet Ruhu](#g-adaletin-ruhu-ve-%C4%B0nsanl%C4%B1k-vicdan%C4%B1-tematik-al%C4%B1nt%C4%B1lar-ve-felsefi-bildiri) • [📚 3. Harita](#-3-k%C3%BCt%C3%BCphane-ve-dizin-haritas%C4%B1) • [📂 4. Modüller](#-4-tematik-mod%C3%BCllere-do%C4%9Frudan-ba%C4%9Flant%C4%B1lar) • [🧪 5. Web Portalı](#-5-%C4%B0nteraktif-web-portal%C4%B1-ve-muhakeme-sim%C3%BClat%C3%B6r%C3%BC) • [⚖️ 6. Metodoloji](#%EF%B8%8F-6-metodoloji-ve-akademik-standartlar) • [📖 7. Atıf](#-7-akademik-at%C4%B1f-ve-kaynak-g%C3%B6sterme)
+[🧭 1. Epistemoloji](#-1-giriş-ve-epistemolojik-çerçeve-quid-ius) • [🔍 2. Doktrinler](#-2-kapsamlı-doktrin-ve-teori-İncelemeleri) • [🕊️ Adalet Ruhu](#g-adaletin-ruhu-ve-İnsanlık-vicdanı-tematik-alıntılar-ve-felsefi-bildiri) • [📚 3. Harita](#-3-kütüphane-ve-dizin-haritası) • [📂 4. Modüller](#-4-tematik-modüllere-doğrudan-bağlantılar) • [🧪 5. Web Portalı](#-5-İnteraktif-web-portalı-ve-muhakeme-simülatörü) • [⚖️ 6. Metodoloji](#⚖️-6-metodoloji-ve-akademik-standartlar) • [📖 7. Atıf](#-7-akademik-atıf-ve-kaynak-gösterme)
 
 </div>
 
@@ -76,14 +76,15 @@ Kant'a göre bir hukukçunun yanıtlaması gereken iki ayrı soru düzlemi vard�
 flowchart TD
     subgraph Hukukun Üç Boyutlu Doğası (Dreidimensionale Rechtstheorie)
         A["1. Normatif Boyut (Geçerlilik / Sollen)<br>Kelsen, Austin, Hart"] <--> B["2. Olgusal / Sosyolojik Boyut (Etkililik / Sein)<br>Weber, Ehrlich, Holmes"]
-        B <--> C["3. Aksiyolojik / Felsefi Boyut (Adalet / Değer)<br>Aristoteles, Radbruch, Rawls"]
+        B <--> C["3. Aksiyolojik / Felsefi Boyut (Adalet / Değer)<br>Aristoteles, Radbruch, Rawls, Alexy"]
         C <--> A
     end
 ```
 
-### Hukukun Aksiyolojik Temelleri:
+### Hukukun Aksiyolojik ve Mantıksal Temelleri:
 * **Dağıtıcı Adalet Formülü (Aristoteles):** $\frac{\text{Kişi } A}{\text{Kişi } B} = \frac{\text{Pay } A}{\text{Pay } B}$ *(Geometrik Orantı / Hak Edişe Göre Bölüşüm)*
 * **Düzeltici Adalet Formülü (Aristoteles):** $(A - x) + x = (B + x) - x$ *(Aritmetik Eşitlik / Haksız Fiilin Telafisi)*
+* **Robert Alexy Ağırlık Formülü:** $W_{i,j} = \frac{I_i \cdot W_i \cdot R_i}{I_j \cdot W_j \cdot R_j}$ *(Temel Hak Çatışmalarında Rasyonel Tartma Testi)*
 * **Kantçı Kategorik Buyruk:** *"Öyle hareket et ki, eyleminin ilkesi evrensel bir doğa yasası olabilsin; insanlığı asla salt bir araç değil, her zaman bir amaç olarak gör."*
 
 ---
@@ -136,12 +137,14 @@ John Rawls, 1971 tarihli başyapıtı *A Theory of Justice* ile faydacılığın
 
 ---
 
-### D. Ronald Dworkin: Kurallar, İlkeler ve "Hakları Ciddiye Almak"
+### D. Ronald Dworkin ve Robert Alexy: Kurallar, İlkeler ve Ağırlık Formülü
 
-H.L.A. Hart'ın pozitivizmine karşı çıkan Ronald Dworkin, hukukun yalnızca açık "kurallardan" (*rules*) oluşmadığını, kuralların arkasında yatan **"ilkeler" (*principles*)** ve anayasal değerlerin de hukukun kurucu parçası olduğunu kanıtlamıştır:
+Ronald Dworkin ve Robert Alexy, hukukun yalnızca açık "kurallardan" (*rules*) oluşmadığını, kuralların arkasında yatan **"ilkeler" (*principles*)** ve anayasal değerlerin de hukukun kurucu parçası olduğunu kanıtlamıştır:
 
-* **Kural vs İlke:** Kurallar "ya hep ya hiç" (*all-or-nothing*) tarzında uygulanır. İlkeler ise birer "ağırlık ve değer boyutu" (*dimension of weight*) taşır ve çatıştıklarında dengelenir (*Balancing / Abwägung*).
-* **Riggs v. Palmer Vakası (1889):** Mirasa konmak için dedesini öldüren torunun mirası alıp alamayacağı davasında New York Mahkemesi, kanunda açık hüküm bulunmamasına rağmen *"Hiç kimse kendi haksız fiilinden menfaat sağlayamaz"* (*Nemo ex suo delicto meliorem suam condicionem facit*) evrensel hukuk ilkesine dayanarak mirastan mahrum bırakmıştır.
+* **Kural vs İlke:** Kurallar "ya hep ya hiç" (*all-or-nothing*) tarzında uygulanır. İlkeler ise birer **optimizasyon emri (*Optimierungsgebote*)** dir; somut olayda tartılırlar (*Balancing / Abwägung*).
+* **Robert Alexy Ağırlık Modeli ($W_{i,j}$):**
+  $$W_{i,j} = \frac{I_i \cdot W_i \cdot R_i}{I_j \cdot W_j \cdot R_j}$$
+  Burada $I$ müdahale ağırlığını, $W$ anayasal soyut ağırlığı, $R$ olgusal gerekçenin kesinlik derecesini ifade eder.
 
 ---
 
@@ -237,7 +240,7 @@ flowchart TD
 
 ```text
 hukuk-kurami-ve-adalet/
-├── index.html                                          # İnteraktif Web Portalı, Canlı Arama ve Simülatör
+├── index.html                                          # İnteraktif Web Portalı, Canlı Arama ve Simülatör (Alexy & Fallacies)
 ├── assets/banners/                                     # Tematik Yüksek Çözünürlüklü Hukuk Bannerları
 │   ├── banner_adalet_mulkun_temelidir.png
 │   ├── banner_milli_hukuk_ve_adalet.png
@@ -272,7 +275,7 @@ hukuk-kurami-ve-adalet/
 │   ├── klasik-metinler.md                              # Antikçağ & Aydınlanma Temel Metinleri
 │   ├── modern-literatur.md                             # Çağdaş Hukuk Monografileri & Makaleler
 │   ├── ictihat-ve-emsal-kararlar.md                    # AİHM, BVerfG, ABD Supreme Court, AYM, Danıştay, Yargıtay
-│   ├── kavramlar-ve-latince-hukuk-terimleri-sozlugu.md # Brocardica Juridica (75+ Latince Kural & Çeviri)
+│   ├── kavramlar-ve-latince-hukuk-terimleri-sozlugu.md # Brocardica Juridica (100+ Latince Kural & Çeviri)
 │   └── adalet-ve-hukuk-aforizmalari-antolojisi.md      # 2500 Yıllık Adalet Sesi: 100+ Felsefi Aforizma & Alıntı
 ├── 05-karsilastirmali-hukuk-ve-sistemler/              # MODÜL 05: Karşılaştırmalı Hukuk Düzenleri
 │   ├── README.md
@@ -304,11 +307,23 @@ hukuk-kurami-ve-adalet/
 │   ├── 02-adil-yargilanma-hakki-ve-usuli-guvenceler.md # AİHS Madde 6, Silahların Eşitliği, Salduz İlkesi
 │   ├── 03-insan-haklari-ihlallerinde-yargisal-telafi-ve-pilot-karar.md # Pilot Karar, İade-i Muhakeme, Tazminat
 │   └── 04-uluslararasi-ceza-adaleti-ve-insanliga-karsi-suclar.md # Roma Statüsü, UCM/ICC, Evrensel Yargı Yetkisi
-└── 10-cevre-hukuku-ve-biyoetik/                        # MODÜL 10: Ekolojik Hukuk Devleti ve Biyoetik
+├── 10-cevre-hukuku-ve-biyoetik/                        # MODÜL 10: Ekolojik Hukuk Devleti ve Biyoetik
+│   ├── README.md
+│   ├── 01-iklim-adaleti-ve-gelecek-nesillere-sorumluluk.md # Hans Jonas, Urgenda & Neubauer Emsal Kararları
+│   ├── 02-eko-merkezci-hukuk-ve-dogaya-kisilik-taninmasi.md # Christopher Stone, Pachamama, Nehir Kişiliği
+│   └── 03-biyoetik-genetik-hukuk-ve-insan-onuru.md     # CRISPR, Oviedo Biyoetik Sözleşmesi, Ötenazi & Onam
+├── 11-insancil-hukuk-savas-ve-baris/                   # MODÜL 11: Uluslararası İnsancıl Hukuk & Barış Felsefesi
+│   ├── README.md
+│   ├── 01-cenevre-sozlesmeleri-ve-silahli-catismalar-hukuku.md # Cenevre Dörtlüsü, Ek Protokoller, Martens Klozu
+│   ├── 02-asimetrik-savas-siber-harb-ve-otonom-silahlar.md # LAWS, Anlamlı İnsan Kontrolü, Tallinn Manueli
+│   ├── 03-hibrit-tehditler-ve-insani-mudahale-doktrini.md # R2P, Koruma Sorumluluğu, BM Vetosu Krizi
+│   └── 04-ebedi-baris-felsefesi-kant-ve-kuresel-guvenlik.md # Kant Zum ewigen Frieden, Kozmopolit Hukuk
+└── 12-hukuk-metodolojisi-ve-argumantasyon/             # MODÜL 12: Hukuk Mantığı, Argümantasyon & Alexy
     ├── README.md
-    ├── 01-iklim-adaleti-ve-gelecek-nesillere-sorumluluk.md # Hans Jonas, Urgenda & Neubauer Emsal Kararları
-    ├── 02-eko-merkezci-hukuk-ve-dogaya-kisilik-taninmasi.md # Christopher Stone, Pachamama, Nehir Kişiliği
-    └── 03-biyoetik-genetik-hukuk-ve-insan-onuru.md     # CRISPR, Oviedo Biyoetik Sözleşmesi, Ötenazi & Onam
+    ├── 01-hukuk-mantigi-ve-tullesim-kurali-syllogism.md # Justizsyllogismus, Kıyas, Mefhum-u Muhalif, A Fortiori
+    ├── 02-alexy-argumantasyon-kurami-ve-soylem-analizi.md # Sonderfallthese, İç ve Dış Gerekçelendirme Standartları
+    ├── 03-agirlik-formulu-ve-haklar-dengesi-weight-formula.md # W_i,j Tartma Modeli, Optimizasyon Emirleri
+    └── 04-hukuki-yanilsamalar-ve-safsatalar-fallacies.md # Petitio Principii, Ad Hominem, Straw Man, Ad Populum
 ```
 
 ---
@@ -340,8 +355,8 @@ hukuk-kurami-ve-adalet/
 ### [04. Kaynakça, Literatür ve Sözlük](04-kaynakca-ve-okuma-listesi/README.md)
 * [Klasik Metinler ve Çeviriler](04-kaynakca-ve-okuma-listesi/klasik-metinler.md)
 * [Modern Literatür ve Makaleler](04-kaynakca-ve-okuma-listesi/modern-literatur.md)
-* [Emsal Yüksek Mahkeme Kararları (AİHM, BVerfG, AYM, Danıştay, Yargıtay)](04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md)
-* [Latince Hukuk Özdeyişleri ve Terimler Sözlüğü (Brocardica Juridica - 75+ Brocard)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
+* [Emsal Yüksek Mahkeme Kararları (AİHM, BVerfG, ABD Supreme Court, AYM, Danıştay, Yargıtay)](04-kaynakca-ve-okuma-listesi/ictihat-ve-emsal-kararlar.md)
+* [Latince Hukuk Özdeyişleri ve Terimler Sözlüğü (Brocardica Juridica - 100+ Brocard)](04-kaynakca-ve-okuma-listesi/kavramlar-ve-latince-hukuk-terimleri-sozlugu.md)
 * [Adalet ve Hukuk Aforizmaları Antolojisi (2500 Yıllık Adalet Sesi - 100+ Aforizma)](04-kaynakca-ve-okuma-listesi/adalet-ve-hukuk-aforizmalari-antolojisi.md)
 
 ### [05. Karşılaştırmalı Hukuk ve Sistemler](05-karsilastirmali-hukuk-ve-sistemler/README.md)
@@ -379,6 +394,18 @@ hukuk-kurami-ve-adalet/
 * [Eko-Merkezci Hukuk Kuramı ve Doğaya Tüzel Kişilik Tanınması (Whanganui & Pachamama)](10-cevre-hukuku-ve-biyoetik/02-eko-merkezci-hukuk-ve-dogaya-kisilik-taninmasi.md)
 * [Biyoetik Hukuku, Genetik Müdahaleler ve İnsan Onuru (CRISPR & Oviedo)](10-cevre-hukuku-ve-biyoetik/03-biyoetik-genetik-hukuk-ve-insan-onuru.md)
 
+### [11. Uluslararası İnsancıl Hukuk ve Barış Felsefesi](11-insancil-hukuk-savas-ve-baris/README.md)
+* [Cenevre Sözleşmeleri ve Silahlı Çatışmalar Hukuku (Ius in Bello & Martens Klozu)](11-insancil-hukuk-savas-ve-baris/01-cenevre-sozlesmeleri-ve-silahli-catismalar-hukuku.md)
+* [Asimetrik Savaş, Siber Harp ve Otonom Silahlar (LAWS & Tallinn Manueli)](11-insancil-hukuk-savas-ve-baris/02-asimetrik-savas-siber-harb-ve-otonom-silahlar.md)
+* [Hibrit Tehditler ve Koruma Sorumluluğu (R2P & Haklı Savaş Teorisi)](11-insancil-hukuk-savas-ve-baris/03-hibrit-tehditler-ve-insani-mudahale-doktrini.md)
+* [Ebedi Barış Felsefesi (Kant) ve Küresel Güvenlik (Zum ewigen Frieden)](11-insancil-hukuk-savas-ve-baris/04-ebedi-baris-felsefesi-kant-ve-kuresel-guvenlik.md)
+
+### [12. Hukuk Metodolojisi, Mantık ve Argümantasyon](12-hukuk-metodolojisi-ve-argumantasyon/README.md)
+* [Hukuk Mantığı ve Yargısal Tasım (Justizsyllogismus, Kıyas & Mefhum-u Muhalif)](12-hukuk-metodolojisi-ve-argumantasyon/01-hukuk-mantigi-ve-tullesim-kurali-syllogism.md)
+* [Robert Alexy Argümantasyon Kuramı ve Söylem Analizi (Sonderfallthese & Haklılık)](12-hukuk-metodolojisi-ve-argumantasyon/02-alexy-argumantasyon-kurami-ve-soylem-analizi.md)
+* [Ağırlık Formülü ve Haklar Dengesi (Weight Formula W_i,j Tartma Testi)](12-hukuk-metodolojisi-ve-argumantasyon/03-agirlik-formulu-ve-haklar-dengesi-weight-formula.md)
+* [Hukuki Yanılsamalar ve Mantıksal Safsatalar (Fallacies in Legal Reasoning)](12-hukuk-metodolojisi-ve-argumantasyon/04-hukuki-yanilsamalar-ve-safsatalar-fallacies.md)
+
 ---
 
 ## 🧪 5. İnteraktif Web Portalı ve Muhakeme Simülatörü
@@ -386,19 +413,21 @@ hukuk-kurami-ve-adalet/
 Projenin kök dizininde yer alan **[`index.html`](index.html)** web uygulaması, akademik içerikleri etkileşimli deneyimlere dönüştüren bir dijital hukuk laboratuvarıdır:
 
 1. **⚖️ Radbruch Formülü Test İstasyonu:** Bir yasanın katlanılmaz adaletsizlik veya eşitliği kasten inkâr derecesini anlık olarak test eden interaktif algoritma.
-2. **🛡️ 3 Aşamalı Ölçülülük Simülatörü:** AYM ve AİHM kriterlerinde *Elverişlilik*, *Gereklilik* ve *Orantılılık* adımlarını kontrol eden interaktif denetim aracı.
-3. **📜 Latince Brocard Kartları (Flashcards):** 75'i aşkın evrensel hukuk ilkesini Türkçe meali ve içtihadi bağlamıyla sunan interaktif kart destesi.
-4. **🕊️ Adalet Aforizmaları & Filozoflar Galerisi:** 2500 yıllık adalet seslerini kategoriye göre listeleyen, rastgele getiren ve panoya kopyalayan felsefi galeri.
-5. **🔍 Canlı İndeks ve Hibrit Arama Motoru:** 45+ akademik doktrin belgesini başlık, özet ve etiketlere göre milisaniyelik gecikmeyle filtreleyen arama çubuğu.
+2. **🧮 Robert Alexy Ağırlık Formülü Simülatörü ($W_{i,j}$):** Temel hak çatışmalarında (Örn: Basın Özgürlüğü vs Kişilik Hakları) müdahale yoğunluğu ($I$), soyut anayasal ağırlık ($W$) ve ampirik güvenilirlik ($R$) parametreleriyle matematiksel tartma hesabı.
+3. **🛡️ 3 Aşamalı Ölçülülük Simülatörü:** AYM ve AİHM kriterlerinde *Elverişlilik*, *Gereklilik* ve *Orantılılık* adımlarını kontrol eden interaktif denetim aracı.
+4. **🚫 Hukuki Safsata (Fallacy) Teşhis Aracı:** Dava dilekçelerinde ve kararlarda yapılan *Petitio Principii*, *Ad Hominem*, *Straw Man*, *Ad Ignorantiam* ve *Post Hoc* mantık kusurlarını örneklerle analiz eden tanı motoru.
+5. **📜 Latince Brocard Kartları (Flashcards):** 100'ü aşkın evrensel hukuk ilkesini Türkçe meali ve içtihadi bağlamıyla sunan interaktif kart destesi.
+6. **🕊️ Adalet Aforizmaları & Filozoflar Galerisi:** 2500 yıllık adalet seslerini kategoriye göre listeleyen, rastgele getiren ve panoya kopyalayan felsefi galeri.
+7. **🔍 Canlı İndeks ve Hibrit Arama Motoru:** 55+ akademik doktrin belgesini başlık, özet ve etiketlere göre milisaniyelik gecikmeyle filtreleyen arama çubuğu.
 
 ---
 
 ## ⚖️ 6. Metodoloji ve Akademik Standartlar
 
 1. **Kavramsal ve Doktriner Derinlik:** Hukuki kavramlar hem tarihsel-felsefi kökenleri hem de pozitif hukuk uygulamasındaki pratik sonuçları itibarıyla açıklanır.
-2. **Karşılaştırmalı Perspektif:** Kıta Avrupası Hukuku (*Civil Law*), Ortak Hukuk (*Common Law*) ve Doğu/İslam geleneklerinin adalet ve hukuk devleti kavrayışları mukayese edilir.
-3. **Doktrin - İçtihat Bütünlüğü:** Soyut felsefi ilkeler, AYM, AİHM, Danıştay ve Yargıtay emsal kararlarıyla desteklenir.
-4. **Geleceğin Hukuku ve Dijital Adalet:** Yapay zekâ, veri mahremiyeti, blokzincir ve biyoetik insan onuru ve anayasal standartlar ışığında ele alınır.
+2. **Karşılaştırmalı Perspektif:** Kıta Avrupası Hukuku (*Civil Law*), Ortak Hukuk (*Common Law*), Uluslararası İnsancıl Hukuk ve Doğu/İslam geleneklerinin adalet kavrayışları mukayese edilir.
+3. **Doktrin - İçtihat Bütünlüğü:** Soyut felsefi ilkeler; AYM, AİHM, Danıştay, Yargıtay ve uluslararası mahkemelerin emsal kararlarıyla desteklenir.
+4. **Geleceğin Hukuku ve Dijital Adalet:** Yapay zekâ, veri mahremiyeti, blokzincir, otonom silahlar ve biyoetik insan onuru ve anayasal standartlar ışığında ele alınır.
 5. **Açık ve Evrensel Bilgi:** Hukukun üstünlüğü, kanun önünde eşitlik, keyfiyetin önlenmesi ve insan haysiyeti gayesine hizmet eden açık kaynak dokümantasyon sunulur.
 
 ---
@@ -409,7 +438,7 @@ Bu kütüphanedeki makale, inceleme ve doktriner şemaları akademik çalışmal
 
 ### APA 7 Formatı:
 ```text
-Iuris Prudentia. (2026). Hukuk Kuramı, Adalet Felsefesi ve Yasal Düzen Kütüphanesi (Sürüm 2.0). 
+Iuris Prudentia. (2026). Hukuk Kuramı, Adalet Felsefesi ve Yasal Düzen Kütüphanesi (Sürüm 2.5). 
 GitHub. https://github.com/arch-yunus/hukuk-kurami-ve-adalet
 ```
 
@@ -421,7 +450,7 @@ GitHub. https://github.com/arch-yunus/hukuk-kurami-ve-adalet
   year = {2026},
   publisher = {GitHub},
   howpublished = {\url{https://github.com/arch-yunus/hukuk-kurami-ve-adalet}},
-  note = {Açık Kaynak Hukuk ve Adalet Dokümantasyonu}
+  note = {Açık Kaynak Hukuk, Adalet ve Argümantasyon Dokümantasyonu}
 }
 ```
 
